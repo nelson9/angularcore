@@ -1,4 +1,5 @@
-﻿<article id="main">
+﻿<!-- Main -->
+<article id="main">
 
     <header class="special container">
         <span class="icon fa-envelope"></span>
@@ -6,61 +7,51 @@
         <p>Use the form below with your question and we will get back to you.</p>
     </header>
 
-     One 
+    <!-- One -->
     <section class="wrapper style2 special container 75%">
-
-        <!-- Content 
+        <!-- Content -->
         <div class="content">
-            <!--<form (ngSubmit)="submitForm(form.value)">
+            <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" *ngIf="!success">
                 <div class="row 50%">
                     <div class="6u 12u(mobile)">
-                        <input type="text" name="name" [(ngModel)]="form.name" #name="ngModel" required placeholder="Name" />
+                        <input type="text" [(ngModel)]="contactForm.name" #name="ngModel" name="name" required placeholder="Name" />
                     </div>
                     <div class="6u 12u(mobile)">
-                        <input type="email" name="email" [(ngModel)]="form.email" #email="ngModel" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" placeholder="Email" />
+                        <input type="email" [(ngModel)]="contactForm.email" #email="ngModel" name="email" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" placeholder="Email" />
                     </div>
                 </div>
                 <div class="row 50%">
                     <div class="6u 12u(mobile)">
-                        <div *ngIf="name.errors && (name.dirty || name.touched)" class="alert alert-danger ">
+                        <div *ngIf="name.errors && (name.dirty || name.touched)">
                             <div [hidden]="!name.errors.required">
                                 Please proivde your name
                             </div>
                         </div>
                     </div>
                     <div class="6u 12u(mobile)">
-                        <div *ngIf="email.errors && (email.dirty || email.touched)" class="alert alert-danger">
-                            <div [hidden]="!email.errors.required">
-                                Please proivde your email
+                        <div [hidden]="email.valid || email.untouched">
+                            <div *ngIf="email.errors && email.errors.required">
+                                Please provide an email address
                             </div>
-                            <div [hidden]="!email.errors.pattern">
-                                Please proivde a correct email
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row 50%">
-                    <div class="12u">
-                        <input type="text" name="subject" required #subject="ngModel" [(ngModel)]="form.subject" placeholder="Subject" />
-                    </div>
-                </div>
-                <div class="row 50%">
-                    <div class="6u 12u(mobile)">
-                        <div *ngIf="subject.errors && (subject.dirty || subject.touched)" class="alert alert-danger ">
-                            <div [hidden]="!subject.errors.required">
-                                Please proivde a subject
+                            <div *ngIf="email.errors && email.errors.pattern">
+                                Please provide a valid email
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row 50%">
                     <div class="12u">
-                        <textarea name="message" placeholder="Message" #message="ngModel" [(ngModel)]="form.message" required rows="7"></textarea>
+                        <input type="text" name="subject" [(ngModel)]="contactForm.subject" #subject="ngModel" placeholder="Subject" />
                     </div>
                 </div>
                 <div class="row 50%">
-                    <div *ngIf="message.errors && (message.dirty || message.touched)" class="alert alert-danger">
-                        <div [hidden]="!message.errors.required">
+                    <div class="12u">
+                        <textarea name="message" [(ngModel)]="contactForm.message" #message="ngModel" placeholder="Message"  required rows="7"></textarea>
+                    </div>
+                </div>
+                <div class="row 50%">
+                    <div [hidden]="message.valid || message.untouched">
+                        <div *ngIf="message.errors && message.errors.required">
                             Please provide a message
                         </div>
                     </div>
@@ -68,12 +59,12 @@
                 <div class="row">
                     <div class="12u">
                         <ul class="buttons">
-                            <li><input [disabled]="!form.form.valid" [class]="form.form.valid" type="submit" value="Send Message" /></li>
+                            <li><input type="submit" [disabled]="!contactForm.form.valid" value="Send Message" /></li>
                         </ul>
                     </div>
                 </div>
-            </form>-->
-        <!--</div>-->
+            </form>
+        </div>
 
     </section>
 

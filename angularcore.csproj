@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.0" />
+    <PackageReference Include="NETCore.MailKit" Version="1.1.1" />
   </ItemGroup>
   <ItemGroup>
     <!-- Files not to show in IDE -->
@@ -21,6 +22,12 @@
   <ItemGroup>
     <Content Include="wwwroot\dist\assets\images\pexels-photo.jpg" />
     <Content Include="wwwroot\dist\assets\pexels-photo.jpg" />
+    <Content Include="wwwroot\dist\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Update="ClientApp\app\components\shared\footer.component.ts">

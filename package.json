@@ -50,6 +50,7 @@
     "@types/jasmine": "2.5.47",
     "angular2-modal": "^3.0.1",
     "chai": "3.5.0",
+    "font-awesome-webpack": "0.0.5-beta.2",
     "jasmine-core": "2.6.1",
     "karma": "1.7.0",
     "karma-chai": "0.1.0",

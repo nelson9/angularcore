@@ -13,15 +13,12 @@ import { Modal } from 'angular2-modal/plugins/bootstrap';
 
 export class ContactComponent {
 
-    constructor(private contactService: ContactService, overlay: Overlay, public modal: Modal) { }
+    constructor(private contactService: ContactService, public modal: Modal) { }
 
     pageTitle: string = 'Contact';
-    submitted = false;
 
-    contact = new Contact("", "", "", "");
-
-    submitForm(value: Contact) {
-        this.contactService.sendContactMessage(value)
+    onSubmit(form: any) {
+        this.contactService.sendContactMessage(form.value)
             .then(result => {
                 this.modal.alert()
                     .size('lg')
@@ -31,6 +28,7 @@ export class ContactComponent {
                         <p>We will get back to you ASAP
                         </p>`)
                     .open();
+                form.reset();
             })
             .catch(error => {
                 this.modal.alert()

@@ -1,44 +1,58 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Threading.Tasks;
+using angularcore.Model;
 using Microsoft.AspNetCore.Mvc;
+using MailKit.Net.Smtp;
+using MimeKit;
+using MailKit.Security;
 
 namespace angularcore.Controllers
 {
     [Route("api/[controller]")]
-    public class SampleDataController : Controller
+    public class ContactController : Controller
     {
-        private static string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
 
-        [HttpGet("[action]")]
-        public IEnumerable<WeatherForecast> WeatherForecasts()
+        public IActionResult Post([FromBody]ContactForm contactForm)
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            if (contactForm == null)
             {
-                DateFormatted = DateTime.Now.AddDays(index).ToString("d"),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            });
-        }
+                return BadRequest();
+            }
 
-        public class WeatherForecast
-        {
-            public string DateFormatted { get; set; }
-            public int TemperatureC { get; set; }
-            public string Summary { get; set; }
-
-            public int TemperatureF
+            if (contactForm.Email == null)
             {
-                get
+                return BadRequest();
+            }
+
+            var emailMessage = new MimeMessage();
+            emailMessage.From.Add(new MailboxAddress(contactForm.Name, contactForm.Email));
+            emailMessage.To.Add(new MailboxAddress("Spanish in London", "niall.ferguson@gmail.com"));
+            emailMessage.Subject = contactForm.Subject;
+            emailMessage.Body = new TextPart("plain") { Text = contactForm.Message };         
+           
+            try
+            {
+                using (var client = new MailKit.Net.Smtp.SmtpClient())
                 {
-                    return 32 + (int)(TemperatureC / 0.5556);
+
+                    client.Connect("smtp.gmail.com", 25, SecureSocketOptions.StartTlsWhenAvailable);
+                    client.AuthenticationMechanisms.Remove("XOAUTH2");
+                    client.Authenticate("niall.ferguson@gmail.com", "kissme91");
+                    client.Send(emailMessage);
+                    client.Disconnect(true);
                 }
             }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+
+            return Ok(contactForm);
         }
+
     }
 }

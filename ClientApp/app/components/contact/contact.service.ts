@@ -12,7 +12,7 @@ import { Contact } from './contact';
 export class ContactService {
 
     constructor(private http: Http) { }
-    private contactUrl: string = "http://localhost:52595/api/Contact";
+    private contactUrl: string = "http://localhost:54474/api/Contact";
 
     sendContactMessage(contact: Contact): Promise<Contact> {
 

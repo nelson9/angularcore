@@ -9,6 +9,6 @@ export class FooterComponent {
     name: string;
 
     constructor() {
-        this.name = "Sam";
+        
     }
 }
