@@ -12,7 +12,7 @@ import { Contact } from './contact';
 export class ContactService {
 
     constructor(private http: Http) { }
-    private contactUrl: string = "http://localhost:54474/api/Contact";
+    private contactUrl: string = "http://www.spanish-in-london.co.uk/api/Contact";
 
     sendContactMessage(contact: Contact): Promise<Contact> {
 
@@ -22,7 +22,7 @@ export class ContactService {
         return this.http.post(this.contactUrl, contact, options).toPromise()
             .then(this.extractData)
             .catch(
-            this.handleErrorPromise
+                this.handleErrorPromise
             );
     }
 

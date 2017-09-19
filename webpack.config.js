@@ -24,7 +24,9 @@ module.exports = (env) => {
                 { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" }
             ]
         },
-        plugins: [new CheckerPlugin()]
+        plugins: [new CheckerPlugin(), new webpack.ProvidePlugin({
+            jQuery: "jquery"
+        })]
     };
 
     // Configuration for client-side bundle suitable for running in browsers

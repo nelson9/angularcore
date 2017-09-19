@@ -1,44 +1,51 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SendGrid;
+using SendGrid.Helpers.Mail;
+using SpanishInLondon.Web.Model;
 
-namespace angularcore.Controllers
+namespace SpanishInLondon.Web.Controllers
 {
     [Route("api/[controller]")]
-    public class SampleDataController : Controller
+    public class ContactController : Controller
     {
-        private static string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
 
-        [HttpGet("[action]")]
-        public IEnumerable<WeatherForecast> WeatherForecasts()
+        public async Task<IActionResult> Post([FromBody]ContactForm contactForm)
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            if (contactForm == null)
             {
-                DateFormatted = DateTime.Now.AddDays(index).ToString("d"),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            });
-        }
-
-        public class WeatherForecast
-        {
-            public string DateFormatted { get; set; }
-            public int TemperatureC { get; set; }
-            public string Summary { get; set; }
-
-            public int TemperatureF
-            {
-                get
-                {
-                    return 32 + (int)(TemperatureC / 0.5556);
-                }
+                return BadRequest();
             }
+
+            if (contactForm.Email == null)
+            {
+                return BadRequest();
+            }
+
+            var emailMessage = new SendGridMessage();
+            var recipients = new List<EmailAddress>
+            {
+                new EmailAddress("david@spanish-in-london.co.uk", "Contact Form")
+            };
+            emailMessage.AddTos(recipients);
+            emailMessage.Subject = contactForm.Subject;
+
+            emailMessage.SetFrom(new EmailAddress(contactForm.Email, contactForm.Name));
+            
+            emailMessage.AddContent(MimeType.Text, contactForm.Message);  
+     
+            var client = new SendGridClient("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");
+
+            var response = await client.SendEmailAsync(emailMessage);
+
+            if (response.StatusCode == HttpStatusCode.Accepted)
+            {
+                return Ok(contactForm);
+            }
+            return StatusCode(500);
         }
+
     }
 }

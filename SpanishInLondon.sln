@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "angularcore", "angularcore.csproj", "{AF23DC6B-5796-44E8-B105-783CA35108C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpanishInLondon.Web", "SpanishInLondon.Web.csproj", "{AF23DC6B-5796-44E8-B105-783CA35108C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE8A2D94-CAF5-403E-90D5-782BB29A2758}
 	EndGlobalSection
 EndGlobal
