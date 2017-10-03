@@ -24,17 +24,40 @@ body {
 }
 
 ol, ul {
-    list-style: none;
+   
+    list-style-type: none;
 }
 
-blockquote, q {
-    quotes: none;
+ul.tick {
+    margin-top: 0;
+    padding-left: 1.5em;
 }
 
-    blockquote:before, blockquote:after, q:before, q:after {
-        content: '';
-        content: none;
+ul.tick li:before {
+    position: absolute;
+    margin-left: -1.3em;
+    font-weight: bold;
+    content: '✓';
+}
+
+
+.nav-tabs > li {
+    width: 50%;
+}
+.nav-tabs > li > a {
+    color: #E1BC29;
+    font-size: 1.2em;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #df7b77;
+        
+}
+
+    .nav-tabs > li > a:hover {
+        border-color: #E8EEF4 #E8EEF4 #ddd;
+        background-color: #E8EEF4;
     }
+
 
 table {
     border-collapse: collapse;
@@ -1524,7 +1547,7 @@ body {
 
 /* Basic */
 body {
-    background: #f3f6fa;
+    background: #ffffff;
 }
 
     body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1624,6 +1647,27 @@ blockquote {
     float: left;
 }
 
+.get-in-touch {
+    background-attachment: scroll, fixed;
+    background-color: #645862;
+    background-image: url("/dist/assets/images/overlay.png"),url("/dist/assets/images/in-touch.jpg");
+    background-position: top left, bottom center;
+    background-repeat:  repeat, no-repeat;
+    background-size: auto, cover;
+    color: #fff;
+    padding: 5em;
+    text-align: center;
+    background-color: #fff;
+    color: #ffffff;
+    padding: 5em;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.get-in-touch a {
+    color: #ffffff!important;
+}
+
 /* Section/Article */
 section.special, article.special {
     text-align: center;
@@ -1631,6 +1675,10 @@ section.special, article.special {
 
 header.major {
     padding-bottom: 2em;
+}
+
+.services-wrapper {
+    margin-bottom: 0 !important;
 }
 
 header.special {
@@ -1874,13 +1922,13 @@ input[type="email"] {
                 background: #e1b89b;
             }
 
-        .icon.circle.fa-dribbble {
-            background: #da83ae;
+        .icon.circle.fa-linkedin {
+            background: #70aecd;
             color: #fff;
         }
 
-            .icon.circle.fa-dribbble:hover {
-                background: #df93b8;
+            .icon.circle.fa-linkedin:hover {
+                background: #7fb7d2;
             }
 
     .icon.featured {
@@ -2386,27 +2434,39 @@ input[type="reset"],
     text-align: center;
 }
 
-    #banner .inner {
-        -moz-animation: reveal-banner 1s 0.25s ease-in-out;
-        -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-        -ms-animation: reveal-banner 1s 0.25s ease-in-out;
-        animation: reveal-banner 1s 0.25s ease-in-out;
-        -moz-animation-fill-mode: forwards;
-        -webkit-animation-fill-mode: forwards;
-        -ms-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-        color: #fff;
-        display: inline-block;
-        opacity: 1;
-        padding: 0;
-        text-align: center;
-        width: 55%;
-    }
+.about-us {
+    background-image: url(/dist/assets/images/about-us.jpg) !important;
+    background-position: top;
+    height: 450px;
+}
+
+.services {
+    background-image:url(/dist/assets/images/services-banner.jpg) !important;
+    background-position: center;
+    height: 450px;
+}
+
+
+#banner .inner {
+    -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+    -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+    -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+    animation: reveal-banner 1s 0.25s ease-in-out;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    color: #fff;
+    display: inline-block;
+    opacity: 1;
+    padding: 0;
+    text-align: center;
+    width: 55%;
+}
 
         #banner .inner img {
             width: 50%;
             margin: 1em;
-            opacity: 0.9;
         }
 
         #banner .inner header {
@@ -2477,6 +2537,28 @@ input[type="reset"],
 
 body.index #main {
     padding-top: 5em;
+}
+
+.logo-table {
+    display: table; /* Allow the centering to work */
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.logos li {
+    display: inline-block;
+    padding: 1em 2em 1em 2em;
+    margin: auto;
+}
+
+.logos ul {
+    margin: auto;
+    width: 100%;
+}
+
+.logos img {
+    max-width: 100%;
 }
 
 /* CTA */
@@ -2599,6 +2681,17 @@ body.index #main {
     #footer {
         padding: 4em;
     }
+
+    /* Logos*/
+    /*.worked-with li {
+        width: 100%;
+        margin: auto;
+    }
+
+    .worked-with ul {
+        margin: auto;
+        width: 100%;
+    }*/
 }
 
 /* Narrow */
@@ -2732,8 +2825,8 @@ body.index #main {
         margin: 0;
     }
     /* Wrapper */
-    .wrapper.special-alt {
-        text-align: center;
+    .wrapper.style2 {
+        text-align: center!important;
     }
 
     .wrapper.style4 {
@@ -2957,6 +3050,10 @@ body.index #main {
     p {
         text-align: justify;
     }
+    .worked-with img {
+        max-width: 100%;
+        margin: auto;
+    }
     /* Section/Article */
     header {
         text-align: center;
@@ -3045,6 +3142,7 @@ body.index #main {
     /* Banner */
     #banner {
         padding: 6em 0;
+        background-image: url(/dist/assets/images/london1_mobile.jpg)
     }
 
         #banner .inner {
@@ -3081,7 +3179,40 @@ body.index #main {
     #cta {
         background-size: 10em, 10em, auto, cover;
         padding: 3em 1.5em;
+        background-image: url("/dist/assets/images/light-tl.svg"),url("/dist/assets/images/light-tr.svg"), url("/dist/assets/images/overlay.png"), url("/dist/assets/images/people-woman-coffee-meeting_mobile.jpg");
     }
+
+    /* About us */
+    .about-us {
+        background-image: url(/dist/assets/images/about-us_mobile.jpg) !important;
+    }
+    /* About us */
+    .services {
+        background-image: url(/dist/assets/images/services-banner_mobile.jpg) !important;
+        background-position: center;
+        height: 450px;
+    }
+    /* Get In Touch */
+    .get-in-touch {
+        background-attachment: scroll, fixed;
+        background-color: #645862;
+        background-image: url("/dist/assets/images/overlay.png"),url("/dist/assets/images/in-touch_mobile.jpg");
+        background-position: top left, bottom left;
+        background-repeat: repeat, no-repeat;
+        background-size: auto, cover;
+        color: #fff;
+        padding: 5em;
+        text-align: center;
+        background-color: #fff;
+        color: #ffffff;
+        padding: 5em;
+        opacity: 0.8;
+    }
+        .get-in-touch p {
+            text-align: center !important;
+        }
+    
+
     /* Footer */
     #footer {
         padding: 3em 1.5em;
@@ -3110,11 +3241,13 @@ body.index #main {
     }
 }
 
-.worked-with {
+.worked-with-container {
     margin-top: 3em;
     padding-bottom: 5em;
     margin-bottom: 5em;
+    background: #f3f6fa!important;
 }
+
 
 
 .modal-backdrop {
@@ -3161,6 +3294,15 @@ body.index #main {
 @media (min-width: 992px) {
     .modal-lg {
         width: 900px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .modal-dialog {
+        width: 90%!important;
+    }
+    input[type="button"], input[type="submit"], input[type="reset"], .button {
+        min-width: 0!important;
     }
 }
 

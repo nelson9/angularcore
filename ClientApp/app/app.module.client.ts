@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { sharedConfig } from './app.module.shared';
+import { WindowRef } from './windowRef';
 
 @NgModule({
     bootstrap: sharedConfig.bootstrap,
@@ -13,8 +14,7 @@ import { sharedConfig } from './app.module.shared';
         HttpModule,
         ...sharedConfig.imports
     ],
-    providers: [
-        { provide: 'ORIGIN_URL', useValue: location.origin }
+    providers: [WindowRef, { provide: 'ORIGIN_URL', useValue: location.origin }
     ]
 })
 export class AppModule {

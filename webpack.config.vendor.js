@@ -32,7 +32,8 @@ module.exports = (env) => {
                 'event-source-polyfill',
                 'jquery',
                 'zone.js',
-                'angular2-modal'
+                'angular2-modal',
+                'ng2-tabs'
             ]
         },
         output: {

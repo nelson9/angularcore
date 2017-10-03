@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
@@ -27,17 +28,17 @@ namespace SpanishInLondon.Web.Controllers
             var emailMessage = new SendGridMessage();
             var recipients = new List<EmailAddress>
             {
-                new EmailAddress("david@spanish-in-london.co.uk", "Contact Form")
+                new EmailAddress("hola@spanish-in-london.co.uk", "Contact Form")
             };
             emailMessage.AddTos(recipients);
             emailMessage.Subject = contactForm.Subject;
 
             emailMessage.SetFrom(new EmailAddress(contactForm.Email, contactForm.Name));
             
-            emailMessage.AddContent(MimeType.Text, contactForm.Message);  
-     
-            var client = new SendGridClient("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");
+            emailMessage.AddContent(MimeType.Text, contactForm.Message);
 
+   
+            var client = new SendGridClient(Environment.GetEnvironmentVariable("SENDGRID_APIKEY"));
             var response = await client.SendEmailAsync(emailMessage);
 
             if (response.StatusCode == HttpStatusCode.Accepted)
