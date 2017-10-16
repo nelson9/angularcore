@@ -2140,9 +2140,9 @@ input[type="reset"],
 
     .wrapper.style2 {
         background-color: #E1BC29;
-        background-image: url("/dist/assets/images/light-bl.svg"), url("/dist/assets/images/light-br.svg");
-        background-position: bottom left, bottom right;
-        background-repeat: no-repeat, no-repeat;
+        /*background-image: url("/dist/assets/images/light-bl.svg"), url("/dist/assets/images/light-br.svg");*/
+        /*background-position: bottom left, bottom right;
+        background-repeat: no-repeat, no-repeat;*/
         background-size: 25em, 25em;
         color: #fff;
     }
@@ -2512,9 +2512,6 @@ input[type="reset"],
 
 /* Main */
 #main {
-    background-image: url("/dist/assets/images/dark-tl.svg"), url("/dist/assets/images/dark-tr.svg"), url("/dist/assets/images/dark-bl.svg"), url("/dist/assets/images/dark-br.svg");
-    background-position: top left, top right, bottom left, bottom right;
-    background-repeat: no-repeat;
     background-size: 25em;
     padding: 5em 0;
 }
@@ -2563,12 +2560,12 @@ body.index #main {
 
 /* CTA */
 #cta {
-    background-attachment: scroll, scroll, scroll, fixed;
+    background-attachment: scroll, fixed;
     background-color: #645862;
-    background-image: url("/dist/assets/images/light-tl.svg"),url("/dist/assets/images/light-tr.svg"), url("/dist/assets/images/overlay.png"), url("/dist/assets/images/people-woman-coffee-meeting.jpg");
-    background-position: top left, top right, top left, bottom center;
-    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-    background-size: 25em, 25em, auto, cover;
+    background-image: url("/dist/assets/images/overlay.png"), url("/dist/assets/images/people-woman-coffee-meeting.jpg");
+    background-position:  top left, bottom center;
+    background-repeat:  repeat, no-repeat;
+    background-size: auto, cover;
     color: #fff;
     padding: 5em;
     text-align: center;
@@ -2576,7 +2573,7 @@ body.index #main {
     color: #E15554;
     padding: 5em;
     text-align: center;
-    opacity: 0.8;
+    
 }
 
     #cta header {
@@ -3177,9 +3174,9 @@ body.index #main {
     }
     /* CTA */
     #cta {
-        background-size: 10em, 10em, auto, cover;
+        background-size: auto, cover;
         padding: 3em 1.5em;
-        background-image: url("/dist/assets/images/light-tl.svg"),url("/dist/assets/images/light-tr.svg"), url("/dist/assets/images/overlay.png"), url("/dist/assets/images/people-woman-coffee-meeting_mobile.jpg");
+        background-image: url("/dist/assets/images/overlay.png"), url("/dist/assets/images/people-woman-coffee-meeting_mobile.jpg");
     }
 
     /* About us */

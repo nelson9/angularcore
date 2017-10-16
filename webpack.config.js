@@ -21,7 +21,12 @@ module.exports = (env) => {
                 { test: /\.css$/, use: [ 'to-string-loader', isDevBuild ? 'css-loader' : 'css-loader?minimize' ] },
                 { test: /\.(png|jpg|jpeg|gif|svg)$/, use: 'url-loader?limit=25000' },
                 { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
-                { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" }
+                { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" },
+                {
+                    test: /\.scss$/,
+                    exclude: /node_modules/,
+                    loaders: ['raw-loader', 'sass-loader'] // sass-loader not scss-loader
+                }
             ]
         },
         plugins: [new CheckerPlugin(), new webpack.ProvidePlugin({
