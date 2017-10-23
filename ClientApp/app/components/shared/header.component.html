@@ -5,15 +5,9 @@
     </h1>
     <nav id="nav">
         <ul>
-            <li class="current"><a [routerLink]="['/home']">Welcome</a></li>
             <li class="current"><a [routerLink]="['/about']">About</a></li>
-            <li class="submenu">
-                <a>Services</a>
-                <ul>
-                    <li><a [routerLink]="['/services/corporate']">Corporate Tuition</a></li>
-                    <li><a [routerLink]="['/services/private']">Private Tuition</a></li>
-                </ul>
-            </li>
+            <li><a [routerLink]="['/services/corporate']">Corporate Tuition</a></li>
+            <li><a [routerLink]="['/services/private']">Private Tuition</a></li>
             <li><a [routerLink]="['/contact']" class="button special">Get In Touch</a></li>
         </ul>
     </nav>

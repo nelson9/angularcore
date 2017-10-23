@@ -2,12 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { Router, NavigationStart, NavigationEnd } from '@angular/router';
 import { Location, PopStateEvent } from "@angular/common";
 import { WindowRef } from '../../windowRef';
+import { ViewEncapsulation } from '@angular/core';
 
 @Component({
     selector: 'app',
     templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css'],
-    providers: [WindowRef]
+    styleUrls: ['./app.component.scss'],
+    providers: [WindowRef],
+    encapsulation: ViewEncapsulation.None
 })
 
 export class AppComponent implements OnInit {

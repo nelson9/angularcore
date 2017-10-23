@@ -19,14 +19,14 @@
 
 // Palette.
 	$palette: (
-		bg:				#f3f6fa,
+		bg:				#fafbfd,
 		fg:				#7c8081,
 		border:			transparentize(#7c8081, 0.8),
 
 		header: (
-			bg:			#fff,
-			fg:			inherit,
-			alt-bg:		transparent,
+			bg:			#ffffff,
+			fg:			#df7b77,
+			alt-bg:		#E1BC29,
 			alt-fg:		#fff
 		),
 
@@ -41,9 +41,9 @@
 			bg:			#E8EEF4,
 			fg:			#7c8081
 		),
-
+        
 		one: (
-			bg:			#83d3c9,
+			bg:			#E1BC29,
 			fg:			#fff
 		),
 

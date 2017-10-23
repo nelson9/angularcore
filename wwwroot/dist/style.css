@@ -2173,6 +2173,7 @@ input[type="reset"],
         padding: 4em;
     }
 
+
 /* Header */
 @-moz-keyframes reveal-header {
     0% {
@@ -3238,72 +3239,7 @@ body.index #main {
     }
 }
 
-.worked-with-container {
-    margin-top: 3em;
-    padding-bottom: 5em;
-    margin-bottom: 5em;
-    background: #f3f6fa!important;
-}
 
 
 
-.modal-backdrop {
-    opacity: .5;
-    z-index: 10030;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1040;
-    background-color: #000;
-}
 
-.modal {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1050;
-    display: none;
-    -webkit-overflow-scrolling: touch;
-    outline: 0;
-}
-
-.modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    position: relative;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #999;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
-    outline: 0;
-    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-    padding: 30px;
-    z-index: 10050;
-}
-
-@media (min-width: 992px) {
-    .modal-lg {
-        width: 900px;
-    }
-}
-
-@media screen and (max-width: 736px) {
-    .modal-dialog {
-        width: 90%!important;
-    }
-    input[type="button"], input[type="submit"], input[type="reset"], .button {
-        min-width: 0!important;
-    }
-}
-
-.modal-dialog {
-    width: 600px;
-    margin: 30px auto;
-}

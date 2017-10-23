@@ -1,0 +1,64 @@
+﻿@import '../../sass/libs/_functions';
+@import '../../sass/libs/_vars';
+@import '../../sass/libs/_mixins';
+@import '../../sass/libs/_skel';
+
+
+
+/* Footer */
+
+#footer {
+    background: _palette(footer, bg);
+    color: _palette(footer, fg);
+    padding: 5em 5em 10em 5em;
+    text-align: center;
+
+    .copyright {
+        font-size: 0.8em;
+        line-height: 1em;
+
+        a {
+            color: inherit;
+        }
+
+        li {
+            display: inline-block;
+            margin-left: 1em;
+            padding-left: 1em;
+            border-left: dotted 1px;
+
+            &:first-child {
+                margin: 0;
+                padding: 0;
+                border: 0;
+            }
+        }
+    }
+}
+
+@include breakpoint(normal) {
+    #footer {
+        padding: 4em;
+    }
+}
+
+@include breakpoint(narrower) {
+    #footer {
+        padding: 4em 1.5em;
+    }
+}
+
+@include breakpoint(mobile) {
+    #footer {
+        padding: 3em 1.5em;
+
+        .copyright {
+            li {
+                display: block;
+                margin: 1em 0 0 0;
+                padding: 0;
+                border: 0;
+            }
+        }
+    }
+}

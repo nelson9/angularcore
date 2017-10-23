@@ -8,7 +8,8 @@ import { Modal } from 'angular2-modal/plugins/bootstrap';
 
 @Component({
     templateUrl: './contact.component.html',
-    providers: [ContactService]
+    providers: [ContactService],
+    styleUrls: ['./contact.component.scss']
 })
 
 export class ContactComponent {
