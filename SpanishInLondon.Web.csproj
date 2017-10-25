@@ -43,6 +43,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ClientApp\app\img\" />
     <Folder Include="ClientApp\app\sass\libs\" />
   </ItemGroup>
   <Target Name="RunWebpack" AfterTargets="ComputeFilesToPublish">

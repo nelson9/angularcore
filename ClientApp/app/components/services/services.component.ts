@@ -5,7 +5,8 @@ import { TabsModule } from "ng2-tabs";
 import { Router } from '@angular/router';
 
 @Component({
-    templateUrl: './services.component.html'
+    templateUrl: './services.component.html',
+    styleUrls: ['./services.component.scss']
 })
 
 export class ServicesComponent {

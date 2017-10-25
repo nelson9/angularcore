@@ -1,5 +1,5 @@
 ﻿<!-- Banner -->
-<section class="services" id="banner">
+<section class="services-banner" id="banner">
     <div class="inner">
         <header>
             <h2>What we offer</h2>
@@ -8,7 +8,7 @@
 </section>
 <!-- Main -->
 <article id="main">
-    <section class="wrapper container services-wrapper">
+    <section class="wrapper container services">
         <tabset>
             <tab [active]="isCorporateActive" title="Corporate">
                 <!--<div class="row">
@@ -96,7 +96,7 @@
                     </div>
                 </section>
             </tab>
-            <tab [active]="isPersonalActive" title="Personal">
+            <tab [active]="isPersonalActive" title="Private">
                 <!--<div class="row">
                     <div class="12u 12u(narrower) important(narrower)">
                         <div class="content">
@@ -183,18 +183,18 @@
             </tab>
         </tabset>
     </section>
-    <!-- CTA -->
-    <section  class="get-in-touch">
-        <header>
-            <h2>Want more info?</h2>
-        </header>
-            <p>Drop us a line for a quote, more info or an informal chat.</p> 
-            <p><span class="icon fa-envelope"></span>  <a href="mailto:hola@spanish-in-london.co.uk">hola@spanish-in-london.co.uk</a> </p>
-            <p><span class="icon fa-mobile"></span>  +44 7758 288843</p>
-        <footer>
-            <ul class="buttons">
-                <li><a [routerLink]="['/contact']" class="button special">Send us a message</a></li>
-            </ul>
-        </footer>
-    </section>
 </article>
+<!-- CTA -->
+<section id="cta"  class="get-in-touch">
+    <header>
+        <h2>Want more info?</h2>
+        <p>Drop us a line for a quote, more info or an informal chat.</p>
+    </header>
+    <footer>
+        <span class="icon fa-envelope"></span>  <a href="mailto:hola@spanish-in-london.co.uk">hola@spanish-in-london.co.uk</a>
+        <p><span class="icon fa-mobile"></span>  +44 7758 288843</p>
+        <ul class="buttons">
+            <li><a [routerLink]="['/contact']" class="button special">Send us a message</a></li>
+        </ul>
+    </footer>
+</section>
