@@ -114,7 +114,7 @@ blockquote {
 
 /* Banner */
 
-@include keyframes('reveal-banner') {
+/*@include keyframes('reveal-banner') {
     0% {
         opacity: 0;
     }
@@ -122,7 +122,7 @@ blockquote {
     100% {
         opacity: 1;
     }
-}
+}*/
 
 #banner {
     background-attachment: scroll, scroll, scroll, fixed;
@@ -809,6 +809,10 @@ input[type="reset"],
     /* Banner */
     #banner {
         background-attachment: scroll;
+
+        .inner {
+            width: 70%;
+        }
     }
     /* CTA */
     #cta {
@@ -1275,19 +1279,21 @@ input[type="reset"],
         }
     }
     /* Banner */
-    #banner {
+    #banner {     
         
-        //padding: 6em 0;
-
+        margin:0 auto;
+        
         .inner {
             background: none;
-            display: block;
+        
             padding: 0 1.5em;
 
             header {
                 h2 {
                     font-size: 1.5em;
                 }
+
+                text-align: center;
             }
 
             p {
@@ -1299,7 +1305,6 @@ input[type="reset"],
             }
         }
     }
-
     /* Main */
     #main {
         padding: 3.5em 0 2.5em 0;
