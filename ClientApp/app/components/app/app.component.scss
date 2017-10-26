@@ -408,6 +408,7 @@ input[type="email"] {
     &.featured {
         display: block;
         margin: 0 0 2em 0;
+        width: 100%;
 
         img {
             display: block;
@@ -692,7 +693,7 @@ input[type="reset"],
 /* Wrapper */
 
 .wrapper {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     padding: 5em;
 
     &.style1 {
@@ -722,7 +723,7 @@ input[type="reset"],
     }
 
     &.style3 {
-        background: _palette(two, bg);
+        background: _palette(bg);
         color: _palette(two, fg);
     }
 
@@ -733,9 +734,10 @@ input[type="reset"],
     }
 
     &.worked {
-        margin-top: 7em;
+        margin-top: 3em;
         padding-bottom: 5em;
         margin-bottom: 5em;
+        background: _palette(two, bg);
     }
 
     &.services {
@@ -1239,12 +1241,14 @@ input[type="reset"],
             text-align: center;
         }
     }
-    /* Banner */
-    #banner {
-        background-image: url(/dist/assets/images/london1_mobile.jpg);
-    }
     /* CTA */
     #cta {
+
+        p{
+            text-align:center;
+            margin-top: 2em;
+        }
+
         &.level-test {
             background-image: url("/dist/assets/images/overlay.png"), url("/dist/assets/images/people-woman-coffee-meeting_mobile.jpg");
         }
@@ -1255,7 +1259,7 @@ input[type="reset"],
     }
     /* Wrapper */
     .wrapper {
-        margin-bottom: 2.5em;
+        margin: 0;
         padding: 2.25em 1.5em;
 
         &.special {
@@ -1277,20 +1281,28 @@ input[type="reset"],
             background-size: $pattern-background-size;
             padding: 1.5em 1.5em 3em 1.5em;
         }
+
+        &.worked {            
+            margin: 0;
+        }
     }
     /* Banner */
-    #banner {     
-        
-        margin:0 auto;
-        
+    #banner {
+        background-image: url(/dist/assets/images/london1_mobile.jpg);
+        margin: 0 auto;
+        padding:4em 0;
+
         .inner {
             background: none;
-        
             padding: 0 1.5em;
+
+            img {
+                width: 80%;
+            }
 
             header {
                 h2 {
-                    font-size: 1.5em;
+                    font-size: 1.2em;
                 }
 
                 text-align: center;
@@ -1307,7 +1319,7 @@ input[type="reset"],
     }
     /* Main */
     #main {
-        padding: 3.5em 0 2.5em 0;
+        padding: 2em 0 2.5em 0;
     }
 
     body.index #main {
@@ -1437,7 +1449,7 @@ ul.tick li:before {
 /* Tabs */
 .tabset-content {
     background-color: #ffffff;
-    padding: 3em 2em;
+    padding: 5em 2em;
     border-top: none;
     border-left: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
@@ -1473,6 +1485,7 @@ ul.tick li:before {
     display: table; /* Allow the centering to work */
     margin: 0 auto;
     width: 100%;
+    margin-top:0px;
 }
 
 .logos li {
