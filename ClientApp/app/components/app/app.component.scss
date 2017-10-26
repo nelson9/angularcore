@@ -1169,6 +1169,18 @@ input[type="reset"],
     p {
         text-align: justify;
     }
+
+    .image {   
+
+        &.featured {
+            display: none;  
+
+            img {
+                display: none;                
+            }
+        }
+    }
+
     /* Section/Article */
     header {
         text-align: center;
@@ -1244,8 +1256,8 @@ input[type="reset"],
     /* CTA */
     #cta {
 
-        p{
-            text-align:center;
+        p {
+            text-align: center;
             margin-top: 2em;
         }
 
@@ -1282,7 +1294,7 @@ input[type="reset"],
             padding: 1.5em 1.5em 3em 1.5em;
         }
 
-        &.worked {            
+        &.worked {
             margin: 0;
         }
     }
@@ -1290,7 +1302,7 @@ input[type="reset"],
     #banner {
         background-image: url(/dist/assets/images/london1_mobile.jpg);
         margin: 0 auto;
-        padding:4em 0;
+        padding: 4em 0;
 
         .inner {
             background: none;
