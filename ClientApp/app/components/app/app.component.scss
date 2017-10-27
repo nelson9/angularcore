@@ -190,15 +190,16 @@ blockquote {
     }
 
     &.about-us {
-        background-image: url(/dist/assets/images/about-us.jpg) !important;
+        background-image: url(/dist/assets/images/about-us.jpg);
         background-position: top;
         height: 450px;
     }
 
     &.services-banner {
-        background-image: url(/dist/assets/images/services-banner.jpg) !important;
+        background-image: url(/dist/assets/images/london-eye.jpg);
         background-position: center;
         height: 450px;
+        opacity:0.9;
     }
 }
 
