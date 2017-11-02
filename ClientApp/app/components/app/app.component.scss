@@ -199,7 +199,7 @@ blockquote {
         background-image: url(/dist/assets/images/london-eye.jpg);
         background-position: center;
         height: 450px;
-        opacity:0.9;
+        opacity: 0.9;
     }
 }
 
@@ -726,6 +726,11 @@ input[type="reset"],
     &.style3 {
         background: _palette(bg);
         color: _palette(two, fg);
+
+        footer{
+            margin:0 auto;
+        }
+       
     }
 
     &.style4 {
@@ -759,7 +764,7 @@ input[type="reset"],
     /* Section/Article */
     header {
         &.special {
-            padding-top: 5.5em;
+            padding-top: 3em;
             margin-bottom: 4em;
         }
     }
@@ -1171,17 +1176,16 @@ input[type="reset"],
         text-align: justify;
     }
 
-    .image {   
+    .image {
 
         &.featured {
-            display: none;  
+            display: none;
 
             img {
-                display: none;                
+                display: none;
             }
         }
     }
-
     /* Section/Article */
     header {
         text-align: center;
@@ -1305,9 +1309,10 @@ input[type="reset"],
         margin: 0 auto;
         padding: 4em 0;
 
+
         .inner {
             background: none;
-            padding: 0 1.5em;
+            padding: 0;
 
             img {
                 width: 80%;
@@ -1315,7 +1320,11 @@ input[type="reset"],
 
             header {
                 h2 {
-                    font-size: 1.2em;
+                    font-size: 2.0em;
+                }
+
+                .home-title {
+                    font-size:1em;
                 }
 
                 text-align: center;
@@ -1328,6 +1337,16 @@ input[type="reset"],
             br {
                 display: none;
             }
+        }
+
+        &.about-us {
+            background-image: url(/dist/assets/images/about-us_mobile.jpg);
+            height: 300px !important;
+        }
+
+        &.services-banner {
+            background-image: url(/dist/assets/images/london-eye_mobile.jpg);
+            height: 300px !important;
         }
     }
     /* Main */
@@ -1498,24 +1517,25 @@ ul.tick li:before {
     display: table; /* Allow the centering to work */
     margin: 0 auto;
     width: 100%;
-    margin-top:0px;
+    margin-top: 0px;
 }
 
-.logos li {
-    display: inline-block;
-    padding: 1em 2em 1em 2em;
-    margin: auto;
-}
+.logos {
+    img {
+        max-width: 100%;        
+    }
 
-.logos ul {
-    margin: auto;
-    width: 100%;
-}
+    ul {
+        margin: auto;
+        width: 100%;
+    }
 
-.logos img {
-    max-width: 100%;
+    li {
+        display: inline-block;
+        padding: 1em 2em 1em 2em;
+        margin: auto;
+    }  
 }
-
 
 /* alerts */
 .alert-danger {

@@ -1,5 +1,4 @@
-﻿import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms';
+﻿import { Component } from '@angular/core';
 import 'rxjs/add/operator/map';
 import { TabsModule } from "ng2-tabs";
 import { Router } from '@angular/router';
