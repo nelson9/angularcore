@@ -1,14 +1,13 @@
 ﻿<!-- Header -->
-<header id="header">
+<header  [ngClass]="{'alt reveal' : !after}" id="header">
     <h1 id="logo">
         <a [routerLink]="['/home']">Spanish In London</a>
     </h1>
     <nav id="nav">
         <ul>
-            <li  class="current"><a [routerLink]="['/home']">Welcome</a></li>
+            <li class="current"><a [routerLink]="['/home']">Welcome</a></li>
             <li class="current"><a [routerLink]="['/services/corporate']">Services</a></li>
             <li class="current"><a [routerLink]="['/about']">About</a></li>
-            <!--<li class="current"><a [routerLink]="['/services/private']">Private Tuition</a></li>-->
             <li><a [routerLink]="['/contact']" class="button special">Get In Touch</a></li>
         </ul>
     </nav>

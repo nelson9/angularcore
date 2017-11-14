@@ -58,6 +58,12 @@ namespace SpanishInLondon.Web
                     name: "spa-fallback",
                     defaults: new { controller = "Home", action = "Index" });
             });
+
+            app.UseCors(builder =>
+                builder.WithOrigins("http://localhost:4200", "http://spanish-in-london.co.uk")
+                    .AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod());
         }
     }
 }

@@ -16,17 +16,18 @@
 
 	$(function() {
 
-		var	$window = $(window),
-			$body = $('body'),
-			$header = $('#header'),
-			$banner = $('#banner');
+	    var $window = $(window),
+	        $body = $('body'),
+	        $header = $('#header'),
+	        $banner = $('#banner'),
+            $panel = $('#navPanel');
 
 		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+			//$body.addClass('is-loading');
 
-			$window.on('load', function() {
-				$body.removeClass('is-loading');
-			});
+			//$window.on('load', function() {
+			//	$body.removeClass('is-loading');
+			//});
 
 		// CSS polyfills (IE<9).
 			if (skel.vars.IEVersion < 9)
@@ -52,24 +53,8 @@
 
 		// Off-Canvas Navigation.
 
-			// Navigation Button.
-				$(
-					'<div id="navButton">' +
-						'<a href="#navPanel" class="toggle"></a>' +
-					'</div>'
-				)
-					.appendTo($body);
-
-			// Navigation Panel.
-				$(
-					'<div id="navPanel">' +
-						'<nav>' +
-							$('#nav').navList() +
-						'</nav>' +
-					'</div>'
-				)
-					.appendTo($body)
-					.panel({
+	    // Navigation Panel.
+	                $panel.panel({
 						delay: 500,
 						hideOnClick: true,
 						hideOnSwipe: true,
@@ -89,21 +74,16 @@
 		// If the header is using "alt" styling and #banner is present, use scrollwatch
 		// to revert it back to normal styling once the user scrolls past the banner.
 		// Note: This is disabled on mobile devices.
-			//if (!skel.vars.mobile
-			//&&	$header.hasClass('alt')
-			//&&	$banner.length > 0) {
+   //             if (!skel.vars.mobile) {
+   //                 console.log($banner.scrollwatch());
 
-			//	$window.on('load', function() {
-
-			//		$banner.scrollwatch({
-			//			delay:		0,
-			//			range:		1,
-			//			anchor:		'top',
-			//			on:			function() { $header.addClass('alt reveal'); },
-			//			off:		function() { $header.removeClass('alt'); }
-			//		});
-
-			//	});
+   //                 $banner.scrollwatch({
+			//        delay: 0,
+			//        range: 1,
+			//        anchor: 'top',
+			//        on: function () { $header.addClass('alt reveal'); },
+			//        off: function () { $header.removeClass('alt'); }
+			//    });
 
 			//}
 

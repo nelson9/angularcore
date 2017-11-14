@@ -1,0 +1,99 @@
+
+<!-- Main -->
+<article id="main">
+    <!--<header *ngIf="!testStarted" class="special container">
+        <span class="icon fa-line-chart"></span>        
+        <h2>Level Test</h2>
+    </header>-->
+    <section class="wrapper style4 container">
+        <!-- Test Start Page -->
+        <div *ngIf="!testStarted && !testOver">
+            <div class="row">
+                <div class="12u 12u(narrower) important(narrower)">
+                    <h2>Welcome to Spanish In London level test</h2>
+                    <p>There are 75 questions divided into 5 levels, from beginners (A1) to advanced (C1).</p>
+                    <p>
+                        Select the right answer in every sentence and click next, if you get enough correct at the end of each section, you can
+                        move on to test yourself at the next level. <br/> <br /><strong>Estas listo?</strong>
+                    </p>
+                    <ul class="buttons">
+                        <li>
+                            <button (click)="startTest()" class="button special small">Start Test</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Level Test-->
+        <div *ngIf="testStarted  && !testOver">
+            <div class="row">
+                <div class="12u 12u(narrower) important(narrower)">
+                    <ul class="list-group">
+                        <li class="list-group-item">Level: </li>
+                        <li [ngClass]="{'active': getLevelName() === 'A1'  }" class="list-group-item">A1</li>
+                        <li [ngClass]="{'active': getLevelName() === 'A2'  }" class="list-group-item">A2</li>
+                        <li [ngClass]="{'active': getLevelName() === 'B1'  }" class="list-group-item">B1</li>
+                        <li [ngClass]="{'active': getLevelName() === 'B2'  }" class="list-group-item">B2</li>
+                        <li [ngClass]="{'active': getLevelName() === 'C1'  }" class="list-group-item">C1</li>
+                        <li [ngClass]="{'active': getLevelName() === 'C2'  }" class="list-group-item">C2</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="12u 12u(narrower) important(narrower)">
+                    <div *ngIf="questionsLoaded">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" [style.width]="getPercentageComplete() + '%'">
+                                Question {{getQuestionNumber()}} of {{getTotalQuestions()}} 
+                            </div>
+                        </div>
+                    </div>
+                    <p>{{infoMessage}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="12u 12u(narrower) important(narrower)">
+                    <div *ngIf="questionsLoaded">
+                        Question {{getQuestionNumber()}}: {{currentQuestion.question}}
+                        <p></p>
+                        <form #f="ngForm" novalidate (ngSubmit)="submitAnswer(f.value)" class="form-horizontal">
+                            <div *ngFor="let option of currentQuestion.options; let idx = index" class="radio">
+                                
+                                <label *ngIf="option">
+                                    <input required type="radio" [value]="option" [ngModel]="value" [checked]="idx === 0" name="answer"> {{option}}
+                                </label>
+                            </div>
+                            <div *ngIf="errorMessage" class="row">
+                                <div class="12u">
+                                    <p class="alert alert-danger">{{errorMessage}}</p>
+                                </div>
+                            </div>
+
+                            <div class="12u">
+                                <ul class="buttons">
+                                    <li>
+                                        <button [disabled]="testOver" type="submit" class="button special small">Next</button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div *ngIf="testOver">
+            <header>
+                <h2>Next step is to drop us a message to find out what we can do to get you to the next level.</h2>
+            </header>
+            <contact-form [subject]="subjectLine"></contact-form>
+        </div>
+        
+    </section>
+</article>
+
+
+

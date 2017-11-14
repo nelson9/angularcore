@@ -124,6 +124,13 @@ blockquote {
     }
 }*/
 
+
+header{
+    &.home{
+        padding-top:0!important;
+    }
+}
+
 #banner {
     background-attachment: scroll, scroll, scroll, fixed;
     background-color: #fff;
@@ -137,15 +144,14 @@ blockquote {
     color: _palette(banner, fg);
     cursor: default;
     padding: 6em 0;
-
+    max-height: 714px;
 
     .inner {
-        @include vendor('animation', 'reveal-banner 1s 0.25s ease-in-out');
+        @include vendor('animation', 'reveal-banner 5s 0.25s ease-in-out');
         @include vendor('animation-fill-mode', 'forwards');
         color: _palette(banner, inner-fg);
         display: inline-block;
         opacity: 1;
-        padding: 3em;
         text-align: center;
         width: 55%;
 
@@ -158,6 +164,10 @@ blockquote {
             display: inline-block;
             margin: 0 0 2em 0;
             padding: 3px 0 3px 0;
+
+            .home-title {
+                font-size: 1.8em;
+            }
 
             h2 {
                 border-bottom: solid 2px;
@@ -207,8 +217,8 @@ blockquote {
 /* Main */
 #main {
     background-size: $pattern-background-size;
-    padding: 5em 0;
-
+    padding: 3em 0 3em 0;
+    margin-top: 3em;
     > :last-child {
         margin-bottom: 0;
     }
@@ -279,7 +289,7 @@ header {
 
     &.special {
         margin-bottom: 5em;
-        padding-top: 3em;
+        padding-top: 4em;
         position: relative;
         text-align: center;
 
@@ -306,7 +316,7 @@ header {
             left: 0;
             position: absolute;
             text-align: center;
-            top: 1em;
+            top: 0;
             width: 100%;
 
             &:before {
@@ -695,6 +705,7 @@ input[type="reset"],
 
 .wrapper {
     margin-bottom: 3em;
+    margin-top: 2em;
     padding: 5em;
 
     &.style1 {
@@ -727,10 +738,9 @@ input[type="reset"],
         background: _palette(bg);
         color: _palette(two, fg);
 
-        footer{
-            margin:0 auto;
+        footer {
+            margin: 0 auto;
         }
-       
     }
 
     &.style4 {
@@ -748,6 +758,7 @@ input[type="reset"],
 
     &.services {
         padding-left: 0;
+        padding-top: 0;
         padding-right: 0;
         margin-bottom: 0;
     }
@@ -1190,14 +1201,20 @@ input[type="reset"],
     header {
         text-align: center;
 
+        
+            &.home {
+                padding-top:4em;
+            }
+      
+
         &.major {
             padding-bottom: 0;
         }
 
         &.special {
             margin-bottom: 3em;
-            padding-left: 1.5em;
-            padding-right: 1.5em;
+            padding-left: 1em;
+            padding-right: 1em;
 
             &:before,
             &:after {
@@ -1206,13 +1223,22 @@ input[type="reset"],
 
             .icon {
                 font-size: 0.75em;
-                top: 1.5em;
+                top: 0;
             }
         }
 
         p {
             text-align: center;
         }
+    }
+
+    .home-header {
+        background: white;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        margin-top: -5em;
     }
 
     footer {
@@ -1277,7 +1303,7 @@ input[type="reset"],
     /* Wrapper */
     .wrapper {
         margin: 0;
-        padding: 2.25em 1.5em;
+        padding: 3.25em 1.5em;
 
         &.special {
             br {
@@ -1315,7 +1341,7 @@ input[type="reset"],
             padding: 0;
 
             img {
-                width: 80%;
+                width: 90%;
             }
 
             header {
@@ -1324,7 +1350,7 @@ input[type="reset"],
                 }
 
                 .home-title {
-                    font-size:1em;
+                    display: none;
                 }
 
                 text-align: center;
@@ -1351,7 +1377,7 @@ input[type="reset"],
     }
     /* Main */
     #main {
-        padding: 2em 0 2.5em 0;
+        padding: 0 0 2.5em 0;
     }
 
     body.index #main {
@@ -1406,6 +1432,7 @@ input[type="reset"],
 .modal-dialog {
     width: 600px;
     margin: 30px auto;
+   
 }
 
 .modal-backdrop {
@@ -1447,6 +1474,9 @@ input[type="reset"],
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
     padding: 30px;
     z-index: 10050;
+}
+.modal-footer {
+    text-align:center;
 }
 
 @include breakpoint(narrow) {
@@ -1522,7 +1552,7 @@ ul.tick li:before {
 
 .logos {
     img {
-        max-width: 100%;        
+        max-width: 100%;
     }
 
     ul {
@@ -1534,7 +1564,7 @@ ul.tick li:before {
         display: inline-block;
         padding: 1em 2em 1em 2em;
         margin: auto;
-    }  
+    }
 }
 
 /* alerts */

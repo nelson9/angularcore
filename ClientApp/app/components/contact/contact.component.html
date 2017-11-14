@@ -9,63 +9,8 @@
 
     <!-- One -->
     <section class="wrapper style2 special container 75%">
-        <!-- Content -->
-        <div class="content">
-            <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" *ngIf="!success">
-                <div class="row 50%">
-                    <div class="6u 12u(mobile)">
-                        <input type="text" [(ngModel)]="contactForm.name" #name="ngModel" name="name" required placeholder="Name" />
-                    </div>
-                    <div class="6u 12u(mobile)">
-                        <input type="email" [(ngModel)]="contactForm.email" #email="ngModel" name="email" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" placeholder="Email" />
-                    </div>
-                </div>
-                <div class="row 50%">
-                    <div class="6u 12u(mobile)">
-                        <div *ngIf="name.errors && (name.dirty || name.touched)">
-                            <div [hidden]="!name.errors.required">
-                                Please proivde your name
-                            </div>
-                        </div>
-                    </div>
-                    <div class="6u 12u(mobile)">
-                        <div [hidden]="email.valid || email.untouched">
-                            <div *ngIf="email.errors && email.errors.required">
-                                Please provide an email address
-                            </div>
-                            <div *ngIf="email.errors && email.errors.pattern">
-                                Please provide a valid email
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row 50%">
-                    <div class="12u">
-                        <input type="text" name="subject" [(ngModel)]="contactForm.subject" #subject="ngModel" placeholder="Subject" />
-                    </div>
-                </div>
-                <div class="row 50%">
-                    <div class="12u">
-                        <textarea name="message" [(ngModel)]="contactForm.message" #message="ngModel" placeholder="Message"  required rows="7"></textarea>
-                    </div>
-                </div>
-                <div class="row 50%">
-                    <div [hidden]="message.valid || message.untouched">
-                        <div *ngIf="message.errors && message.errors.required">
-                            Please provide a message
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="12u">
-                        <ul class="buttons">
-                            <li><input type="submit" [disabled]="!contactForm.form.valid" value="Send Message" /></li>
-                        </ul>
-                    </div>
-                </div>
-            </form>
-        </div>
-
+        <!-- Contact Form -->
+        <contact-form></contact-form>
     </section>
 
 </article>

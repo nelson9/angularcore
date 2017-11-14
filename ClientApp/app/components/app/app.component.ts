@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { Router, NavigationStart, NavigationEnd } from '@angular/router';
-import { Location, PopStateEvent } from "@angular/common";
+import { Component, OnInit} from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 import { WindowRef } from '../../windowRef';
 import { ViewEncapsulation } from '@angular/core';
+
 
 @Component({
     selector: 'app',
@@ -13,17 +13,16 @@ import { ViewEncapsulation } from '@angular/core';
 })
 
 export class AppComponent implements OnInit {
-    private window: Window;
-    private lastPoppedUrl: string;
-    private yScrollStack: number[] = [];
-
-    constructor(private router: Router, private location: Location, private winRef: WindowRef) {
-        this.winRef = winRef;
+ 
+    constructor(private router: Router, private winRef: WindowRef) {
+       
     }
 
-    ngOnInit() {
+  
 
+    ngOnInit() {
         this.router.events.subscribe((evt) => {
+          
             var window = this.winRef.nativeWindow;
             if (!(evt instanceof NavigationEnd)) {
                 return;

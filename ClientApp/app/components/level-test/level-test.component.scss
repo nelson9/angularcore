@@ -1,0 +1,40 @@
+@import '../../sass/libs/_functions';
+@import '../../sass/libs/_vars';
+@import '../../sass/libs/_mixins';
+@import '../../sass/libs/_skel';
+
+ul{
+    float: left;
+    li{
+        float: left;
+    }
+}
+
+#banner {
+    background-image: none;
+    background-color: _palette(header, alt-bg);
+}
+
+.list-group-item {
+    &.active {
+        background-color: _palette(header, alt-bg);
+        border-color: _palette(header, alt-bg);
+    }
+}
+
+.progress-bar {
+    background-color: _palette(header, fg);
+
+}
+
+button{
+    margin-top: 1.5em;
+}
+
+.alert{
+  padding:0.3em;
+  padding-left:0.6em;
+  padding-right:0.6em;
+  margin-top:1em;
+}
+

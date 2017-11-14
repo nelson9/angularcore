@@ -1,29 +1,41 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>@ViewData["Title"] - Spanish In London</title>
-        <base href="/" />
-        <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Spanish In London</title>
+    <base href="/" />
+    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
 
-      
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-                crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
 
-        <script src="~/dist/jquery.dropotron.min.js"></script>
-        <script src="~/dist/util.js"></script>
-        <script src="~/dist/jquery.scrollgress.min.js"></script>
-        <script src="~/dist/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
 
-        <link rel="icon" type="image/png" sizes="32x32" href="~/dist/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="~/dist/favicon-16x16.png">
-    </head>
-    <body>
-        @RenderBody()
+    <script src="~/dist/jquery.dropotron.min.js"></script>
+    <script src="~/dist/util.js"></script>
+    <script src="~/dist/jquery.scrollgress.min.js"></script>
+    <script src="~/dist/main.js"></script>
 
-        @RenderSection("scripts", required: false)
-    </body>
+    <link rel="icon" type="image/png" sizes="32x32" href="~/dist/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/dist/favicon-16x16.png">
+</head>
+<body>
+    @RenderBody()
+
+    @RenderSection("scripts", required: false)
+
+    <div id="navButton">
+        <a href="#navPanel" class="toggle"></a>
+    </div>
+    <div id="navPanel">
+        <nav>
+            <a class="link depth-0" href="/home">Welcome</a>
+            <a class="link depth-0" href="/services/corporate">Services</a>
+            <a class="link depth-0" href="/about">About</a>
+            <a class="link depth-0" href="/contact">Get In Touch</a>
+        </nav>
+    </div>
+</body>
 </html>
