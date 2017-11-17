@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "704ab522b8edc8f605e1"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "082f03eddbce8470d2f6"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -704,32 +704,32 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(74)(__webpack_require__.s = 74);
+/******/ 	return hotCreateRequire(85)(__webpack_require__.s = 85);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = vendor_19c4b77160f0d310cdb7;
+module.exports = (__webpack_require__(1))(1);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = (__webpack_require__(0))(1);
+module.exports = vendor_6e2eb6412a570c8b2bb9;
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(0))(43);
+module.exports = (__webpack_require__(1))(43);
 
 /***/ }),
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(0))(45);
+module.exports = (__webpack_require__(1))(45);
 
 /***/ }),
 /* 4 */
@@ -753,11 +753,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BootstrapModalModule", function() { return BootstrapModalModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "providers", function() { return providers; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return AbstractTwoButtonPresetBuilder; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angular2_modal__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_combineLatest__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angular2_modal__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_combineLatest__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_combineLatest___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operator_combineLatest__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(14);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalOpenContext", function() { return __WEBPACK_IMPORTED_MODULE_0_angular2_modal__["ModalOpenContext"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalOpenContextBuilder", function() { return __WEBPACK_IMPORTED_MODULE_0_angular2_modal__["ModalOpenContextBuilder"]; });
 
@@ -1344,7 +1344,7 @@ var BootstrapModalModule = /*@__PURE__*/(function () {
 "use strict";
 
 var Observable_1 = __webpack_require__(6);
-var map_1 = __webpack_require__(64);
+var map_1 = __webpack_require__(76);
 Observable_1.Observable.prototype.map = map_1.map;
 //# sourceMappingURL=map.js.map
 
@@ -1352,7 +1352,7 @@ Observable_1.Observable.prototype.map = map_1.map;
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(0))(0);
+module.exports = (__webpack_require__(1))(0);
 
 /***/ }),
 /* 7 */
@@ -1367,7 +1367,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var core_1 = __webpack_require__(0);
 function getWindow() {
     if (typeof window !== 'undefined') {
         return window;
@@ -1592,15 +1592,57 @@ module.exports = Html5Entities;
 
 /***/ }),
 /* 9 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgxCarouselItemDirective; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return NgxCarouselNextDirective; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return NgxCarouselPrevDirective; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 
-var Observable_1 = __webpack_require__(6);
-var catch_1 = __webpack_require__(71);
-Observable_1.Observable.prototype.catch = catch_1._catch;
-Observable_1.Observable.prototype._catch = catch_1._catch;
-//# sourceMappingURL=catch.js.map
+var NgxCarouselItemDirective = (function () {
+    function NgxCarouselItemDirective() {
+    }
+    return NgxCarouselItemDirective;
+}());
+
+NgxCarouselItemDirective.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{
+                // tslint:disable-next-line:directive-selector
+                selector: '[NgxCarouselItem]'
+            },] },
+];
+/** @nocollapse */
+NgxCarouselItemDirective.ctorParameters = function () { return []; };
+var NgxCarouselNextDirective = (function () {
+    function NgxCarouselNextDirective() {
+    }
+    return NgxCarouselNextDirective;
+}());
+
+NgxCarouselNextDirective.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{
+                // tslint:disable-next-line:directive-selector
+                selector: '[NgxCarouselNext]'
+            },] },
+];
+/** @nocollapse */
+NgxCarouselNextDirective.ctorParameters = function () { return []; };
+var NgxCarouselPrevDirective = (function () {
+    function NgxCarouselPrevDirective() {
+    }
+    return NgxCarouselPrevDirective;
+}());
+
+NgxCarouselPrevDirective.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Directive"], args: [{
+                // tslint:disable-next-line:directive-selector
+                selector: '[NgxCarouselPrev]'
+            },] },
+];
+/** @nocollapse */
+NgxCarouselPrevDirective.ctorParameters = function () { return []; };
+//# sourceMappingURL=ngx-carousel.directive.js.map
 
 /***/ }),
 /* 10 */
@@ -1609,34 +1651,58 @@ Observable_1.Observable.prototype._catch = catch_1._catch;
 "use strict";
 
 var Observable_1 = __webpack_require__(6);
-var toPromise_1 = __webpack_require__(55);
-Observable_1.Observable.prototype.toPromise = toPromise_1.toPromise;
-//# sourceMappingURL=toPromise.js.map
+var catch_1 = __webpack_require__(83);
+Observable_1.Observable.prototype.catch = catch_1._catch;
+Observable_1.Observable.prototype._catch = catch_1._catch;
+//# sourceMappingURL=catch.js.map
 
 /***/ }),
 /* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(0))(42);
+"use strict";
+
+var Observable_1 = __webpack_require__(6);
+var toPromise_1 = __webpack_require__(67);
+Observable_1.Observable.prototype.toPromise = toPromise_1.toPromise;
+//# sourceMappingURL=toPromise.js.map
 
 /***/ }),
 /* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(0))(46);
+module.exports = (__webpack_require__(1))(42);
 
 /***/ }),
 /* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = (__webpack_require__(1))(46);
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(5);
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(6);
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-__webpack_require__(53);
-__webpack_require__(69);
-var core_1 = __webpack_require__(1);
-var platform_browser_dynamic_1 = __webpack_require__(66);
-var app_module_client_1 = __webpack_require__(18);
+__webpack_require__(65);
+__webpack_require__(81);
+var core_1 = __webpack_require__(0);
+var platform_browser_dynamic_1 = __webpack_require__(78);
+var app_module_client_1 = __webpack_require__(21);
 if (true) {
     module['hot'].accept();
     module['hot'].dispose(function () {
@@ -1656,7 +1722,7 @@ var modulePromise = platform_browser_dynamic_1.platformBrowserDynamic().bootstra
 
 
 /***/ }),
-/* 14 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(__resourceQuery, module) {/*eslint-env browser*/
@@ -1672,7 +1738,7 @@ var options = {
   name: ''
 };
 if (true) {
-  var querystring = __webpack_require__(47);
+  var querystring = __webpack_require__(58);
   var overrides = querystring.parse(__resourceQuery.slice(1));
   if (overrides.path) options.path = overrides.path;
   if (overrides.timeout) options.timeout = overrides.timeout;
@@ -1792,11 +1858,11 @@ if (typeof window !== 'undefined') {
 }
 
 function createReporter() {
-  var strip = __webpack_require__(56);
+  var strip = __webpack_require__(68);
 
   var overlay;
   if (typeof document !== 'undefined' && options.overlay) {
-    overlay = __webpack_require__(57);
+    overlay = __webpack_require__(69);
   }
 
   var styles = {
@@ -1849,7 +1915,7 @@ function createReporter() {
   };
 }
 
-var processUpdate = __webpack_require__(58);
+var processUpdate = __webpack_require__(70);
 
 var customHandler;
 var subscribeAllHandler;
@@ -1914,16 +1980,16 @@ if (module) {
   };
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, "?path=%2F__webpack_hmr", __webpack_require__(59)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, "?path=%2F__webpack_hmr", __webpack_require__(71)(module)))
 
 /***/ }),
-/* 15 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(0))(50);
+module.exports = (__webpack_require__(1))(50);
 
 /***/ }),
-/* 16 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2106,7 +2172,7 @@ ansiHTML.reset()
 
 
 /***/ }),
-/* 17 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2117,7 +2183,7 @@ module.exports = function () {
 
 
 /***/ }),
-/* 18 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2129,11 +2195,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var platform_browser_1 = __webpack_require__(70);
-var forms_1 = __webpack_require__(11);
+var core_1 = __webpack_require__(0);
+var platform_browser_1 = __webpack_require__(15);
+var forms_1 = __webpack_require__(12);
 var http_1 = __webpack_require__(2);
-var app_module_shared_1 = __webpack_require__(19);
+var app_module_shared_1 = __webpack_require__(22);
 var windowRef_1 = __webpack_require__(7);
 var AppModule = (function () {
     function AppModule() {
@@ -2157,26 +2223,30 @@ exports.AppModule = AppModule;
 
 
 /***/ }),
-/* 19 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var router_1 = __webpack_require__(3);
-var app_component_1 = __webpack_require__(21);
-var home_component_1 = __webpack_require__(26);
-var contact_component_1 = __webpack_require__(23);
-var contact_form_component_1 = __webpack_require__(22);
-var services_component_1 = __webpack_require__(30);
-var about_component_1 = __webpack_require__(20);
-var header_component_1 = __webpack_require__(32);
-var footer_component_1 = __webpack_require__(31);
-var level_test_component_1 = __webpack_require__(27);
-var angular2_modal_1 = __webpack_require__(12);
+var animations_1 = __webpack_require__(87);
+var app_component_1 = __webpack_require__(24);
+var home_component_1 = __webpack_require__(29);
+var contact_component_1 = __webpack_require__(26);
+var contact_form_component_1 = __webpack_require__(25);
+var services_component_1 = __webpack_require__(33);
+var about_component_1 = __webpack_require__(23);
+var header_component_1 = __webpack_require__(35);
+var footer_component_1 = __webpack_require__(34);
+var level_test_component_1 = __webpack_require__(30);
+var worked_with_component_1 = __webpack_require__(36);
+var angular2_modal_1 = __webpack_require__(13);
 var bootstrap_1 = __webpack_require__(4);
-var forms_1 = __webpack_require__(11);
-var ng2_tabs_1 = __webpack_require__(68);
+var forms_1 = __webpack_require__(12);
+var ng2_tabs_1 = __webpack_require__(80);
+var ngx_carousel_1 = __webpack_require__(50);
+__webpack_require__(79);
 exports.sharedConfig = {
     bootstrap: [app_component_1.AppComponent],
     declarations: [
@@ -2188,7 +2258,8 @@ exports.sharedConfig = {
         services_component_1.ServicesComponent,
         about_component_1.AboutComponent,
         level_test_component_1.LevelTestComponent,
-        contact_form_component_1.ContactFormComponent
+        contact_form_component_1.ContactFormComponent,
+        worked_with_component_1.WorkedWithcomponent
     ],
     imports: [
         router_1.RouterModule.forRoot([
@@ -2205,13 +2276,15 @@ exports.sharedConfig = {
         angular2_modal_1.ModalModule.forRoot(),
         bootstrap_1.BootstrapModalModule,
         forms_1.FormsModule,
-        ng2_tabs_1.TabsModule
+        ng2_tabs_1.TabsModule,
+        ngx_carousel_1.NgxCarouselModule,
+        animations_1.BrowserAnimationsModule
     ]
 };
 
 
 /***/ }),
-/* 20 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2226,7 +2299,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var core_1 = __webpack_require__(0);
 __webpack_require__(5);
 var AboutComponent = (function () {
     function AboutComponent() {
@@ -2236,7 +2309,7 @@ var AboutComponent = (function () {
 }());
 AboutComponent = __decorate([
     core_1.Component({
-        template: __webpack_require__(36)
+        template: __webpack_require__(40)
     }),
     __metadata("design:paramtypes", [])
 ], AboutComponent);
@@ -2244,7 +2317,7 @@ exports.AboutComponent = AboutComponent;
 
 
 /***/ }),
-/* 21 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2259,10 +2332,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var core_1 = __webpack_require__(0);
 var router_1 = __webpack_require__(3);
 var windowRef_1 = __webpack_require__(7);
-var core_2 = __webpack_require__(1);
+var core_2 = __webpack_require__(0);
 var AppComponent = (function () {
     function AppComponent(router, winRef) {
         this.router = router;
@@ -2285,8 +2358,8 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'app',
-        template: __webpack_require__(37),
-        styles: [__webpack_require__(48)],
+        template: __webpack_require__(41),
+        styles: [__webpack_require__(59)],
         providers: [windowRef_1.WindowRef],
         encapsulation: core_2.ViewEncapsulation.None
     }),
@@ -2296,7 +2369,7 @@ exports.AppComponent = AppComponent;
 
 
 /***/ }),
-/* 22 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2311,11 +2384,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var core_1 = __webpack_require__(0);
 __webpack_require__(5);
-var contact_service_1 = __webpack_require__(24);
+var contact_service_1 = __webpack_require__(27);
 var bootstrap_1 = __webpack_require__(4);
-var contact_1 = __webpack_require__(25);
+var contact_1 = __webpack_require__(28);
 var ContactFormComponent = (function () {
     function ContactFormComponent(contactService, modal) {
         this.contactService = contactService;
@@ -2355,7 +2428,7 @@ __decorate([
 ], ContactFormComponent.prototype, "subject", void 0);
 ContactFormComponent = __decorate([
     core_1.Component({
-        template: __webpack_require__(38),
+        template: __webpack_require__(42),
         providers: [contact_service_1.ContactService],
         selector: 'contact-form',
     }),
@@ -2365,7 +2438,7 @@ exports.ContactFormComponent = ContactFormComponent;
 
 
 /***/ }),
-/* 23 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2380,7 +2453,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var core_1 = __webpack_require__(0);
 var ContactComponent = (function () {
     function ContactComponent() {
     }
@@ -2388,7 +2461,7 @@ var ContactComponent = (function () {
 }());
 ContactComponent = __decorate([
     core_1.Component({
-        template: __webpack_require__(39),
+        template: __webpack_require__(43),
     }),
     __metadata("design:paramtypes", [])
 ], ContactComponent);
@@ -2396,7 +2469,7 @@ exports.ContactComponent = ContactComponent;
 
 
 /***/ }),
-/* 24 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2411,11 +2484,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var core_1 = __webpack_require__(0);
 var http_1 = __webpack_require__(2);
 var http_2 = __webpack_require__(2);
-__webpack_require__(9);
 __webpack_require__(10);
+__webpack_require__(11);
 var ContactService = (function () {
     function ContactService(http) {
         this.http = http;
@@ -2447,7 +2520,7 @@ exports.ContactService = ContactService;
 
 
 /***/ }),
-/* 25 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2462,35 +2535,7 @@ exports.Contact = Contact;
 
 
 /***/ }),
-/* 26 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var HomeComponent = (function () {
-    function HomeComponent() {
-        this.pageTitle = 'Welcome';
-    }
-    return HomeComponent;
-}());
-HomeComponent = __decorate([
-    core_1.Component({
-        template: __webpack_require__(40)
-    })
-], HomeComponent);
-exports.HomeComponent = HomeComponent;
-
-
-/***/ }),
-/* 27 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2505,9 +2550,56 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
-var level_1 = __webpack_require__(29);
-var level_test_service_1 = __webpack_require__(28);
+var core_1 = __webpack_require__(0);
+var animations_1 = __webpack_require__(88);
+var HomeComponent = (function () {
+    function HomeComponent() {
+        this.state = "inactive";
+    }
+    HomeComponent.prototype.ngAfterViewInit = function () {
+        this.state = "active";
+    };
+    return HomeComponent;
+}());
+HomeComponent = __decorate([
+    core_1.Component({
+        template: __webpack_require__(44),
+        animations: [
+            animations_1.trigger('logoState', [
+                animations_1.state('inactive', animations_1.style({
+                    opacity: 0
+                })),
+                animations_1.state('active', animations_1.style({
+                    opacity: 1
+                })),
+                animations_1.transition('inactive => active', animations_1.animate('1000ms ease-in'))
+            ])
+        ]
+    }),
+    __metadata("design:paramtypes", [])
+], HomeComponent);
+exports.HomeComponent = HomeComponent;
+
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(0);
+var level_1 = __webpack_require__(32);
+var level_test_service_1 = __webpack_require__(31);
 var bootstrap_1 = __webpack_require__(4);
 var LevelTestComponent = (function () {
     function LevelTestComponent(levelTestService, modal) {
@@ -2536,7 +2628,7 @@ var LevelTestComponent = (function () {
             this.errorMessage = null;
             if (answer.answer.trim() === this.currentQuestion.answer.trim()) {
                 this.score = this.score + 1;
-                if (this.score > 2) {
+                if (this.score >= 12) {
                     this.continueNextLevel = true;
                 }
             }
@@ -2547,19 +2639,27 @@ var LevelTestComponent = (function () {
             }
             else {
                 if (this.continueNextLevel && this.questionSetList.indexOf(this.currentQuestionsSet) + 1 < this.questionSetList.length) {
-                    var successMessage = "You have passed " + this.getLevelName() + " with " + this.score + " correct answers out of " + this.questionSetList.length + ".";
+                    var successMessage = "You have passed " + this.getLevelName() + " with " + this.score + " correct answers out of " + this.currentQuestionsSet.questions.length + ".";
                     this.modelAlert("Well done!", successMessage);
                     this.increaseLevel();
                     var setIndex = this.questionSetList.indexOf(this.currentQuestionsSet);
                     this.currentQuestionsSet = this.questionSetList[setIndex + 1];
                     this.currentQuestion = this.currentQuestionsSet.questions[0];
                     this.score = 0;
+                    this.continueNextLevel = false;
                 }
                 else {
                     this.testOver = true;
-                    this.level = this.currentQuestionsSet.level;
-                    this.modelAlert("Thanks for taking the test!", "Sorry but you didn't get enough correct to move to the next level. <br/><br/>  You got " + this.score + " correct answers out of " + this.questionSetList.length + ", you need to get 12 to pass.<br/> <br/>Your Spanish level is <strong>" + this.getLevelName() + "</strong>");
-                    this.subjectLine = "I've completed the test and my level is " + this.getLevelName();
+                    if (this.continueNextLevel && this.level === level_1.Level["B2.2"]) {
+                        var successMessage = "Well done! You have passed " + this.getLevelName() + " with " + this.score + " correct answers out of " + this.currentQuestionsSet.questions.length + ". <br/> <br/>Your Spanish course level is <strong>C1</strong>";
+                        this.increaseLevel();
+                        this.modelAlert("You've completed the test", successMessage);
+                    }
+                    else {
+                        this.level = this.currentQuestionsSet.level;
+                        this.modelAlert("Thanks for taking the test!", "Sorry but you didn't get enough correct to move to the next level. <br/><br/>  You got " + this.score + " correct answers out of " + this.currentQuestionsSet.questions.length + ", you need to get 12 to pass.<br/> <br/>Your Spanish course level should be <strong>" + this.getLevelName() + "</strong>");
+                    }
+                    this.subjectLine = "I've completed the test and my Spanish course level should be " + this.getLevelName();
                 }
             }
         }
@@ -2576,9 +2676,12 @@ var LevelTestComponent = (function () {
             this.level = level_1.Level.B1;
         }
         if (level === level_1.Level.B1) {
-            this.level = level_1.Level.B2;
+            this.level = level_1.Level["B2.1"];
         }
-        if (level === level_1.Level.B2) {
+        if (level === level_1.Level["B2.1"]) {
+            this.level = level_1.Level["B2.2"];
+        }
+        if (level === level_1.Level["B2.2"]) {
             this.level = level_1.Level.C1;
         }
     };
@@ -2608,8 +2711,8 @@ var LevelTestComponent = (function () {
 LevelTestComponent = __decorate([
     core_1.Component({
         selector: "level-test",
-        template: __webpack_require__(41),
-        styles: [__webpack_require__(49)],
+        template: __webpack_require__(45),
+        styles: [__webpack_require__(60)],
         providers: [level_test_service_1.LevelTestService]
     }),
     __metadata("design:paramtypes", [level_test_service_1.LevelTestService, bootstrap_1.Modal])
@@ -2618,7 +2721,7 @@ exports.LevelTestComponent = LevelTestComponent;
 
 
 /***/ }),
-/* 28 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2668,11 +2771,11 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var core_1 = __webpack_require__(0);
 var http_1 = __webpack_require__(2);
 var http_2 = __webpack_require__(2);
-__webpack_require__(9);
 __webpack_require__(10);
+__webpack_require__(11);
 var LevelTestService = (function () {
     function LevelTestService(http) {
         this.http = http;
@@ -2712,7 +2815,7 @@ exports.LevelTestService = LevelTestService;
 
 
 /***/ }),
-/* 29 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2724,14 +2827,14 @@ var Level;
     Level[Level["A1"] = 2] = "A1";
     Level[Level["A2"] = 3] = "A2";
     Level[Level["B1"] = 4] = "B1";
-    Level[Level["B2"] = 5] = "B2";
-    Level[Level["C1"] = 6] = "C1";
-    Level[Level["C2"] = 7] = "C2";
+    Level[Level["B2.1"] = 5] = "B2.1";
+    Level[Level["B2.2"] = 6] = "B2.2";
+    Level[Level["C1"] = 7] = "C1";
 })(Level = exports.Level || (exports.Level = {}));
 
 
 /***/ }),
-/* 30 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2746,7 +2849,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var core_1 = __webpack_require__(0);
 __webpack_require__(5);
 var router_1 = __webpack_require__(3);
 var ServicesComponent = (function () {
@@ -2767,8 +2870,8 @@ var ServicesComponent = (function () {
 }());
 ServicesComponent = __decorate([
     core_1.Component({
-        template: __webpack_require__(42),
-        styles: [__webpack_require__(50)]
+        template: __webpack_require__(46),
+        styles: [__webpack_require__(61)]
     }),
     __metadata("design:paramtypes", [router_1.Router])
 ], ServicesComponent);
@@ -2776,7 +2879,7 @@ exports.ServicesComponent = ServicesComponent;
 
 
 /***/ }),
-/* 31 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2791,7 +2894,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var core_1 = __webpack_require__(0);
 var router_1 = __webpack_require__(3);
 var FooterComponent = (function () {
     function FooterComponent(router) {
@@ -2814,8 +2917,8 @@ var FooterComponent = (function () {
 FooterComponent = __decorate([
     core_1.Component({
         selector: 'shared-footer',
-        template: __webpack_require__(43),
-        styles: [__webpack_require__(51)]
+        template: __webpack_require__(47),
+        styles: [__webpack_require__(62)]
     }),
     __metadata("design:paramtypes", [router_1.Router])
 ], FooterComponent);
@@ -2823,7 +2926,7 @@ exports.FooterComponent = FooterComponent;
 
 
 /***/ }),
-/* 32 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2838,12 +2941,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(1);
+var core_1 = __webpack_require__(0);
 var router_1 = __webpack_require__(3);
+var animations_1 = __webpack_require__(88);
 var HeaderComponent = (function () {
     function HeaderComponent(el, router) {
         this.el = el;
         this.router = router;
+        this.state = "inactive";
     }
     HeaderComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -2863,10 +2968,15 @@ var HeaderComponent = (function () {
         var scrollPosition = window.pageYOffset;
         if (scrollPosition >= 700 || this.altHeader) {
             this.after = true;
+            this.state = "active";
         }
         else {
+            this.state = "inactive";
             this.after = false;
         }
+    };
+    HeaderComponent.prototype.toggleState = function () {
+        this.state = this.state === 'active' ? 'inactive' : 'active';
     };
     return HeaderComponent;
 }());
@@ -2879,8 +2989,18 @@ __decorate([
 HeaderComponent = __decorate([
     core_1.Component({
         selector: 'shared-header',
-        template: __webpack_require__(44),
-        styles: [__webpack_require__(52)]
+        template: __webpack_require__(48),
+        styles: [__webpack_require__(63)],
+        animations: [
+            animations_1.trigger('headerState', [
+                animations_1.transition('inactive => active', [
+                    animations_1.animate(500, animations_1.keyframes([
+                        animations_1.style({ transform: 'translateY(-100%)' }),
+                        animations_1.style({ transform: 'translateY(0)' })
+                    ]))
+                ])
+            ])
+        ]
     }),
     __metadata("design:paramtypes", [core_1.ElementRef, router_1.Router])
 ], HeaderComponent);
@@ -2888,19 +3008,96 @@ exports.HeaderComponent = HeaderComponent;
 
 
 /***/ }),
-/* 33 */
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(0);
+var WorkedWithcomponent = (function () {
+    function WorkedWithcomponent() {
+        this.pageTitle = 'Welcome';
+    }
+    WorkedWithcomponent.prototype.ngOnInit = function () {
+        this.carouselTileItems = new Array();
+        var tile1 = new Tile();
+        tile1.url = "/dist/assets/images/BBC-logo.png";
+        tile1.urlAlt = "/dist/assets/images/sabadell_logo.png";
+        var tile2 = new Tile();
+        tile2.url = "/dist/assets/images/sabadell_logo.png";
+        var tile3 = new Tile();
+        tile3.url = "/dist/assets/images/Betfair_logo.png";
+        var tile4 = new Tile();
+        tile4.url = "/dist/assets/images/reuter-logo.png";
+        var tile5 = new Tile();
+        tile5.url = "/dist/assets/images/Google_logo.png";
+        var tile6 = new Tile();
+        tile6.url = "/dist/assets/images/starlizard-logo.png";
+        var tile7 = new Tile();
+        tile7.url = "/dist/assets/images/EY-logo-li.png";
+        var tile8 = new Tile();
+        tile8.url = "/dist/assets/images/vodafone-logo.png";
+        var tile9 = new Tile();
+        tile9.url = "/dist/assets/images/orange-logo.png";
+        this.carouselTileItems = [tile1, tile5, tile4, tile7, tile2, tile3, tile6, tile8, tile9];
+        this.carouselTile = {
+            grid: { xs: 1, sm: 2, md: 4, lg: 4, all: 0 },
+            slide: 2,
+            speed: 400,
+            animation: 'lazy',
+            point: {
+                visible: true
+            },
+            load: 3,
+            touch: true,
+            easing: 'ease'
+        };
+    };
+    WorkedWithcomponent.prototype.mouseEnter = function (div) {
+        div.hidden = true;
+    };
+    WorkedWithcomponent.prototype.mouseLeave = function (div) {
+        div.hidden = false;
+    };
+    return WorkedWithcomponent;
+}());
+WorkedWithcomponent = __decorate([
+    core_1.Component({
+        template: __webpack_require__(49),
+        selector: 'worked-with',
+        styles: [__webpack_require__(64)]
+    })
+], WorkedWithcomponent);
+exports.WorkedWithcomponent = WorkedWithcomponent;
+var Tile = (function () {
+    function Tile() {
+    }
+    return Tile;
+}());
+exports.Tile = Tile;
+
+
+/***/ }),
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  XmlEntities: __webpack_require__(35),
-  Html4Entities: __webpack_require__(34),
+  XmlEntities: __webpack_require__(39),
+  Html4Entities: __webpack_require__(38),
   Html5Entities: __webpack_require__(8),
   AllHtmlEntities: __webpack_require__(8)
 };
 
 
 /***/ }),
-/* 34 */
+/* 38 */
 /***/ (function(module, exports) {
 
 var HTML_ALPHA = ['apos', 'nbsp', 'iexcl', 'cent', 'pound', 'curren', 'yen', 'brvbar', 'sect', 'uml', 'copy', 'ordf', 'laquo', 'not', 'shy', 'reg', 'macr', 'deg', 'plusmn', 'sup2', 'sup3', 'acute', 'micro', 'para', 'middot', 'cedil', 'sup1', 'ordm', 'raquo', 'frac14', 'frac12', 'frac34', 'iquest', 'Agrave', 'Aacute', 'Acirc', 'Atilde', 'Auml', 'Aring', 'Aelig', 'Ccedil', 'Egrave', 'Eacute', 'Ecirc', 'Euml', 'Igrave', 'Iacute', 'Icirc', 'Iuml', 'ETH', 'Ntilde', 'Ograve', 'Oacute', 'Ocirc', 'Otilde', 'Ouml', 'times', 'Oslash', 'Ugrave', 'Uacute', 'Ucirc', 'Uuml', 'Yacute', 'THORN', 'szlig', 'agrave', 'aacute', 'acirc', 'atilde', 'auml', 'aring', 'aelig', 'ccedil', 'egrave', 'eacute', 'ecirc', 'euml', 'igrave', 'iacute', 'icirc', 'iuml', 'eth', 'ntilde', 'ograve', 'oacute', 'ocirc', 'otilde', 'ouml', 'divide', 'oslash', 'ugrave', 'uacute', 'ucirc', 'uuml', 'yacute', 'thorn', 'yuml', 'quot', 'amp', 'lt', 'gt', 'OElig', 'oelig', 'Scaron', 'scaron', 'Yuml', 'circ', 'tilde', 'ensp', 'emsp', 'thinsp', 'zwnj', 'zwj', 'lrm', 'rlm', 'ndash', 'mdash', 'lsquo', 'rsquo', 'sbquo', 'ldquo', 'rdquo', 'bdquo', 'dagger', 'Dagger', 'permil', 'lsaquo', 'rsaquo', 'euro', 'fnof', 'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega', 'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta', 'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'omicron', 'pi', 'rho', 'sigmaf', 'sigma', 'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega', 'thetasym', 'upsih', 'piv', 'bull', 'hellip', 'prime', 'Prime', 'oline', 'frasl', 'weierp', 'image', 'real', 'trade', 'alefsym', 'larr', 'uarr', 'rarr', 'darr', 'harr', 'crarr', 'lArr', 'uArr', 'rArr', 'dArr', 'hArr', 'forall', 'part', 'exist', 'empty', 'nabla', 'isin', 'notin', 'ni', 'prod', 'sum', 'minus', 'lowast', 'radic', 'prop', 'infin', 'ang', 'and', 'or', 'cap', 'cup', 'int', 'there4', 'sim', 'cong', 'asymp', 'ne', 'equiv', 'le', 'ge', 'sub', 'sup', 'nsub', 'sube', 'supe', 'oplus', 'otimes', 'perp', 'sdot', 'lceil', 'rceil', 'lfloor', 'rfloor', 'lang', 'rang', 'loz', 'spades', 'clubs', 'hearts', 'diams'];
@@ -3053,7 +3250,7 @@ module.exports = Html4Entities;
 
 
 /***/ }),
-/* 35 */
+/* 39 */
 /***/ (function(module, exports) {
 
 var ALPHA_INDEX = {
@@ -3214,61 +3411,834 @@ module.exports = XmlEntities;
 
 
 /***/ }),
-/* 36 */
+/* 40 */
 /***/ (function(module, exports) {
 
 module.exports = "<!-- Banner -->\r\n<section class=\"about-us\" id=\"banner\">\r\n    <div class=\"inner\">\r\n        <header>\r\n            <h2>Who we are</h2>\r\n        </header>\r\n    </div>\r\n</section>\r\n<!-- Main -->\r\n<article id=\"main\">\r\n    <!-- One -->\r\n    <section class=\"wrapper style4 container\">\r\n        <div class=\"row\">\r\n            <div class=\"8u 12u(narrower) important(narrower)\">\r\n                <!-- Content -->\r\n                <div class=\"content\">\r\n                    <section>\r\n                        <header>\r\n                            <h3>How we work</h3>\r\n                        </header>\r\n                        <ul class=\"tick\">\r\n                            <li>\r\n                                We are a small, but take pride in how we teach.\r\n                            </li>\r\n                            <li>\r\n                                We enjoy teaching languages and love to see how our students learn and progress.\r\n                            </li>\r\n                            <li>\r\n                                We tailor our lessons for every single student or group to suit their needs, adapting throughout the course whenever is needed - that is the key to our success.\r\n                            </li>\r\n                            <li>\r\n                                We understand that learning a language is not easy and takes practice. We provide our students with the tools to carry on practicing the different skills (oral, listening, grammar, reading) outside the classroom with podcasts, apps, books and plenty of other materials.\r\n                            </li>\r\n                            <li>\r\n                                We continually provide feedback to students so they know their level and how they are progressing.\r\n                            </li>\r\n                            <li>\r\n                                We follow the European Framework of languages and we can help in the preparation of official DELE exams\r\n                            </li>\r\n                        </ul>\r\n                    </section>\r\n                </div>\r\n            </div>\r\n            <div class=\"4u 12u(narrower)\">\r\n                <!-- Sidebar -->\r\n                <div class=\"sidebar\">\r\n                    <section>\r\n                        <blockquote>\"Thanks to David, I jumped from zero to B2 intermediate in less than 2 years!\"<br /><i>Dmitry, SIL Student 2 years</i></blockquote>\r\n                    </section>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"8u 12u(narrower) important(narrower)\">\r\n                <section>\r\n                    <header>\r\n                        <h3>Our Teachers</h3>\r\n                    </header>\r\n                    <p>\r\n                        All our teachers are qualified and experienced Spanish or Latin American natives who have an excellent understanding of the Spanish and English languages.\r\n                        We are approachable, we offer relaxed but professional lessons and believe they need to be enjoyable and fun in order to succeed. We understand the importance of cultural references to fully understand a new language and take it into account during the lessons.\r\n                        We use our own materials and the best resources compiled throughout the years with many interactive and self-testing computer based resources and apps you can use when commuting.\r\n                    </p>\r\n                </section>\r\n            </div>\r\n            <div class=\"4u 12u(narrower)\">\r\n                <div class=\"sidebar\">\r\n                    <section>\r\n                        <section>\r\n                            <blockquote>\"I have had a few Spanish tutors over the last few years and have to say Spanish In London are the best so far, lessons are fun, engaging and I've made improvements I never thought I would\"<br /><i>Niall, SIL Student 4 years</i></blockquote>\r\n                        </section>\r\n                    </section>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n    \r\n</article>\r\n<!-- CTA -->\r\n<section id=\"cta\">\r\n    <header>\r\n        <h2>Want to work for us?</h2>\r\n        <p>Spanish In London are looking for experienced Spanish teachers to join the team!<br /> If interested get in touch telling us a little about yourself!</p>\r\n    </header>\r\n    <footer>\r\n        <span class=\"icon fa-envelope\"></span>  <a href=\"mailto:hola@spanish-in-london.co.uk\">hola@spanish-in-london.co.uk</a>\r\n        <p><span class=\"icon fa-mobile\"></span>  +44 7758 288843</p>\r\n        <ul class=\"buttons\">\r\n            <li><a [routerLink]=\"['/contact']\" class=\"button special\">Send us a message</a></li>\r\n        </ul>\r\n    </footer>\r\n</section>\r\n";
 
 /***/ }),
-/* 37 */
+/* 41 */
 /***/ (function(module, exports) {
 
 module.exports = "<div id=\"page-wrapper\">\r\n    <shared-header></shared-header>\r\n\r\n\r\n\r\n    <router-outlet></router-outlet>\r\n\r\n\r\n\r\n    <shared-footer></shared-footer>\r\n</div>";
 
 /***/ }),
-/* 38 */
+/* 42 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"content\">\r\n    <form (ngSubmit)=\"onSubmit(contactForm)\" #contactForm=\"ngForm\" *ngIf=\"!success\">\r\n        <div class=\"row 50%\">\r\n            <div class=\"6u 12u(mobile)\">\r\n                <input type=\"text\" [(ngModel)]=\"contact.name\" #name=\"ngModel\" name=\"name\" required placeholder=\"Name\" />\r\n            </div>\r\n            <div class=\"6u 12u(mobile)\">\r\n                <input type=\"email\" [(ngModel)]=\"contact.email\" #email=\"ngModel\" name=\"email\" required pattern=\"^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$\" placeholder=\"Email\" />\r\n            </div>\r\n        </div>\r\n        <div class=\"row 50%\">\r\n            <div class=\"6u 12u(mobile)\">\r\n                <div *ngIf=\"name.errors && (name.dirty || name.touched)\">\r\n                    <div [hidden]=\"!name.errors.required\">\r\n                        Please provide your name\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"6u 12u(mobile)\">\r\n                <div [hidden]=\"email.valid || email.untouched\">\r\n                    <div *ngIf=\"email.errors && email.errors.required\">\r\n                        Please provide an email address\r\n                    </div>\r\n                    <div *ngIf=\"email.errors && email.errors.pattern\">\r\n                        Please provide a valid email\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"row 50%\">\r\n            <div class=\"12u\">\r\n                <input type=\"text\" name=\"subject\" [(ngModel)]=\"contact.subject\" #subject=\"ngModel\" placeholder=\"Subject\" />\r\n            </div>\r\n        </div>\r\n        <div class=\"row 50%\">\r\n            <div class=\"12u\">\r\n                <textarea name=\"message\" [(ngModel)]=\"contact.message\" #message=\"ngModel\" placeholder=\"Message\" required rows=\"7\"></textarea>\r\n            </div>\r\n        </div>\r\n        <div class=\"row 50%\">\r\n            <div [hidden]=\"message.valid || message.untouched\">\r\n                <div *ngIf=\"message.errors && message.errors.required\">\r\n                    Please provide a message\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"12u\">\r\n                <ul class=\"buttons\">\r\n                    <li><input type=\"submit\" [disabled]=\"!contactForm.form.valid\" value=\"Send Message\" /></li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </form>\r\n</div>\r\n";
 
 /***/ }),
-/* 39 */
+/* 43 */
 /***/ (function(module, exports) {
 
 module.exports = "<!-- Main -->\r\n<article id=\"main\">\r\n\r\n    <header class=\"special container\">\r\n        <span class=\"icon fa-envelope\"></span>\r\n        <h2>Get In Touch</h2>\r\n        <p>Use the form below with your question and we will get back to you.</p>\r\n    </header>\r\n\r\n    <!-- One -->\r\n    <section class=\"wrapper style2 special container 75%\">\r\n        <!-- Contact Form -->\r\n        <contact-form></contact-form>\r\n    </section>\r\n\r\n</article>";
 
 /***/ }),
-/* 40 */
+/* 44 */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Banner -->\r\n<section id=\"banner\">\r\n    <div class=\"inner\">\r\n        <header>\r\n            <img src=\"/dist/assets/images/logo-long.svg\" />\r\n            <h2 class=\"home-title\">Learn the language, love the culture!</h2>\r\n        </header>\r\n    </div>\r\n</section>\r\n<article id=\"main\">\r\n    <header class=\"special container home\">\r\n        <h2 class=\"home-header\">\r\n            We are a team of <strong>native, qualified</strong> and <strong>experienced</strong> <br />Spanish and Catalan tutors <br />passionate\r\n            about teaching our language!\r\n        </h2>\r\n    </header>\r\n    <!-- Two -->\r\n    <!-- One -->\r\n    <section class=\"wrapper style2 container special\">\r\n        <div class=\"row 50%\">\r\n            <div class=\"12u 12u(narrower)\">\r\n\r\n                <header>\r\n                    <h2><strong>tailor-made</strong> services to help you achieve your learning goals!</h2>\r\n                </header>\r\n                <p>\r\n                    With over 12 years of experience, <strong>Spanish in London</strong> has been working with both corporate\r\n                    and private clients poviding customized one-to-one and small group language\r\n                    courses so you, or your employees, can use Spanish effectively in any business or\r\n                    private situation. Our tutors teach in a range of different industries each with varying\r\n                    business needs, including <strong>media, technology, finance, tourism and leisure.</strong>\r\n                </p>\r\n                <footer>\r\n                    <ul class=\"buttons\">\r\n                        <li><a [routerLink]=\"['/services']\" class=\"button\">See Our services</a></li>\r\n                    </ul>\r\n                </footer>\r\n\r\n            </div>\r\n        </div>\r\n    </section>\r\n    <section class=\"wrapper style3 container special\">\r\n        <!--<h2>\r\n            Why choose us?\r\n        </h2>-->\r\n        <div class=\"row\">\r\n            <div class=\"4u 12u(narrower)\">\r\n                <section>\r\n                    <span class=\"icon featured fa-map-o\"></span>\r\n                    <header>\r\n                        <h3>WE COME TO YOU</h3>\r\n                    </header>\r\n                    <p>We understand that you are busy so we come to your office, or any location within zones 1 and 2, making it easier to balance your studies and your work life.</p>\r\n                </section>\r\n\r\n            </div>\r\n            <div class=\"4u 12u(narrower)\">\r\n                <section>\r\n                    <span class=\"icon featured fa-comments\"></span>\r\n                    <header>\r\n                        <h3>Experienced native tutors</h3>\r\n                    </header>\r\n                    <p>\r\n                        All our tutors are native speakers and fully qualified to teach with years of experience. We also cover and adjust our Spanish to the dialect you need.\r\n                    </p>\r\n                </section>\r\n            </div>\r\n            <div class=\"4u 12u(narrower)\">\r\n\r\n                <section>\r\n                    <span class=\"icon featured fa-line-chart\"></span>\r\n                    <header>\r\n                        <h3>BUSINESS OR PERSONAL</h3>\r\n                    </header>\r\n                    <p>\r\n                        We tailor the syllabus to you, focusing the learning process for your business and day to day needs.\r\n                    </p>\r\n                </section>\r\n\r\n            </div>\r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"4u 12u(narrower)\">\r\n                <section>\r\n                    <span class=\"icon featured fa-diamond\"></span>\r\n                    <header>\r\n                        <h3>BESPOKE</h3>\r\n                    </header>\r\n                    <p>One to one lessons or small groups; once, twice, three times a week; one, two, three hour lessons; you choose what is best for you.</p>\r\n                </section>\r\n\r\n            </div>\r\n            <div class=\"4u 12u(narrower)\">\r\n\r\n                <section>\r\n                    <span class=\"icon featured fa-cogs\"></span>\r\n                    <header>\r\n                        <h3>WE ARE NOT SCARED OF TECHNOLOGY</h3>\r\n                    </header>\r\n                    <p>\r\n                        We take advantage of the latest technologies to help you learn with provide materials online as well as interactive activities you can access from your computer or phone.\r\n                    </p>\r\n                </section>\r\n\r\n            </div>\r\n            <div class=\"4u 12u(narrower)\">\r\n\r\n                <section>\r\n                    <span class=\"icon featured fa-skype\"></span>\r\n                    <header>\r\n                        <h3>IN PERSON OR ONLINE</h3>\r\n                    </header>\r\n                    <p>\r\n                        We offer Skype or Facetime lessons as well as classes in person, this way you do not have\r\n                        to miss anything, even if you are not in London.\r\n                    </p>\r\n                </section>\r\n\r\n            </div>\r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"12u 12u(narrower)\">\r\n                <footer>\r\n                    <ul class=\"buttons\">\r\n                        <li><a [routerLink]=\"['/about']\" class=\"button\">Read more about us</a></li>\r\n                    </ul>\r\n                </footer>\r\n            </div>\r\n        </div>\r\n    </section>\r\n   \r\n    <!-- Three -->\r\n    <section class=\"wrapper style3 container special worked\">\r\n        <header class=\"major\">\r\n            <h2>Who we have worked with</h2>\r\n            <p>For more than 10 years Spanish in London has been offering their language services to a wide range of companies in London including media, betting, insurance, accounting and consulting industries. We also have private clients who just want to learn a new language for personal reasons and want to do it before, during or after work.</p>\r\n        </header>\r\n        <div class=\"row worked-with\">\r\n            <div class=\"logo-table\">\r\n                <ul class=\"logos\">\r\n                    <li><img src=\"/dist/assets/images/BBC-logo.png\" /></li>\r\n                    <li><img src=\"/dist/assets/images/sabadell_logo.png\" /></li>\r\n                    <li><img src=\"/dist/assets/images/Betfair_logo.png\" /></li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"row worked-with\">\r\n            <div class=\"logo-table\">\r\n                <ul class=\"logos\">\r\n                    <li><img src=\"/dist/assets/images/reuter-logo.png\" /></li>\r\n                    <li><img src=\"/dist/assets/images/Google_logo.png\" /></li>\r\n                    <li><img src=\"/dist/assets/images/starlizard-logo.png\" /></li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"row worked-with\">\r\n            <div class=\"logo-table\">\r\n                <ul class=\"logos\">\r\n                    <li><img src=\"/dist/assets/images/EY-logo-horizontal.png\" /></li>\r\n                    <li><img src=\"/dist/assets/images/vodafone-logo.png\" /></li>\r\n                    <li><img src=\"/dist/assets/images/orange-logo.png\" /></li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</article>\r\n<!-- CTA -->\r\n<section id=\"cta\" class=\"level-test\">\r\n    <header>\r\n        <h2>What level am I?</h2>\r\n        <p>Take a free online test to find out your level!</p>\r\n    </header>\r\n    <footer>\r\n        <ul class=\"buttons\">\r\n            <li><a href=\"http://www.cervantes.to/test_inicial.html\" target=\"_blank\" class=\"button special\">Take the test</a></li>\r\n        </ul>\r\n    </footer>\r\n</section>";
+module.exports = "<!-- Banner -->\r\n<section id=\"banner\">\r\n    <div  class=\"inner\">\r\n        <header>\r\n            <img src=\"/dist/assets/images/logo-long.svg\" />\r\n            <h2 [@logoState]=\"state\" class=\"home-title\">Learn the language, love the culture!</h2>\r\n        </header>\r\n    </div>\r\n</section>\r\n<article id=\"main\">\r\n    <header class=\"special container home\">\r\n        <h2 class=\"home-header\">\r\n            We are a team of <strong>native, qualified</strong> and <strong>experienced</strong> <br />Spanish and Catalan tutors <br />passionate\r\n            about teaching our language!\r\n        </h2>\r\n    </header>\r\n    <!-- Two -->\r\n    <!-- One -->\r\n    <section class=\"wrapper style2 container special\">\r\n        <div class=\"row 50%\">\r\n            <div class=\"12u 12u(narrower)\">\r\n\r\n                <header>\r\n                    <h2><strong>tailor-made</strong> services to help you achieve your learning goals!</h2>\r\n                </header>\r\n                <p>\r\n                    With over 12 years of experience, <strong>Spanish in London</strong> has been working with both corporate\r\n                    and private clients poviding customized one-to-one and small group language\r\n                    courses so you, or your employees, can use Spanish effectively in any business or\r\n                    private situation. Our tutors teach in a range of different industries each with varying\r\n                    business needs, including <strong>media, technology, finance, tourism and leisure.</strong>\r\n                </p>\r\n                <footer>\r\n                    <ul class=\"buttons\">\r\n                        <li><a [routerLink]=\"['/services']\" class=\"button\">See Our services</a></li>\r\n                    </ul>\r\n                </footer>\r\n\r\n            </div>\r\n        </div>\r\n    </section>\r\n    <section class=\"wrapper style3 container special\">\r\n        <!--<h2>\r\n            Why choose us?\r\n        </h2>-->\r\n        <div class=\"row\">\r\n            <div class=\"4u 12u(narrower)\">\r\n                <section>\r\n                    <span class=\"icon featured fa-map-o\"></span>\r\n                    <header>\r\n                        <h3>WE COME TO YOU</h3>\r\n                    </header>\r\n                    <p>We understand that you are busy so we come to your office, or any location within zones 1 and 2, making it easier to balance your studies and your work life.</p>\r\n                </section>\r\n\r\n            </div>\r\n            <div class=\"4u 12u(narrower)\">\r\n                <section>\r\n                    <span class=\"icon featured fa-comments\"></span>\r\n                    <header>\r\n                        <h3>Experienced native tutors</h3>\r\n                    </header>\r\n                    <p>\r\n                        All our tutors are native speakers and fully qualified to teach with years of experience. We also cover and adjust our Spanish to the dialect you need.\r\n                    </p>\r\n                </section>\r\n            </div>\r\n            <div class=\"4u 12u(narrower)\">\r\n\r\n                <section>\r\n                    <span class=\"icon featured fa-line-chart\"></span>\r\n                    <header>\r\n                        <h3>BUSINESS OR PERSONAL</h3>\r\n                    </header>\r\n                    <p>\r\n                        We tailor the syllabus to you, focusing the learning process for your business and day to day needs.\r\n                    </p>\r\n                </section>\r\n\r\n            </div>\r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"4u 12u(narrower)\">\r\n                <section>\r\n                    <span class=\"icon featured fa-diamond\"></span>\r\n                    <header>\r\n                        <h3>BESPOKE</h3>\r\n                    </header>\r\n                    <p>One to one lessons or small groups; once, twice, three times a week; one, two, three hour lessons; you choose what is best for you.</p>\r\n                </section>\r\n\r\n            </div>\r\n            <div class=\"4u 12u(narrower)\">\r\n\r\n                <section>\r\n                    <span class=\"icon featured fa-cogs\"></span>\r\n                    <header>\r\n                        <h3>WE ARE NOT SCARED OF TECHNOLOGY</h3>\r\n                    </header>\r\n                    <p>\r\n                        We take advantage of the latest technologies to help you learn with provide materials online as well as interactive activities you can access from your computer or phone.\r\n                    </p>\r\n                </section>\r\n\r\n            </div>\r\n            <div class=\"4u 12u(narrower)\">\r\n\r\n                <section>\r\n                    <span class=\"icon featured fa-skype\"></span>\r\n                    <header>\r\n                        <h3>IN PERSON OR ONLINE</h3>\r\n                    </header>\r\n                    <p>\r\n                        We offer Skype or Facetime lessons as well as classes in person, this way you do not have\r\n                        to miss anything, even if you are not in London.\r\n                    </p>\r\n                </section>\r\n\r\n            </div>\r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"12u 12u(narrower)\">\r\n                <footer>\r\n                    <ul class=\"buttons\">\r\n                        <li><a [routerLink]=\"['/about']\" class=\"button\">Read more about us</a></li>\r\n                    </ul>\r\n                </footer>\r\n            </div>\r\n        </div>\r\n    </section>\r\n    <worked-with></worked-with>\r\n</article>\r\n<!-- CTA -->\r\n<section id=\"cta\" class=\"level-test\">\r\n    <header>\r\n        <h2>What level am I?</h2>\r\n        <p>Take our free online test to find out your level!</p>\r\n    </header>\r\n    <footer>\r\n        <ul class=\"buttons\">\r\n            <li><a [routerLink]=\"['/level-test']\" class=\"button special\">Take the test</a></li>\r\n        </ul>\r\n    </footer>\r\n</section>";
 
 /***/ }),
-/* 41 */
+/* 45 */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<!-- Main -->\r\n<article id=\"main\">\r\n    <!--<header *ngIf=\"!testStarted\" class=\"special container\">\r\n        <span class=\"icon fa-line-chart\"></span>        \r\n        <h2>Level Test</h2>\r\n    </header>-->\r\n    <section class=\"wrapper style4 container\">\r\n        <!-- Test Start Page -->\r\n        <div *ngIf=\"!testStarted && !testOver\">\r\n            <div class=\"row\">\r\n                <div class=\"12u 12u(narrower) important(narrower)\">\r\n                    <h2>Welcome to Spanish In London level test</h2>\r\n                    <p>There are 75 questions divided into 5 levels, from beginners (A1) to advanced (C1).</p>\r\n                    <p>\r\n                        Select the right answer in every sentence and click next, if you get enough correct at the end of each section, you can\r\n                        move on to test yourself at the next level. <br/> <br /><strong>Estas listo?</strong>\r\n                    </p>\r\n                    <ul class=\"buttons\">\r\n                        <li>\r\n                            <button (click)=\"startTest()\" class=\"button special small\">Start Test</button>\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        \r\n        <!-- Level Test-->\r\n        <div *ngIf=\"testStarted  && !testOver\">\r\n            <div class=\"row\">\r\n                <div class=\"12u 12u(narrower) important(narrower)\">\r\n                    <ul class=\"list-group\">\r\n                        <li class=\"list-group-item\">Level: </li>\r\n                        <li [ngClass]=\"{'active': getLevelName() === 'A1'  }\" class=\"list-group-item\">A1</li>\r\n                        <li [ngClass]=\"{'active': getLevelName() === 'A2'  }\" class=\"list-group-item\">A2</li>\r\n                        <li [ngClass]=\"{'active': getLevelName() === 'B1'  }\" class=\"list-group-item\">B1</li>\r\n                        <li [ngClass]=\"{'active': getLevelName() === 'B2'  }\" class=\"list-group-item\">B2</li>\r\n                        <li [ngClass]=\"{'active': getLevelName() === 'C1'  }\" class=\"list-group-item\">C1</li>\r\n                        <li [ngClass]=\"{'active': getLevelName() === 'C2'  }\" class=\"list-group-item\">C2</li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"row\">\r\n                <div class=\"12u 12u(narrower) important(narrower)\">\r\n                    <div *ngIf=\"questionsLoaded\">\r\n                        <div class=\"progress\">\r\n                            <div class=\"progress-bar\" role=\"progressbar\" [style.width]=\"getPercentageComplete() + '%'\">\r\n                                Question {{getQuestionNumber()}} of {{getTotalQuestions()}} \r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <p>{{infoMessage}}</p>\r\n                </div>\r\n            </div>\r\n            <div class=\"row\">\r\n                <div class=\"12u 12u(narrower) important(narrower)\">\r\n                    <div *ngIf=\"questionsLoaded\">\r\n                        Question {{getQuestionNumber()}}: {{currentQuestion.question}}\r\n                        <p></p>\r\n                        <form #f=\"ngForm\" novalidate (ngSubmit)=\"submitAnswer(f.value)\" class=\"form-horizontal\">\r\n                            <div *ngFor=\"let option of currentQuestion.options; let idx = index\" class=\"radio\">\r\n                                \r\n                                <label *ngIf=\"option\">\r\n                                    <input required type=\"radio\" [value]=\"option\" [ngModel]=\"value\" [checked]=\"idx === 0\" name=\"answer\"> {{option}}\r\n                                </label>\r\n                            </div>\r\n                            <div *ngIf=\"errorMessage\" class=\"row\">\r\n                                <div class=\"12u\">\r\n                                    <p class=\"alert alert-danger\">{{errorMessage}}</p>\r\n                                </div>\r\n                            </div>\r\n\r\n                            <div class=\"12u\">\r\n                                <ul class=\"buttons\">\r\n                                    <li>\r\n                                        <button [disabled]=\"testOver\" type=\"submit\" class=\"button special small\">Next</button>\r\n                                    </li>\r\n                                </ul>\r\n                            </div>\r\n\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        \r\n        <!-- Contact Form -->\r\n        <div *ngIf=\"testOver\">\r\n            <header>\r\n                <h2>Next step is to drop us a message to find out what we can do to get you to the next level.</h2>\r\n            </header>\r\n            <contact-form [subject]=\"subjectLine\"></contact-form>\r\n        </div>\r\n        \r\n    </section>\r\n</article>\r\n\r\n\r\n\r\n";
+module.exports = "\r\n<!-- Main -->\r\n<article id=\"main\">\r\n    <!--<header *ngIf=\"!testStarted\" class=\"special container\">\r\n        <span class=\"icon fa-line-chart\"></span>        \r\n        <h2>Level Test</h2>\r\n    </header>-->\r\n    <section class=\"wrapper style4 container\">\r\n        <!-- Test Start Page -->\r\n        <div *ngIf=\"!testStarted && !testOver\">\r\n            <div class=\"row\">\r\n                <div class=\"12u 12u(narrower) important(narrower)\">\r\n                    <h2>Welcome to Spanish In London level test</h2>\r\n                    <p>There are 75 questions divided into 5 levels, from beginners (A1) to advanced (B2.2).</p>\r\n                    <p>\r\n                        Select the right answer in every sentence and click next, if you get enough correct at the end of each section, you can\r\n                        move on to test yourself at the next level. <br/> <br /><strong>Estas listo?</strong>\r\n                    </p>\r\n                    <ul class=\"buttons\">\r\n                        <li>\r\n                            <button (click)=\"startTest()\" class=\"button special small\">Start Test</button>\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        \r\n        <!-- Level Test-->\r\n        <div *ngIf=\"testStarted  && !testOver\">\r\n            <div class=\"row\">\r\n                <div class=\"12u 12u(narrower) important(narrower)\">\r\n                    <ul class=\"list-group\">\r\n                        <li class=\"list-group-item\">Level: </li>\r\n                        <li [ngClass]=\"{'active': getLevelName() === 'A1'  }\" class=\"list-group-item\">A1</li>\r\n                        <li [ngClass]=\"{'active': getLevelName() === 'A2'  }\" class=\"list-group-item\">A2</li>\r\n                        <li [ngClass]=\"{'active': getLevelName() === 'B1'  }\" class=\"list-group-item\">B1</li>\r\n                        <li [ngClass]=\"{'active': getLevelName() === 'B2.1'  }\" class=\"list-group-item\">B2.1</li>\r\n                        <li [ngClass]=\"{'active': getLevelName() === 'B2.2'  }\" class=\"list-group-item\">B2.2</li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"row\">\r\n                <div class=\"12u 12u(narrower) important(narrower)\">\r\n                    <div *ngIf=\"questionsLoaded\">\r\n                        <div class=\"progress\">\r\n                            <div class=\"progress-bar\" role=\"progressbar\" [style.width]=\"getPercentageComplete() + '%'\">\r\n                                Question {{getQuestionNumber()}} of {{getTotalQuestions()}} \r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <p>{{infoMessage}}</p>\r\n                </div>\r\n            </div>\r\n            <div class=\"row\">\r\n                <div class=\"12u 12u(narrower) important(narrower)\">\r\n                    <div *ngIf=\"questionsLoaded\">\r\n                        Question {{getQuestionNumber()}}: {{currentQuestion.question}}\r\n                        <p></p>\r\n                        <form #f=\"ngForm\" novalidate (ngSubmit)=\"submitAnswer(f.value)\" class=\"form-horizontal\">\r\n                            <div *ngFor=\"let option of currentQuestion.options; let idx = index\" class=\"radio\">\r\n                                \r\n                                <label *ngIf=\"option\">\r\n                                    <input required type=\"radio\" [value]=\"option\" [ngModel]=\"value\" [checked]=\"idx === 0\" name=\"answer\"> {{option}}\r\n                                </label>\r\n                            </div>\r\n                            <div *ngIf=\"errorMessage\" class=\"row\">\r\n                                <div class=\"12u\">\r\n                                    <p class=\"alert alert-danger\">{{errorMessage}}</p>\r\n                                </div>\r\n                            </div>\r\n\r\n                            <div class=\"12u\">\r\n                                <ul class=\"buttons\">\r\n                                    <li>\r\n                                        <button [disabled]=\"testOver\" type=\"submit\" class=\"button special small\">Next</button>\r\n                                    </li>\r\n                                </ul>\r\n                            </div>\r\n\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        \r\n        <!-- Contact Form -->\r\n        <div *ngIf=\"testOver\">\r\n            <header>\r\n                <h2>Next step is to drop us a message to find out what we can do to get you to the next level.</h2>\r\n            </header>\r\n            <contact-form [subject]=\"subjectLine\"></contact-form>\r\n        </div>\r\n        \r\n    </section>\r\n</article>\r\n\r\n\r\n\r\n";
 
 /***/ }),
-/* 42 */
+/* 46 */
 /***/ (function(module, exports) {
 
 module.exports = "<!-- Banner -->\r\n<section class=\"services-banner\" id=\"banner\">\r\n    <div class=\"inner\">\r\n        <header>\r\n            <h2>What we offer</h2>\r\n        </header>\r\n    </div>\r\n</section>\r\n<!-- Main -->\r\n<article id=\"main\">\r\n    <section class=\"wrapper container services\">\r\n        <tabset>\r\n            <tab [active]=\"isCorporateActive\" title=\"Corporate\">\r\n                <!-- Two -->\r\n                <section class=\"wrapper style1 special\">\r\n                    <div class=\"row\">\r\n                        <div class=\"12u\">\r\n                            <h2>Corporate Services</h2>\r\n                            <p>We provide tailored in-house Spanish training: one to one or small group language courses for professionals and private students, no matter what your goal is.</p>\r\n                            <img class=\"image featured\" src=\"/dist/assets/images/corporate-services.jpg\" alt=\"\">\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\">\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Group Lessons</h3>\r\n                                </header>\r\n                                <p>Group lessons are the perfect way to start learning, allowing you to begin interacting with people in your new language. We keep our groups small to give each person the time to practice their Spanish.</p>\r\n                            </section>\r\n                        </div>\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>1 to 1</h3>\r\n                                </header>\r\n                                <p>If you are looking for something more personal, then our 1 to 1 classes can be tailor made for your individual needs.</p>\r\n                            </section>\r\n                        </div>\r\n                    </div>\r\n                   \r\n                    <div class=\"row\">\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Felixibale Packages</h3>\r\n                                </header>\r\n                                <p>Keeping it flexible, we can create the perfect package of lessons. Packages start from 10 hrs of lessons up to whatever you need, including intensive courses.\r\n                                </p>\r\n                            </section>\r\n                        </div>\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Skype</h3>\r\n                                </header>\r\n                                <p>Prefer lessons online? We can have the lessons via Skype or Facetime, your choice.</p>\r\n                            </section>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\">\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Exam Prep</h3>\r\n                                </header>\r\n                                <p>Need to have a qualification? We’ll prepare you for the official DELE exams or any other qualification you need.</p>\r\n                            </section>\r\n                        </div>\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Catalan</h3>\r\n                                </header>\r\n                                <p>Want to learn Catalan? We can also provide that. David is our native Catalan expert and happy to teach you this unique language</p>\r\n                            </section>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\">\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Conversation groups</h3>\r\n                                </header>\r\n                                <p>We put together conversation groups with students from similar levels so they can practice their speaking skills. All groups are overseen by a tutor and grammar and vocabulary topics are also discussed and corrected when necessary.</p>\r\n                            </section>\r\n                        </div>\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>1 to 1 <br/>Conversation\r\n                                    </h3>\r\n                                </header>\r\n                                <p>One to one conversation lessons with a tutor can really take your language to the next level. Different topics every lesson to practice and learn as much vocabulary and grammar as possible and get confident in your speaking skills.</p>\r\n                            </section>\r\n                        </div>\r\n                    </div>\r\n                </section>\r\n            </tab>\r\n            <tab [active]=\"isPersonalActive\" title=\"Private\">\r\n                <!-- Two -->\r\n                <section class=\"wrapper style1 special\">\r\n                    <div class=\"row\">\r\n                        <div class=\"12u\">\r\n                            <h2>Private Services</h2>\r\n                            <p>We provide tailored in-house Spanish training: one to one or small group language courses for professionals and private students, no matter what your goal is.</p>\r\n                            <img class=\"image featured\" src=\"/dist/assets/images/people-coffee-tea-meeting.jpg\" alt=\"\">\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\">\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Group Lessons</h3>\r\n                                </header>\r\n                                <p>Group lessons are the perfect way to start learning, allowing you to begin interacting with people in your new language. We keep our groups small to give each person the time to practice their Spanish.</p>\r\n                            </section>\r\n                        </div>\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>1 to 1</h3>\r\n                                </header>\r\n                                <p>If you are looking for something more personal, then our 1 to 1 classes can be tailor made for your individual needs.</p>\r\n                            </section>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\">\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Felixibale Packages</h3>\r\n                                </header>\r\n                                <p>\r\n                                    Keeping it flexible, we can create the perfect package of lessons. Packages start from 10 hrs of lessons up to whatever you need, including intensive courses.\r\n                                </p>\r\n                            </section>\r\n                        </div>\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Skype</h3>\r\n                                </header>\r\n                                <p>Prefer lessons online? We can have the lessons via Skype or Facetime, your choice.</p>\r\n                            </section>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\">\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Exam Prep</h3>\r\n                                </header>\r\n                                <p>Need to have a qualification? We’ll prepare you for the official DELE exams or any other qualification you need.</p>\r\n                            </section>\r\n                        </div>\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Catalan</h3>\r\n                                </header>\r\n                                <p>Want to learn Catalan? We can also provide that. David is our native Catalan expert and happy to teach you this unique language</p>\r\n                            </section>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row\">\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>Conversation groups</h3>\r\n                                </header>\r\n                                <p>We put together conversation groups with students from similar levels so they can practice their speaking skills. All groups are overseen by a tutor and grammar and vocabulary topics are also discussed and corrected when necessary.</p>\r\n                            </section>\r\n                        </div>\r\n                        <div class=\"6u 12u(narrower)\">\r\n                            <section>\r\n                                <header>\r\n                                    <h3>\r\n                                        1 to 1 <br />Conversation\r\n                                    </h3>\r\n                                </header>\r\n                                <p>One to one conversation lessons with a tutor can really take your language to the next level. Different topics every lesson to practice and learn as much vocabulary and grammar as possible and get confident in your speaking skills.</p>\r\n                            </section>\r\n                        </div>\r\n                    </div>\r\n                </section>\r\n            </tab>\r\n        </tabset>\r\n    </section>\r\n</article>\r\n<!-- CTA -->\r\n<section id=\"cta\"  class=\"get-in-touch\">\r\n    <header>\r\n        <h2>Want more info?</h2>\r\n        <p>Drop us a line for a quote, more info or an informal chat.</p>\r\n    </header>\r\n    <footer>\r\n        <span class=\"icon fa-envelope\"></span>  <a href=\"mailto:hola@spanish-in-london.co.uk\">hola@spanish-in-london.co.uk</a>\r\n        <p><span class=\"icon fa-mobile\"></span>  +44 7758 288843</p>\r\n        <ul class=\"buttons\">\r\n            <li><a [routerLink]=\"['/contact']\" class=\"button special\">Send us a message</a></li>\r\n        </ul>\r\n    </footer>\r\n</section>\r\n";
 
 /***/ }),
-/* 43 */
+/* 47 */
 /***/ (function(module, exports) {
 
 module.exports = "<!-- Footer -->\r\n<footer *ngIf=\"!testMode\" id=\"footer\">\r\n\r\n    <ul class=\"icons\">\r\n        <li><a href=\"https://twitter.com/Spanishinldn\" class=\"icon circle fa-twitter\"><span class=\"label\">Twitter</span></a></li>\r\n        <li><a href=\"https://www.facebook.com/learnspanishinlondon/\" class=\"icon circle fa-facebook\"><span class=\"label\">Facebook</span></a></li>\r\n        <li><a href=\"https://www.linkedin.com/in/david-amela-6007454/\" class=\"icon circle fa-linkedin\"><span class=\"label\">LinkedIn</span></a></li>\r\n    </ul>\r\n\r\n    <ul class=\"copyright\">\r\n        <li>&copy; Spanish In London</li>\r\n        <li>Design: <a href=\"http://html5up.net\">HTML5 UP</a></li>\r\n        <li><a href=\"mailto:hola@spanish-in-london-co.uk\">hola@spanish-in-london.co.uk</a></li>\r\n    </ul>\r\n\r\n</footer>";
 
 /***/ }),
-/* 44 */
+/* 48 */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Header -->\r\n<header  [ngClass]=\"{'alt reveal' : !after}\" id=\"header\">\r\n    <h1 id=\"logo\">\r\n        <a [routerLink]=\"['/home']\">Spanish In London</a>\r\n    </h1>\r\n    <nav id=\"nav\">\r\n        <ul>\r\n            <li class=\"current\"><a [routerLink]=\"['/home']\">Welcome</a></li>\r\n            <li class=\"current\"><a [routerLink]=\"['/services/corporate']\">Services</a></li>\r\n            <li class=\"current\"><a [routerLink]=\"['/about']\">About</a></li>\r\n            <li><a [routerLink]=\"['/contact']\" class=\"button special\">Get In Touch</a></li>\r\n        </ul>\r\n    </nav>\r\n\r\n</header>";
+module.exports = "<!-- Header -->\r\n<header [@headerState]=\"state\" [ngClass]=\"{'alt reveal' : !after}\" id=\"header\">\r\n    <h1 id=\"logo\">\r\n        <a [routerLink]=\"['/home']\">Spanish In London</a>\r\n    </h1>\r\n    <nav id=\"nav\">\r\n        <ul>\r\n            <li class=\"current\"><a [routerLink]=\"['/services/corporate']\">Services</a></li>\r\n            <li class=\"current\"><a [routerLink]=\"['/about']\">About</a></li>\r\n            <li class=\"current\"><a [routerLink]=\"['/level-test']\">Level-Test</a></li>\r\n            <li><a [routerLink]=\"['/contact']\" class=\"button special\">Get In Touch</a></li>\r\n        </ul>\r\n    </nav>\r\n\r\n</header>";
 
 /***/ }),
-/* 45 */
+/* 49 */
+/***/ (function(module, exports) {
+
+module.exports = "<!-- Three -->\r\n<section class=\"wrapper style3 container special worked\">\r\n    <header class=\"major\">\r\n        <h2>Who we have worked with</h2>\r\n        <p>For more than 10 years Spanish in London has been offering their language services to a wide range of companies in London including media, betting, insurance, accounting and consulting industries. We also have private clients who just want to learn a new language for personal reasons and want to do it before, during or after work.</p>\r\n    </header>\r\n    <ngx-carousel [inputs]=\"carouselTile\">\r\n        \r\n        <ngx-tile NgxCarouselItem *ngFor=\"let tile of carouselTileItems\">\r\n            <img #someElement  [src]=\"tile.url\">\r\n            <img *ngIf=\"false\" [src]=\"tile.urlAlt\">\r\n        </ngx-tile>\r\n        <button NgxCarouselPrev class='leftRs'>&lt;</button>\r\n        <button NgxCarouselNext class='rightRs'>&gt;</button>\r\n    </ngx-carousel>\r\n\r\n</section>\r\n";
+
+/***/ }),
+/* 50 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_ngx_carousel_module__ = __webpack_require__(51);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NgxCarouselModule", function() { return __WEBPACK_IMPORTED_MODULE_0__src_ngx_carousel_module__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ngx_carousel_ngx_carousel_interface__ = __webpack_require__(53);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NgxCarousel", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ngx_carousel_ngx_carousel_interface__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NgxCarouselStore", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ngx_carousel_ngx_carousel_interface__["b"]; });
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 51 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export MyHammerConfig */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgxCarouselModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngx_carousel_ngx_carousel_directive__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ngx_carousel_ngx_carousel_component__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ngx_item_ngx_item_component__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ngx_tile_ngx_tile_component__ = __webpack_require__(55);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+
+
+var MyHammerConfig = (function (_super) {
+    __extends(MyHammerConfig, _super);
+    function MyHammerConfig() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.overrides = {
+            'swipe': { velocity: 0.4, threshold: 20 },
+            'pan': { velocity: 0.4, threshold: 20 }
+        };
+        return _this;
+    }
+    return MyHammerConfig;
+}(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["HammerGestureConfig"]));
+
+var NgxCarouselModule = (function () {
+    function NgxCarouselModule() {
+    }
+    return NgxCarouselModule;
+}());
+
+NgxCarouselModule.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_2__angular_core__["NgModule"], args: [{
+                imports: [__WEBPACK_IMPORTED_MODULE_3__angular_common__["CommonModule"]],
+                exports: [
+                    __WEBPACK_IMPORTED_MODULE_4__ngx_carousel_ngx_carousel_component__["a" /* NgxCarouselComponent */],
+                    __WEBPACK_IMPORTED_MODULE_5__ngx_item_ngx_item_component__["a" /* NgxItemComponent */],
+                    __WEBPACK_IMPORTED_MODULE_6__ngx_tile_ngx_tile_component__["a" /* NgxTileComponent */],
+                    __WEBPACK_IMPORTED_MODULE_0__ngx_carousel_ngx_carousel_directive__["a" /* NgxCarouselItemDirective */],
+                    __WEBPACK_IMPORTED_MODULE_0__ngx_carousel_ngx_carousel_directive__["b" /* NgxCarouselNextDirective */],
+                    __WEBPACK_IMPORTED_MODULE_0__ngx_carousel_ngx_carousel_directive__["c" /* NgxCarouselPrevDirective */]
+                ],
+                declarations: [
+                    __WEBPACK_IMPORTED_MODULE_4__ngx_carousel_ngx_carousel_component__["a" /* NgxCarouselComponent */],
+                    __WEBPACK_IMPORTED_MODULE_5__ngx_item_ngx_item_component__["a" /* NgxItemComponent */],
+                    __WEBPACK_IMPORTED_MODULE_6__ngx_tile_ngx_tile_component__["a" /* NgxTileComponent */],
+                    __WEBPACK_IMPORTED_MODULE_0__ngx_carousel_ngx_carousel_directive__["a" /* NgxCarouselItemDirective */],
+                    __WEBPACK_IMPORTED_MODULE_0__ngx_carousel_ngx_carousel_directive__["b" /* NgxCarouselNextDirective */],
+                    __WEBPACK_IMPORTED_MODULE_0__ngx_carousel_ngx_carousel_directive__["c" /* NgxCarouselPrevDirective */]
+                ],
+                providers: [
+                    { provide: __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["HAMMER_GESTURE_CONFIG"], useClass: MyHammerConfig }
+                ],
+            },] },
+];
+/** @nocollapse */
+NgxCarouselModule.ctorParameters = function () { return []; };
+//# sourceMappingURL=ngx-carousel.module.js.map
+
+/***/ }),
+/* 52 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgxCarouselComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngx_carousel_directive__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+
+
+var NgxCarouselComponent = (function () {
+    function NgxCarouselComponent(el, renderer) {
+        this.el = el;
+        this.renderer = renderer;
+        this.carouselLoad = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["EventEmitter"]();
+        this.onMove = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["EventEmitter"]();
+        this.afterCarouselViewed = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["EventEmitter"]();
+        this.pauseCarousel = false;
+        this.Arr1 = Array;
+        this.pointNumbers = [];
+        this.data = {
+            type: 'fixed',
+            classText: '',
+            deviceType: 'lg',
+            items: 0,
+            load: 0,
+            deviceWidth: 0,
+            carouselWidth: 0,
+            itemWidth: 0,
+            visibleItems: { start: 0, end: 0 },
+            slideItems: 0,
+            itemWidthPer: 0,
+            itemLength: 0,
+            currentSlide: 0,
+            easing: 'cubic-bezier(0, 0, 0.2, 1)',
+            speed: 400,
+            transform: { xs: 0, sm: 0, md: 0, lg: 0, all: 0 },
+            loop: false,
+            dexVal: 0,
+            touchTransform: 0,
+            touch: { active: false, swipe: '', velocity: 0 },
+            isEnd: false,
+            isFirst: true,
+            isLast: false
+        };
+    }
+    NgxCarouselComponent.prototype.ngOnInit = function () {
+        this.carousel = this.el.nativeElement;
+        this.carouselMain = this.carouselMain1.nativeElement;
+        this.carouselInner = this.carouselInner1.nativeElement;
+        this.carouselItems = this.carouselInner.getElementsByClassName('item');
+        this.rightBtn = this.next.nativeElement;
+        this.leftBtn = this.prev.nativeElement;
+        this.data.type = this.userData.grid.all !== 0 ? 'fixed' : 'responsive';
+        this.data.loop = this.userData.loop || false;
+        this.data.easing = this.userData.easing || 'cubic-bezier(0, 0, 0.2, 1)';
+        this.data.touch.active = this.userData.touch || false;
+        this.carouselSize();
+        // const datas = this.itemsElements.first.nativeElement.getBoundingClientRect().width;
+    };
+    NgxCarouselComponent.prototype.ngAfterContentInit = function () {
+        var _this = this;
+        this.renderer.listen(this.leftBtn, 'click', function () {
+            return _this.carouselScrollOne(0);
+        });
+        this.renderer.listen(this.rightBtn, 'click', function () {
+            return _this.carouselScrollOne(1);
+        });
+        this.carouselCssNode = this.renderer.createElement(this.carousel, 'style');
+        this.storeCarouselData();
+        this.carouselInterval();
+        this.onWindowScrolling();
+        this.buttonControl();
+        this.touch();
+        this.itemsSubscribe = this.items.changes.subscribe(function (val) {
+            _this.data.isLast = false;
+            _this.carouselPoint();
+            _this.buttonControl();
+        });
+        // tslint:disable-next-line:no-unused-expression
+        this.moveToSlide && this.moveTo(this.moveToSlide);
+    };
+    NgxCarouselComponent.prototype.ngAfterViewInit = function () {
+        if (this.userData.point.pointStyles) {
+            var datas = this.userData.point.pointStyles.replace(/.ngxcarouselPoint/g, "." + this.data.classText + " .ngxcarouselPoint");
+            var pointNode = this.renderer.createElement(this.carousel, 'style');
+            this.renderer.createText(pointNode, datas);
+        }
+        else if (this.userData.point && this.userData.point.visible) {
+            this.renderer.setElementClass(this.pointMain.nativeElement, 'ngxcarouselPointDefault', true);
+        }
+        this.afterCarouselViewed.emit(this.data);
+    };
+    NgxCarouselComponent.prototype.ngOnDestroy = function () {
+        clearInterval(this.carouselInt);
+        // tslint:disable-next-line:no-unused-expression
+        this.itemsSubscribe && this.itemsSubscribe.unsubscribe();
+    };
+    NgxCarouselComponent.prototype.onResizing = function (event) {
+        var _this = this;
+        clearTimeout(this.onResize);
+        this.onResize = setTimeout(function () {
+            // tslint:disable-next-line:no-unused-expression
+            _this.data.deviceWidth !== event.target.outerWidth &&
+                _this.storeCarouselData();
+        }, 500);
+    };
+    NgxCarouselComponent.prototype.ngOnChanges = function (changes) {
+        // tslint:disable-next-line:no-unused-expression
+        this.moveToSlide &&
+            !changes.moveToSlide.firstChange &&
+            this.moveTo(changes.moveToSlide.currentValue);
+    };
+    /* store data based on width of the screen for the carousel */
+    NgxCarouselComponent.prototype.storeCarouselData = function () {
+        this.data.deviceWidth = window.innerWidth;
+        this.data.carouselWidth = this.carouselMain.offsetWidth;
+        // const datas = this.items.first.nativeElement.getBoundingClientRect().width;
+        if (this.data.type === 'responsive') {
+            this.data.deviceType =
+                this.data.deviceWidth >= 1200
+                    ? 'lg'
+                    : this.data.deviceWidth >= 992
+                        ? 'md'
+                        : this.data.deviceWidth >= 768 ? 'sm' : 'xs';
+            this.data.items = this.userData.grid[this.data.deviceType];
+            this.data.itemWidth = this.data.carouselWidth / this.data.items;
+        }
+        else {
+            this.data.items = Math.trunc(this.data.carouselWidth / this.userData.grid.all);
+            this.data.itemWidth = this.userData.grid.all;
+            this.data.deviceType = 'all';
+        }
+        this.data.slideItems = +(this.userData.slide < this.data.items
+            ? this.userData.slide
+            : this.data.items);
+        this.data.load =
+            this.userData.load >= this.data.slideItems
+                ? this.userData.load
+                : this.data.slideItems;
+        this.data.speed =
+            this.userData.speed || this.userData.speed > -1
+                ? this.userData.speed
+                : 400;
+        this.carouselPoint();
+    };
+    /* Get Touch input */
+    NgxCarouselComponent.prototype.touch = function () {
+        var _this = this;
+        if (this.data.touch.active) {
+            var hammertime = new Hammer(this.forTouch.nativeElement);
+            hammertime.get('pan').set({ direction: Hammer.DIRECTION_HORIZONTAL });
+            hammertime.on('panstart', function (ev) {
+                _this.data.carouselWidth = _this.carouselInner.offsetWidth;
+                _this.data.touchTransform = _this.data.transform[_this.data.deviceType];
+                _this.data.dexVal = 0;
+                _this.setStyle(_this.carouselInner, 'transition', '');
+            });
+            hammertime.on('panleft', function (ev) {
+                _this.touchHandling('panleft', ev);
+            });
+            hammertime.on('panright', function (ev) {
+                _this.touchHandling('panright', ev);
+            });
+            hammertime.on('panend', function (ev) {
+                // this.setStyle(this.carouselInner, 'transform', '');
+                _this.data.touch.velocity = ev.velocity;
+                _this.data.touch.swipe === 'panright'
+                    ? _this.carouselScrollOne(0)
+                    : _this.carouselScrollOne(1);
+            });
+            hammertime.on("hammer.input", function (ev) {
+                // allow nested touch events to no propagate, this may have other side affects but works for now.
+                // TODO: It is probably better to check the source element of the event and only apply the handle to the correct carousel
+                ev.srcEvent.stopPropagation();
+            });
+        }
+    };
+    /* handle touch input */
+    NgxCarouselComponent.prototype.touchHandling = function (e, ev) {
+        // vertical touch events seem to cause to panstart event with an odd delta
+        // and a center of {x:0,y:0} so this will ignore them
+        if (ev.center.x === 0) {
+            return;
+        }
+        ev = Math.abs(ev.deltaX);
+        var valt = ev - this.data.dexVal;
+        valt =
+            this.data.type === 'responsive'
+                ? Math.abs(ev - this.data.dexVal) / this.data.carouselWidth * 100
+                : valt;
+        this.data.dexVal = ev;
+        this.data.touch.swipe = e;
+        this.data.touchTransform =
+            e === 'panleft'
+                ? valt + this.data.touchTransform
+                : this.data.touchTransform - valt;
+        if (this.data.touchTransform > 0) {
+            this.setStyle(this.carouselInner, 'transform', this.data.type === 'responsive'
+                ? "translate3d(-" + this.data.touchTransform + "%, 0px, 0px)"
+                : "translate3d(-" + this.data.touchTransform + "px, 0px, 0px)");
+        }
+        else {
+            this.data.touchTransform = 0;
+        }
+    };
+    /* this used to disable the scroll when it is not on the display */
+    NgxCarouselComponent.prototype.onWindowScrolling = function () {
+        var top = this.carousel.offsetTop;
+        var scrollY = window.scrollY;
+        var heightt = window.innerHeight;
+        var carouselHeight = this.carousel.offsetHeight;
+        if (top <= scrollY + heightt - carouselHeight / 4 &&
+            top + carouselHeight / 2 >= scrollY) {
+            this.carouselIntervalEvent(0);
+        }
+        else {
+            this.carouselIntervalEvent(1);
+        }
+    };
+    /* Init carousel point */
+    NgxCarouselComponent.prototype.carouselPoint = function () {
+        // if (this.userData.point.visible === true) {
+        var Nos = this.items.length - (this.data.items - this.data.slideItems);
+        this.pointIndex = Math.ceil(Nos / this.data.slideItems);
+        var pointers = [];
+        for (var i = 0; i < this.pointIndex; i++) {
+            pointers.push(i);
+        }
+        this.pointNumbers = pointers;
+        this.carouselPointActiver();
+        if (this.pointIndex <= 1) {
+            this.btnBoolean(1, 1);
+            // this.data.isFirst = true;
+            // this.data.isLast = true;
+        }
+        else {
+            if (this.data.currentSlide === 0 && !this.data.loop) {
+                this.btnBoolean(1, 0);
+            }
+            else {
+                this.btnBoolean(0, 0);
+            }
+        }
+        this.buttonControl();
+        // }
+    };
+    /* change the active point in carousel */
+    NgxCarouselComponent.prototype.carouselPointActiver = function () {
+        var i = Math.ceil(this.data.currentSlide / this.data.slideItems);
+        this.pointers = i;
+    };
+    /* this function is used to scoll the carousel when point is clicked */
+    NgxCarouselComponent.prototype.moveTo = function (index) {
+        if (this.data.currentSlide !== index && index < this.pointIndex) {
+            var slideremains = 0;
+            var btns = this.data.currentSlide < index ? 1 : 0;
+            if (index === 0) {
+                this.btnBoolean(1, 0);
+                slideremains = index * this.data.slideItems;
+            }
+            else if (index === this.pointIndex - 1) {
+                this.btnBoolean(0, 1);
+                slideremains = this.items.length - this.data.items;
+            }
+            else {
+                this.btnBoolean(0, 0);
+                slideremains = index * this.data.slideItems;
+            }
+            this.carouselScrollTwo(btns, slideremains, this.data.speed);
+        }
+    };
+    /* set the style of the carousel based the inputs data */
+    NgxCarouselComponent.prototype.carouselSize = function () {
+        this.data.classText = this.generateID();
+        var dism = '';
+        var styleid = '.' + this.data.classText + ' > .ngxcarousel > .ngxcarousel-inner > .ngxcarousel-items >';
+        if (this.userData.custom === 'banner') {
+            this.renderer.setElementClass(this.carousel, 'banner', true);
+        }
+        // if (this.userData.animation && this.userData.animation.animateStyles) {
+        //   dism += `${styleid} .customAnimation {${this.userData.animation
+        //     .animateStyles.style}} ${styleid} .item {transition: .3s ease all}`;
+        // }
+        if (this.userData.animation === 'lazy') {
+            dism += styleid + " .item {transition: transform .6s ease;}";
+        }
+        var itemStyle = '';
+        if (this.data.type === 'responsive') {
+            var itemWidth_xs = this.userData.type === 'mobile'
+                ? styleid + " .item {width: " + 95 / this.userData.grid.xs + "%}"
+                : styleid + " .item {width: " + 100 / this.userData.grid.xs + "%}";
+            var itemWidth_sm = styleid + ' .item {width: ' + 100 / this.userData.grid.sm + '%}';
+            var itemWidth_md = styleid + ' .item {width: ' + 100 / this.userData.grid.md + '%}';
+            var itemWidth_lg = styleid + ' .item {width: ' + 100 / this.userData.grid.lg + '%}';
+            itemStyle = "@media (max-width:767px){" + itemWidth_xs + "}\n                    @media (min-width:768px){" + itemWidth_sm + "}\n                    @media (min-width:992px){" + itemWidth_md + "}\n                    @media (min-width:1200px){" + itemWidth_lg + "}";
+        }
+        else {
+            itemStyle = styleid + " .item {width: " + this.userData.grid.all + "px}";
+        }
+        this.renderer.setElementClass(this.carousel, this.data.classText, true);
+        var styleItem = this.renderer.createElement(this.carousel, 'style');
+        this.renderer.createText(styleItem, dism + " " + itemStyle);
+    };
+    /* logic to scroll the carousel step 1 */
+    NgxCarouselComponent.prototype.carouselScrollOne = function (Btn) {
+        var itemSpeed = this.data.speed;
+        var translateXval, currentSlide = 0;
+        var touchMove = Math.ceil(this.data.dexVal / this.data.itemWidth);
+        this.setStyle(this.carouselInner, 'transform', '');
+        if (this.pointIndex === 1) {
+            return;
+        }
+        else if (Btn === 0 &&
+            ((!this.data.loop && !this.data.isFirst) || this.data.loop)) {
+            var slide = this.data.slideItems * this.pointIndex;
+            var currentSlideD = this.data.currentSlide - this.data.slideItems;
+            var MoveSlide = currentSlideD + this.data.slideItems;
+            this.btnBoolean(0, 1);
+            if (this.data.currentSlide === 0) {
+                currentSlide = this.items.length - this.data.items;
+                itemSpeed = 400;
+                this.btnBoolean(0, 1);
+            }
+            else if (this.data.slideItems >= MoveSlide) {
+                currentSlide = translateXval = 0;
+                this.btnBoolean(1, 0);
+            }
+            else {
+                this.btnBoolean(0, 0);
+                if (touchMove > this.data.slideItems) {
+                    currentSlide = this.data.currentSlide - touchMove;
+                    itemSpeed = 200;
+                }
+                else {
+                    currentSlide = this.data.currentSlide - this.data.slideItems;
+                }
+            }
+            this.carouselScrollTwo(Btn, currentSlide, itemSpeed);
+        }
+        else if (Btn === 1 && ((!this.data.loop && !this.data.isLast) || this.data.loop)) {
+            if (this.items.length <=
+                this.data.currentSlide + this.data.items + this.data.slideItems &&
+                !this.data.isLast) {
+                currentSlide = this.items.length - this.data.items;
+                this.btnBoolean(0, 1);
+            }
+            else if (this.data.isLast) {
+                currentSlide = translateXval = 0;
+                itemSpeed = 400;
+                this.btnBoolean(1, 0);
+            }
+            else {
+                this.btnBoolean(0, 0);
+                if (touchMove > this.data.slideItems) {
+                    currentSlide =
+                        this.data.currentSlide +
+                            this.data.slideItems +
+                            (touchMove - this.data.slideItems);
+                    itemSpeed = 200;
+                }
+                else {
+                    currentSlide = this.data.currentSlide + this.data.slideItems;
+                }
+            }
+            this.carouselScrollTwo(Btn, currentSlide, itemSpeed);
+        }
+        // cubic-bezier(0.15, 1.04, 0.54, 1.13)
+    };
+    /* logic to scroll the carousel step 2 */
+    NgxCarouselComponent.prototype.carouselScrollTwo = function (Btn, currentSlide, itemSpeed) {
+        this.data.visibleItems.start = currentSlide;
+        this.data.visibleItems.end = currentSlide + this.data.items - 1;
+        // tslint:disable-next-line:no-unused-expression
+        this.userData.animation &&
+            this.carouselAnimator(Btn, currentSlide + 1, currentSlide + this.data.items, itemSpeed, Math.abs(this.data.currentSlide - currentSlide));
+        if (this.data.dexVal !== 0) {
+            // const first = .5;
+            // const second = .50;
+            // tslint:disable-next-line:max-line-length
+            // this.setStyle(this.carouselInner, 'transition', `transform ${itemSpeed}ms ${this.userData.easing}`);
+            // } else {
+            var val = Math.abs(this.data.touch.velocity);
+            // const first = .7 / val < .5 ? .7 / val : .5;
+            // const second = (2.9 * val / 10 < 1.3) ? (2.9 * val) / 10 : 1.3;
+            var somt = Math.floor(this.data.dexVal /
+                val /
+                this.data.dexVal *
+                (this.data.deviceWidth - this.data.dexVal));
+            somt = somt > itemSpeed ? itemSpeed : somt;
+            itemSpeed = somt < 200 ? 200 : somt;
+            // tslint:disable-next-line:max-line-length
+            // this.setStyle(this.carouselInner, 'transition', `transform ${itemSpeed}ms ${this.userData.easing}`);
+            // this.carouselInner.style.transition = `transform ${itemSpeed}ms cubic-bezier(0.15, 1.04, 0.54, 1.13) `;
+            this.data.dexVal = 0;
+        }
+        this.setStyle(this.carouselInner, 'transition', "transform " + itemSpeed + "ms " + this.data.easing);
+        this.data.itemLength = this.items.length;
+        this.transformStyle(currentSlide);
+        this.data.currentSlide = currentSlide;
+        this.onMove.emit(this.data);
+        this.carouselPointActiver();
+        this.carouselLoadTrigger();
+        this.buttonControl();
+    };
+    /* boolean function for making isFirst and isLast */
+    NgxCarouselComponent.prototype.btnBoolean = function (first, last) {
+        this.data.isFirst = first ? true : false;
+        this.data.isLast = last ? true : false;
+    };
+    /* set the transform style to scroll the carousel  */
+    NgxCarouselComponent.prototype.transformStyle = function (slide) {
+        var slideCss = '';
+        if (this.data.type === 'responsive') {
+            this.data.transform.xs = 100 / this.userData.grid.xs * slide;
+            this.data.transform.sm = 100 / this.userData.grid.sm * slide;
+            this.data.transform.md = 100 / this.userData.grid.md * slide;
+            this.data.transform.lg = 100 / this.userData.grid.lg * slide;
+            slideCss = "@media (max-width: 767px) {\n              ." + this.data
+                .classText + " > .ngxcarousel > .ngxcarousel-inner > .ngxcarousel-items { transform: translate3d(-" + this
+                .data.transform.xs + "%, 0, 0); } }\n            @media (min-width: 768px) {\n              ." + this.data
+                .classText + " > .ngxcarousel > .ngxcarousel-inner > .ngxcarousel-items { transform: translate3d(-" + this
+                .data.transform.sm + "%, 0, 0); } }\n            @media (min-width: 992px) {\n              ." + this.data
+                .classText + " > .ngxcarousel > .ngxcarousel-inner > .ngxcarousel-items { transform: translate3d(-" + this
+                .data.transform.md + "%, 0, 0); } }\n            @media (min-width: 1200px) {\n              ." + this.data
+                .classText + " > .ngxcarousel > .ngxcarousel-inner > .ngxcarousel-items { transform: translate3d(-" + this
+                .data.transform.lg + "%, 0, 0); } }";
+        }
+        else {
+            this.data.transform.all = this.userData.grid.all * slide;
+            slideCss = "." + this.data
+                .classText + " > .ngxcarousel > .ngxcarousel-inner > .ngxcarousel-items { transform: translate3d(-" + this.data
+                .transform.all + "px, 0, 0);";
+        }
+        // this.renderer.createText(this.carouselCssNode, slideCss);
+        this.carouselCssNode.innerHTML = slideCss;
+    };
+    /* this will trigger the carousel to load the items */
+    NgxCarouselComponent.prototype.carouselLoadTrigger = function () {
+        if (typeof this.userData.load === 'number') {
+            // tslint:disable-next-line:no-unused-expression
+            this.items.length - this.data.load <=
+                this.data.currentSlide + this.data.items &&
+                this.carouselLoad.emit(this.data.currentSlide);
+        }
+    };
+    /* generate Class for each carousel to set specific style */
+    NgxCarouselComponent.prototype.generateID = function () {
+        var text = '';
+        var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        for (var i = 0; i < 6; i++) {
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+        }
+        return "ngxcarousel" + text;
+    };
+    /* handle the auto slide */
+    NgxCarouselComponent.prototype.carouselInterval = function () {
+        var _this = this;
+        if (typeof this.userData.interval === 'number' && this.data.loop) {
+            this.renderer.listen(this.carouselMain, 'touchstart', function () {
+                _this.carouselIntervalEvent(1);
+            });
+            this.renderer.listen(this.carouselMain, 'touchend', function () {
+                _this.carouselIntervalEvent(0);
+            });
+            this.renderer.listen(this.carouselMain, 'mouseenter', function () {
+                _this.carouselIntervalEvent(1);
+            });
+            this.renderer.listen(this.carouselMain, 'mouseleave', function () {
+                _this.carouselIntervalEvent(0);
+            });
+            this.renderer.listenGlobal('window', 'scroll', function () {
+                clearTimeout(_this.onScrolling);
+                _this.onScrolling = setTimeout(function () {
+                    _this.onWindowScrolling();
+                }, 600);
+            });
+            this.carouselInt = setInterval(function () {
+                // tslint:disable-next-line:no-unused-expression
+                !_this.pauseCarousel && _this.carouselScrollOne(1);
+            }, this.userData.interval);
+        }
+    };
+    /* pause interval for specific time */
+    NgxCarouselComponent.prototype.carouselIntervalEvent = function (ev) {
+        var _this = this;
+        this.evtValue = ev;
+        if (this.evtValue === 0) {
+            clearTimeout(this.pauseInterval);
+            this.pauseInterval = setTimeout(function () {
+                // tslint:disable-next-line:no-unused-expression
+                _this.evtValue === 0 && (_this.pauseCarousel = false);
+            }, this.userData.interval);
+        }
+        else {
+            this.pauseCarousel = true;
+        }
+    };
+    /* animate the carousel items */
+    NgxCarouselComponent.prototype.carouselAnimator = function (direction, start, end, speed, length) {
+        var _this = this;
+        var val = length < 5 ? length : 5;
+        val = val === 1 ? 3 : val;
+        if (direction === 1) {
+            for (var i = start - 1; i < end; i++) {
+                val = val * 2;
+                // tslint:disable-next-line:no-unused-expression
+                this.carouselItems[i] && this.setStyle(this.carouselItems[i], 'transform', "translate3d(" + val + "px, 0, 0)");
+            }
+        }
+        else {
+            for (var i = end - 1; i >= start - 1; i--) {
+                val = val * 2;
+                // tslint:disable-next-line:no-unused-expression
+                this.carouselItems[i] && this.setStyle(this.carouselItems[i], 'transform', "translate3d(-" + val + "px, 0, 0)");
+            }
+        }
+        setTimeout(function () {
+            for (var i = 0; i < _this.items.length; i++) {
+                _this.setStyle(_this.carouselItems[i], 'transform', 'translate3d(0, 0, 0)');
+            }
+        }, speed * .7);
+    };
+    /* control button for loop */
+    NgxCarouselComponent.prototype.buttonControl = function () {
+        if (!this.data.loop || (this.data.isFirst && this.data.isLast)) {
+            this.setStyle(this.leftBtn, 'display', this.data.isFirst ? 'none' : 'block');
+            this.setStyle(this.rightBtn, 'display', this.data.isLast ? 'none' : 'block');
+        }
+        else {
+            this.setStyle(this.leftBtn, 'display', 'block');
+            this.setStyle(this.rightBtn, 'display', 'block');
+        }
+    };
+    NgxCarouselComponent.prototype.setStyle = function (el, prop, val) {
+        this.renderer.setElementStyle(el, prop, val);
+    };
+    return NgxCarouselComponent;
+}());
+
+NgxCarouselComponent.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"], args: [{
+                // tslint:disable-next-line:component-selector
+                selector: 'ngx-carousel',
+                template: "<div #ngxcarousel class=\"ngxcarousel\"><div #forTouch class=\"ngxcarousel-inner\"><div #ngxitems class=\"ngxcarousel-items\"><ng-content select=\"[NgxCarouselItem]\"></ng-content></div><div style=\"clear: both\"></div></div><ng-content select=\"[NgxCarouselPrev]\"></ng-content><ng-content select=\"[NgxCarouselNext]\"></ng-content></div><div #points *ngIf=\"userData.point.visible\"><ul class=\"ngxcarouselPoint\"><li #pointInner *ngFor=\"let i of pointNumbers; let i=index\" [class.active]=\"i==pointers\" (click)=\"moveTo(i)\"></li></ul></div>",
+                styles: [
+                    "\n    :host {\n      display: block;\n      position: relative;\n    }\n\n    .ngxcarousel .ngxcarousel-inner {\n      position: relative;\n      overflow: hidden;\n    }\n    .ngxcarousel .ngxcarousel-inner .ngxcarousel-items {\n      white-space: nowrap;\n      position: relative;\n    }\n\n    .banner .ngxcarouselPointDefault .ngxcarouselPoint {\n      position: absolute;\n      width: 100%;\n      bottom: 20px;\n    }\n    .banner .ngxcarouselPointDefault .ngxcarouselPoint li {\n      background: rgba(255, 255, 255, 0.55);\n    }\n    .banner .ngxcarouselPointDefault .ngxcarouselPoint li.active {\n      background: white;\n    }\n    .banner .ngxcarouselPointDefault .ngxcarouselPoint li:hover {\n      cursor: pointer;\n    }\n\n    .ngxcarouselPointDefault .ngxcarouselPoint {\n      list-style-type: none;\n      text-align: center;\n      padding: 12px;\n      margin: 0;\n      white-space: nowrap;\n      overflow: auto;\n      box-sizing: border-box;\n    }\n    .ngxcarouselPointDefault .ngxcarouselPoint li {\n      display: inline-block;\n      border-radius: 50%;\n      background: rgba(0, 0, 0, 0.55);\n      padding: 4px;\n      margin: 0 4px;\n      transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);\n      transition: 0.4s;\n    }\n    .ngxcarouselPointDefault .ngxcarouselPoint li.active {\n      background: #6b6b6b;\n      transform: scale(1.8);\n    }\n    .ngxcarouselPointDefault .ngxcarouselPoint li:hover {\n      cursor: pointer;\n    }\n  "
+                ]
+            },] },
+];
+/** @nocollapse */
+NgxCarouselComponent.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ElementRef"], },
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Renderer"], },
+]; };
+NgxCarouselComponent.propDecorators = {
+    'userData': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"], args: ['inputs',] },],
+    'moveToSlide': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Input"], args: ['moveToSlide',] },],
+    'carouselLoad': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Output"], args: ['carouselLoad',] },],
+    'onMove': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Output"], args: ['onMove',] },],
+    'afterCarouselViewed': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Output"], args: ['afterCarouselViewed',] },],
+    'items': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ContentChildren"], args: [__WEBPACK_IMPORTED_MODULE_0__ngx_carousel_directive__["a" /* NgxCarouselItemDirective */],] },],
+    'points': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ViewChildren"], args: ['pointInner', { read: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ElementRef"] },] },],
+    'next': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ContentChild"], args: [__WEBPACK_IMPORTED_MODULE_0__ngx_carousel_directive__["b" /* NgxCarouselNextDirective */], { read: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ElementRef"] },] },],
+    'prev': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ContentChild"], args: [__WEBPACK_IMPORTED_MODULE_0__ngx_carousel_directive__["c" /* NgxCarouselPrevDirective */], { read: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ElementRef"] },] },],
+    'carouselMain1': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ViewChild"], args: ['ngxcarousel', { read: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ElementRef"] },] },],
+    'carouselInner1': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ViewChild"], args: ['ngxitems', { read: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ElementRef"] },] },],
+    'carousel1': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ViewChild"], args: ['main', { read: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ElementRef"] },] },],
+    'pointMain': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ViewChild"], args: ['points', { read: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ElementRef"] },] },],
+    'forTouch': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ViewChild"], args: ['forTouch', { read: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ElementRef"] },] },],
+    'onResizing': [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["HostListener"], args: ['window:resize', ['$event'],] },],
+};
+//# sourceMappingURL=ngx-carousel.component.js.map
+
+/***/ }),
+/* 53 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return NgxCarouselStore; });
+/* unused harmony export ItemsControl */
+/* unused harmony export Touch */
+/* unused harmony export Transfrom */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgxCarousel; });
+var NgxCarouselStore = (function () {
+    function NgxCarouselStore() {
+    }
+    return NgxCarouselStore;
+}());
+
+var ItemsControl = (function () {
+    function ItemsControl() {
+    }
+    return ItemsControl;
+}());
+
+var Touch = (function () {
+    function Touch() {
+    }
+    return Touch;
+}());
+
+var Transfrom = (function () {
+    function Transfrom() {
+    }
+    return Transfrom;
+}());
+
+var NgxCarousel = (function () {
+    function NgxCarousel() {
+    }
+    return NgxCarousel;
+}());
+
+//# sourceMappingURL=ngx-carousel.interface.js.map
+
+/***/ }),
+/* 54 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgxItemComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+
+var NgxItemComponent = (function () {
+    function NgxItemComponent() {
+        this.classes = 'item';
+    }
+    return NgxItemComponent;
+}());
+
+NgxItemComponent.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"], args: [{
+                selector: 'ngx-item',
+                template: "<ng-content></ng-content>",
+                styles: ["\n    :host {\n        display: inline-block;\n        white-space: initial;\n        vertical-align: top;\n    }\n  "]
+            },] },
+];
+/** @nocollapse */
+NgxItemComponent.ctorParameters = function () { return []; };
+NgxItemComponent.propDecorators = {
+    'classes': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["HostBinding"], args: ['class',] },],
+};
+//# sourceMappingURL=ngx-item.component.js.map
+
+/***/ }),
+/* 55 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgxTileComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+
+var NgxTileComponent = (function () {
+    function NgxTileComponent() {
+        this.classes = 'item';
+    }
+    return NgxTileComponent;
+}());
+
+NgxTileComponent.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"], args: [{
+                selector: 'ngx-tile',
+                template: "<div class=\"tile\"><ng-content></ng-content></div>",
+                styles: ["\n    :host {\n        display: inline-block;\n        white-space: initial;\n        padding: 10px;\n        box-sizing: border-box;\n        vertical-align: top;\n    }\n\n    .tile {\n        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n    }\n\n    * {\n        box-sizing: border-box;\n    }\n  "]
+            },] },
+];
+/** @nocollapse */
+NgxTileComponent.ctorParameters = function () { return []; };
+NgxTileComponent.propDecorators = {
+    'classes': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["HostBinding"], args: ['class',] },],
+};
+//# sourceMappingURL=ngx-tile.component.js.map
+
+/***/ }),
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3359,7 +4329,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 46 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3451,48 +4421,54 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 47 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(45);
-exports.encode = exports.stringify = __webpack_require__(46);
+exports.decode = exports.parse = __webpack_require__(56);
+exports.encode = exports.stringify = __webpack_require__(57);
 
 
 /***/ }),
-/* 48 */
+/* 59 */
 /***/ (function(module, exports) {
 
-module.exports = "@charset \"UTF-8\";\n@import url(\"https://fonts.googleapis.com/css?family=Lato:300,400,900\");\n@import url(\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\");\n/* Reset */\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  -webkit-text-size-adjust: none; }\n\n/* Box Model */\n*, *:before, *:after {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n/* Containers */\n.container {\n  margin-left: auto;\n  margin-right: auto; }\n\n.container.\\31 25\\25\t\t{\n  width: 100%;\n  max-width: 1750px;\n  min-width: 1400px; }\n\n.container.\\37 5\\25\t\t\t{\n  width: 1050px; }\n\n.container.\\35 0\\25\t\t\t{\n  width: 700px; }\n\n.container.\\32 5\\25\t\t\t{\n  width: 350px; }\n\n.container {\n  width: 1400px; }\n\n@media screen and (max-width: 1680px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 1500px;\n    min-width: 1200px; }\n  .container.\\37 5\\25\t\t\t{\n    width: 900px; }\n  .container.\\35 0\\25\t\t\t{\n    width: 600px; }\n  .container.\\32 5\\25\t\t\t{\n    width: 300px; }\n  .container {\n    width: 1200px; } }\n\n@media screen and (max-width: 1280px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 1200px;\n    min-width: 960px; }\n  .container.\\37 5\\25\t\t\t{\n    width: 720px; }\n  .container.\\35 0\\25\t\t\t{\n    width: 480px; }\n  .container.\\32 5\\25\t\t\t{\n    width: 240px; }\n  .container {\n    width: 960px; } }\n\n@media screen and (max-width: 980px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 118.75%;\n    min-width: 95%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 71.25%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 47.5%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 23.75%; }\n  .container {\n    width: 95%; } }\n\n@media screen and (max-width: 840px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 118.75%;\n    min-width: 95%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 71.25%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 47.5%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 23.75%; }\n  .container {\n    width: 95% !important; } }\n\n@media screen and (max-width: 736px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 125%;\n    min-width: 100%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 75%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 50%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 25%; }\n  .container {\n    width: 100% !important; } }\n\n/* Grid */\n.row {\n  border-bottom: solid 1px transparent;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.row > * {\n  float: left;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.row:after, .row:before {\n  content: '';\n  display: block;\n  clear: both;\n  height: 0; }\n\n.row.uniform > * > :first-child {\n  margin-top: 0; }\n\n.row.uniform > * > :last-child {\n  margin-bottom: 0; }\n\n.row.\\30 \\25 > * {\n  padding: 0px 0 0 0px; }\n\n.row.\\30 \\25 {\n  margin: 0px 0 -1px 0px; }\n\n.row.uniform.\\30 \\25 > * {\n  padding: 0px 0 0 0px; }\n\n.row.uniform.\\30 \\25 {\n  margin: 0px 0 -1px 0px; }\n\n.row > * {\n  padding: 50px 0 0 50px; }\n\n.row {\n  margin: -50px 0 -1px -50px; }\n\n.row.uniform > * {\n  padding: 50px 0 0 50px; }\n\n.row.uniform {\n  margin: -50px 0 -1px -50px; }\n\n.row.\\32 00\\25 > * {\n  padding: 100px 0 0 100px; }\n\n.row.\\32 00\\25 {\n  margin: -100px 0 -1px -100px; }\n\n.row.uniform.\\32 00\\25 > * {\n  padding: 100px 0 0 100px; }\n\n.row.uniform.\\32 00\\25 {\n  margin: -100px 0 -1px -100px; }\n\n.row.\\31 50\\25 > * {\n  padding: 75px 0 0 75px; }\n\n.row.\\31 50\\25 {\n  margin: -75px 0 -1px -75px; }\n\n.row.uniform.\\31 50\\25 > * {\n  padding: 75px 0 0 75px; }\n\n.row.uniform.\\31 50\\25 {\n  margin: -75px 0 -1px -75px; }\n\n.row.\\35 0\\25 > * {\n  padding: 25px 0 0 25px; }\n\n.row.\\35 0\\25 {\n  margin: -25px 0 -1px -25px; }\n\n.row.uniform.\\35 0\\25 > * {\n  padding: 25px 0 0 25px; }\n\n.row.uniform.\\35 0\\25 {\n  margin: -25px 0 -1px -25px; }\n\n.row.\\32 5\\25 > * {\n  padding: 12.5px 0 0 12.5px; }\n\n.row.\\32 5\\25 {\n  margin: -12.5px 0 -1px -12.5px; }\n\n.row.uniform.\\32 5\\25 > * {\n  padding: 12.5px 0 0 12.5px; }\n\n.row.uniform.\\32 5\\25 {\n  margin: -12.5px 0 -1px -12.5px; }\n\n.\\31 2u, .\\31 2u\\24 {\n  width: 100%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 1u, .\\31 1u\\24 {\n  width: 91.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 0u, .\\31 0u\\24 {\n  width: 83.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\39 u, .\\39 u\\24 {\n  width: 75%;\n  clear: none;\n  margin-left: 0; }\n\n.\\38 u, .\\38 u\\24 {\n  width: 66.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\37 u, .\\37 u\\24 {\n  width: 58.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\36 u, .\\36 u\\24 {\n  width: 50%;\n  clear: none;\n  margin-left: 0; }\n\n.\\35 u, .\\35 u\\24 {\n  width: 41.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\34 u, .\\34 u\\24 {\n  width: 33.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\33 u, .\\33 u\\24 {\n  width: 25%;\n  clear: none;\n  margin-left: 0; }\n\n.\\32 u, .\\32 u\\24 {\n  width: 16.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 u, .\\31 u\\24 {\n  width: 8.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 2u\\24 + *,\n.\\31 1u\\24 + *,\n.\\31 0u\\24 + *,\n.\\39 u\\24 + *,\n.\\38 u\\24 + *,\n.\\37 u\\24 + *,\n.\\36 u\\24 + *,\n.\\35 u\\24 + *,\n.\\34 u\\24 + *,\n.\\33 u\\24 + *,\n.\\32 u\\24 + *,\n.\\31 u\\24 + * {\n  clear: left; }\n\n.\\-11u {\n  margin-left: 91.6666666667%; }\n\n.\\-10u {\n  margin-left: 83.3333333333%; }\n\n.\\-9u {\n  margin-left: 75%; }\n\n.\\-8u {\n  margin-left: 66.6666666667%; }\n\n.\\-7u {\n  margin-left: 58.3333333333%; }\n\n.\\-6u {\n  margin-left: 50%; }\n\n.\\-5u {\n  margin-left: 41.6666666667%; }\n\n.\\-4u {\n  margin-left: 33.3333333333%; }\n\n.\\-3u {\n  margin-left: 25%; }\n\n.\\-2u {\n  margin-left: 16.6666666667%; }\n\n.\\-1u {\n  margin-left: 8.3333333333%; }\n\n@media screen and (max-width: 1680px) {\n  .row > * {\n    padding: 40px 0 0 40px; }\n  .row {\n    margin: -40px 0 -1px -40px; }\n  .row.uniform > * {\n    padding: 40px 0 0 40px; }\n  .row.uniform {\n    margin: -40px 0 -1px -40px; }\n  .row.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .\\31 2u\\28wide\\29, .\\31 2u\\24\\28wide\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28wide\\29, .\\31 1u\\24\\28wide\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28wide\\29, .\\31 0u\\24\\28wide\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28wide\\29, .\\39 u\\24\\28wide\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28wide\\29, .\\38 u\\24\\28wide\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28wide\\29, .\\37 u\\24\\28wide\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28wide\\29, .\\36 u\\24\\28wide\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28wide\\29, .\\35 u\\24\\28wide\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28wide\\29, .\\34 u\\24\\28wide\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28wide\\29, .\\33 u\\24\\28wide\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28wide\\29, .\\32 u\\24\\28wide\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28wide\\29, .\\31 u\\24\\28wide\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28wide\\29 + *,\n  .\\31 1u\\24\\28wide\\29 + *,\n  .\\31 0u\\24\\28wide\\29 + *,\n  .\\39 u\\24\\28wide\\29 + *,\n  .\\38 u\\24\\28wide\\29 + *,\n  .\\37 u\\24\\28wide\\29 + *,\n  .\\36 u\\24\\28wide\\29 + *,\n  .\\35 u\\24\\28wide\\29 + *,\n  .\\34 u\\24\\28wide\\29 + *,\n  .\\33 u\\24\\28wide\\29 + *,\n  .\\32 u\\24\\28wide\\29 + *,\n  .\\31 u\\24\\28wide\\29 + * {\n    clear: left; }\n  .\\-11u\\28wide\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28wide\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28wide\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28wide\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28wide\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28wide\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28wide\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28wide\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28wide\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28wide\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28wide\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 1280px) {\n  .row > * {\n    padding: 40px 0 0 40px; }\n  .row {\n    margin: -40px 0 -1px -40px; }\n  .row.uniform > * {\n    padding: 40px 0 0 40px; }\n  .row.uniform {\n    margin: -40px 0 -1px -40px; }\n  .row.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .\\31 2u\\28normal\\29, .\\31 2u\\24\\28normal\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28normal\\29, .\\31 1u\\24\\28normal\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28normal\\29, .\\31 0u\\24\\28normal\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28normal\\29, .\\39 u\\24\\28normal\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28normal\\29, .\\38 u\\24\\28normal\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28normal\\29, .\\37 u\\24\\28normal\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28normal\\29, .\\36 u\\24\\28normal\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28normal\\29, .\\35 u\\24\\28normal\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28normal\\29, .\\34 u\\24\\28normal\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28normal\\29, .\\33 u\\24\\28normal\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28normal\\29, .\\32 u\\24\\28normal\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28normal\\29, .\\31 u\\24\\28normal\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28normal\\29 + *,\n  .\\31 1u\\24\\28normal\\29 + *,\n  .\\31 0u\\24\\28normal\\29 + *,\n  .\\39 u\\24\\28normal\\29 + *,\n  .\\38 u\\24\\28normal\\29 + *,\n  .\\37 u\\24\\28normal\\29 + *,\n  .\\36 u\\24\\28normal\\29 + *,\n  .\\35 u\\24\\28normal\\29 + *,\n  .\\34 u\\24\\28normal\\29 + *,\n  .\\33 u\\24\\28normal\\29 + *,\n  .\\32 u\\24\\28normal\\29 + *,\n  .\\31 u\\24\\28normal\\29 + * {\n    clear: left; }\n  .\\-11u\\28normal\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28normal\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28normal\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28normal\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28normal\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28normal\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28normal\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28normal\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28normal\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28normal\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28normal\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 980px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28narrow\\29, .\\31 2u\\24\\28narrow\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28narrow\\29, .\\31 1u\\24\\28narrow\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28narrow\\29, .\\31 0u\\24\\28narrow\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28narrow\\29, .\\39 u\\24\\28narrow\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28narrow\\29, .\\38 u\\24\\28narrow\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28narrow\\29, .\\37 u\\24\\28narrow\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28narrow\\29, .\\36 u\\24\\28narrow\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28narrow\\29, .\\35 u\\24\\28narrow\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28narrow\\29, .\\34 u\\24\\28narrow\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28narrow\\29, .\\33 u\\24\\28narrow\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28narrow\\29, .\\32 u\\24\\28narrow\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28narrow\\29, .\\31 u\\24\\28narrow\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28narrow\\29 + *,\n  .\\31 1u\\24\\28narrow\\29 + *,\n  .\\31 0u\\24\\28narrow\\29 + *,\n  .\\39 u\\24\\28narrow\\29 + *,\n  .\\38 u\\24\\28narrow\\29 + *,\n  .\\37 u\\24\\28narrow\\29 + *,\n  .\\36 u\\24\\28narrow\\29 + *,\n  .\\35 u\\24\\28narrow\\29 + *,\n  .\\34 u\\24\\28narrow\\29 + *,\n  .\\33 u\\24\\28narrow\\29 + *,\n  .\\32 u\\24\\28narrow\\29 + *,\n  .\\31 u\\24\\28narrow\\29 + * {\n    clear: left; }\n  .\\-11u\\28narrow\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28narrow\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28narrow\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28narrow\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28narrow\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28narrow\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28narrow\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28narrow\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28narrow\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28narrow\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28narrow\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 840px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28narrower\\29, .\\31 2u\\24\\28narrower\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28narrower\\29, .\\31 1u\\24\\28narrower\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28narrower\\29, .\\31 0u\\24\\28narrower\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28narrower\\29, .\\39 u\\24\\28narrower\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28narrower\\29, .\\38 u\\24\\28narrower\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28narrower\\29, .\\37 u\\24\\28narrower\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28narrower\\29, .\\36 u\\24\\28narrower\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28narrower\\29, .\\35 u\\24\\28narrower\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28narrower\\29, .\\34 u\\24\\28narrower\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28narrower\\29, .\\33 u\\24\\28narrower\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28narrower\\29, .\\32 u\\24\\28narrower\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28narrower\\29, .\\31 u\\24\\28narrower\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28narrower\\29 + *,\n  .\\31 1u\\24\\28narrower\\29 + *,\n  .\\31 0u\\24\\28narrower\\29 + *,\n  .\\39 u\\24\\28narrower\\29 + *,\n  .\\38 u\\24\\28narrower\\29 + *,\n  .\\37 u\\24\\28narrower\\29 + *,\n  .\\36 u\\24\\28narrower\\29 + *,\n  .\\35 u\\24\\28narrower\\29 + *,\n  .\\34 u\\24\\28narrower\\29 + *,\n  .\\33 u\\24\\28narrower\\29 + *,\n  .\\32 u\\24\\28narrower\\29 + *,\n  .\\31 u\\24\\28narrower\\29 + * {\n    clear: left; }\n  .\\-11u\\28narrower\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28narrower\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28narrower\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28narrower\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28narrower\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28narrower\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28narrower\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28narrower\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28narrower\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28narrower\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28narrower\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 736px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28mobile\\29, .\\31 2u\\24\\28mobile\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28mobile\\29, .\\31 1u\\24\\28mobile\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28mobile\\29, .\\31 0u\\24\\28mobile\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28mobile\\29, .\\39 u\\24\\28mobile\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28mobile\\29, .\\38 u\\24\\28mobile\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28mobile\\29, .\\37 u\\24\\28mobile\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28mobile\\29, .\\36 u\\24\\28mobile\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28mobile\\29, .\\35 u\\24\\28mobile\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28mobile\\29, .\\34 u\\24\\28mobile\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28mobile\\29, .\\33 u\\24\\28mobile\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28mobile\\29, .\\32 u\\24\\28mobile\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28mobile\\29, .\\31 u\\24\\28mobile\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28mobile\\29 + *,\n  .\\31 1u\\24\\28mobile\\29 + *,\n  .\\31 0u\\24\\28mobile\\29 + *,\n  .\\39 u\\24\\28mobile\\29 + *,\n  .\\38 u\\24\\28mobile\\29 + *,\n  .\\37 u\\24\\28mobile\\29 + *,\n  .\\36 u\\24\\28mobile\\29 + *,\n  .\\35 u\\24\\28mobile\\29 + *,\n  .\\34 u\\24\\28mobile\\29 + *,\n  .\\33 u\\24\\28mobile\\29 + *,\n  .\\32 u\\24\\28mobile\\29 + *,\n  .\\31 u\\24\\28mobile\\29 + * {\n    clear: left; }\n  .\\-11u\\28mobile\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28mobile\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28mobile\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28mobile\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28mobile\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28mobile\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28mobile\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28mobile\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28mobile\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28mobile\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28mobile\\29 {\n    margin-left: 8.3333333333%; } }\n\n#navPanel, #navButton {\n  display: none; }\n\n/* Basic */\nbody {\n  background: #fafbfd; }\n  body.is-loading *, body.is-loading *:before, body.is-loading *:after {\n    -moz-animation: none !important;\n    -webkit-animation: none !important;\n    -ms-animation: none !important;\n    animation: none !important;\n    -moz-transition: none !important;\n    -webkit-transition: none !important;\n    -ms-transition: none !important;\n    transition: none !important; }\n\nbody, input, select, textarea {\n  color: #7c8081;\n  font-family: 'Lato', sans-serif;\n  font-size: 15pt;\n  font-weight: 300;\n  letter-spacing: 0.025em;\n  line-height: 1.75em; }\n\na {\n  -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  color: #ffffff;\n  text-decoration: none;\n  border-bottom: dotted 1px; }\n  a:hover {\n    border-bottom-color: transparent; }\n\nstrong, b {\n  font-weight: 400; }\n\np, ul, ol, dl, table, blockquote {\n  margin: 0 0 2em 0; }\n\n.logos {\n  margin: 0 !important; }\n\nh1, h2, h3, h4, h5, h6 {\n  color: inherit;\n  font-weight: 300;\n  line-height: 1.75em;\n  margin-bottom: 1em;\n  text-transform: uppercase; }\n  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {\n    color: inherit;\n    text-decoration: none;\n    border: 0; }\n\nh2 {\n  font-size: 1.5em;\n  letter-spacing: 0.1em; }\n\nh3 {\n  font-size: 1.15em;\n  letter-spacing: 0.025em; }\n\nsub {\n  font-size: 0.8em;\n  position: relative;\n  top: 0.5em; }\n\nsup {\n  font-size: 0.8em;\n  position: relative;\n  top: -0.5em; }\n\nhr {\n  border-top: solid 1px rgba(124, 128, 129, 0.2);\n  border: 0;\n  margin-bottom: 1.5em; }\n\nblockquote {\n  border-left: solid 0.5em rgba(124, 128, 129, 0.2);\n  font-style: italic;\n  padding: 1em 0 1em 2em; }\n\n/* Banner */\n/*@include keyframes('reveal-banner') {\r\n    0% {\r\n        opacity: 0;\r\n    }\r\n\r\n    100% {\r\n        opacity: 1;\r\n    }\r\n}*/\nheader.home {\n  padding-top: 0 !important; }\n\n#banner {\n  background-attachment: scroll, scroll, scroll, fixed;\n  background-color: #fff;\n  width: 100%;\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-image: url(\"/dist/assets/images/london1.jpg\");\n  cursor: default;\n  padding: 6em 0;\n  text-align: center;\n  color: #fff;\n  cursor: default;\n  padding: 6em 0;\n  max-height: 714px; }\n  #banner .inner {\n    -moz-animation: reveal-banner 5s 0.25s ease-in-out;\n    -webkit-animation: reveal-banner 5s 0.25s ease-in-out;\n    -ms-animation: reveal-banner 5s 0.25s ease-in-out;\n    animation: reveal-banner 5s 0.25s ease-in-out;\n    -moz-animation-fill-mode: forwards;\n    -webkit-animation-fill-mode: forwards;\n    -ms-animation-fill-mode: forwards;\n    animation-fill-mode: forwards;\n    color: #fff;\n    display: inline-block;\n    opacity: 1;\n    text-align: center;\n    width: 55%; }\n    #banner .inner img {\n      width: 50%;\n      margin: 1em; }\n    #banner .inner header {\n      display: inline-block;\n      margin: 0 0 2em 0;\n      padding: 3px 0 3px 0; }\n      #banner .inner header .home-title {\n        font-size: 1.8em; }\n      #banner .inner header h2 {\n        border-bottom: solid 2px;\n        border-top: solid 2px;\n        font-size: 2.5em;\n        font-weight: 900;\n        letter-spacing: 0.2em;\n        margin: 0;\n        padding-left: 0.05em;\n        position: relative;\n        text-transform: uppercase; }\n    #banner .inner p {\n      letter-spacing: 0.1em;\n      margin: 0;\n      text-transform: uppercase; }\n      #banner .inner p a {\n        color: inherit;\n        font-weight: 400;\n        text-decoration: none; }\n    #banner .inner footer {\n      margin: 2em 0 0 0; }\n  #banner.about-us {\n    background-image: url(/dist/assets/images/about-us.jpg);\n    background-position: top;\n    height: 450px; }\n  #banner.services-banner {\n    background-image: url(/dist/assets/images/london-eye.jpg);\n    background-position: center;\n    height: 450px;\n    opacity: 0.9; }\n\n/* Main */\n#main {\n  background-size: 25em;\n  padding: 3em 0 3em 0;\n  margin-top: 3em; }\n  #main > :last-child {\n    margin-bottom: 0; }\n  #main .sidebar section {\n    border-top: solid 1px rgba(124, 128, 129, 0.2);\n    margin: 3em 0 0 0;\n    padding: 3em 0 0 0; }\n    #main .sidebar section:first-child {\n      border-top: 0;\n      padding-top: 0;\n      margin-top: 0; }\n\nbody.index #main {\n  padding-top: 5em; }\n\n/* CTA */\n#cta {\n  background-attachment: scroll, fixed;\n  background-color: #e28783;\n  color: #ffffff;\n  padding: 5em;\n  text-align: center;\n  padding: 5em; }\n  #cta .button {\n    background-color: #e4c33f; }\n  #cta header {\n    margin-bottom: 2em; }\n  #cta.level-test {\n    background-image: url(\"/dist/assets/images/overlay.png\"), url(\"/dist/assets/images/people-woman-coffee-meeting.jpg\");\n    background-position: top left, bottom center;\n    background-repeat: repeat, no-repeat;\n    background-size: auto, cover; }\n  #cta.get-in-touch {\n    background-image: url(\"/dist/assets/images/overlay.png\"), url(\"/dist/assets/images/in-touch.jpg\");\n    background-position: top left, bottom center;\n    background-repeat: repeat, no-repeat;\n    background-size: auto, cover; }\n\n/* Section/Article */\nsection.special, article.special {\n  text-align: center; }\n\nheader.major {\n  padding-bottom: 2em; }\n\nheader.special {\n  margin-bottom: 5em;\n  padding-top: 4em;\n  position: relative;\n  text-align: center; }\n  header.special:before {\n    left: 0; }\n  header.special:after {\n    right: 0; }\n  header.special h2 {\n    margin-bottom: 0; }\n  header.special h2 + p {\n    margin-bottom: 0;\n    padding-top: 1.5em; }\n  header.special .icon {\n    cursor: default;\n    height: 7em;\n    left: 0;\n    position: absolute;\n    text-align: center;\n    top: 0;\n    width: 100%; }\n    header.special .icon:before {\n      font-size: 3.5em;\n      opacity: 0.35; }\n\nfooter > :last-child {\n  margin-bottom: 0; }\n\nfooter.major {\n  padding-top: 3em; }\n\n/* Form */\ninput[type=\"text\"],\ninput[type=\"password\"],\ninput[type=\"email\"],\ntextarea {\n  -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;\n  -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;\n  -ms-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;\n  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;\n  -moz-appearance: none;\n  -webkit-appearance: none;\n  -ms-appearance: none;\n  appearance: none;\n  background: none;\n  border: solid 1px rgba(124, 128, 129, 0.2);\n  color: inherit;\n  display: block;\n  padding: 0.75em;\n  text-decoration: none;\n  width: 100%;\n  outline: 0; }\n  input[type=\"text\"]:focus,\n  input[type=\"password\"]:focus,\n  input[type=\"email\"]:focus,\n  textarea:focus {\n    border-color: #E1BC29; }\n\ninput[type=\"text\"],\ninput[type=\"password\"],\ninput[type=\"email\"] {\n  line-height: 1em; }\n\n::-webkit-input-placeholder {\n  color: inherit;\n  opacity: 0.5;\n  position: relative;\n  top: 3px; }\n\n:-moz-placeholder {\n  color: inherit;\n  opacity: 0.5; }\n\n::-moz-placeholder {\n  color: inherit;\n  opacity: 0.5; }\n\n:-ms-input-placeholder {\n  color: inherit;\n  opacity: 0.5; }\n\n.formerize-placeholder {\n  color: rgba(124, 128, 129, 0.5) !important; }\n\n/* Image */\n.image {\n  border: 0;\n  position: relative; }\n  .image:before {\n    background: url(\"images/overlay.png\");\n    content: '';\n    height: 100%;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 100%; }\n  .image.fit {\n    display: block; }\n    .image.fit img {\n      display: block;\n      width: 100%; }\n  .image.featured {\n    display: block;\n    margin: 0 0 2em 0;\n    width: 100%; }\n    .image.featured img {\n      display: block;\n      width: 100%; }\n\n/* Icon */\n.icon {\n  text-decoration: none;\n  position: relative; }\n  .icon:before {\n    -moz-osx-font-smoothing: grayscale;\n    -webkit-font-smoothing: antialiased;\n    font-family: FontAwesome;\n    font-style: normal;\n    font-weight: normal;\n    text-transform: none !important; }\n  .icon.circle {\n    -moz-transition: all 0.2s ease-in-out;\n    -webkit-transition: all 0.2s ease-in-out;\n    -ms-transition: all 0.2s ease-in-out;\n    transition: all 0.2s ease-in-out;\n    border: 0;\n    border-radius: 100%;\n    display: inline-block;\n    font-size: 1.25em;\n    height: 2.25em;\n    left: 0;\n    line-height: 2.25em;\n    text-align: center;\n    text-decoration: none;\n    top: 0;\n    width: 2.25em; }\n    .icon.circle:hover {\n      top: -0.2em; }\n    .icon.circle.fa-twitter {\n      background: #70aecd;\n      color: #fff; }\n      .icon.circle.fa-twitter:hover {\n        background: #7fb7d2; }\n    .icon.circle.fa-facebook {\n      background: #7490c3;\n      color: #fff; }\n      .icon.circle.fa-facebook:hover {\n        background: #829bc9; }\n    .icon.circle.fa-google-plus {\n      background: #db6b67;\n      color: #fff; }\n      .icon.circle.fa-google-plus:hover {\n        background: #df7b77; }\n    .icon.circle.fa-github {\n      background: #dcad8b;\n      color: #fff; }\n      .icon.circle.fa-github:hover {\n        background: #e1b89b; }\n    .icon.circle.fa-linkedin {\n      background: #70aecd;\n      color: #fff; }\n      .icon.circle.fa-linkedin:hover {\n        background: #7fb7d2; }\n    .icon.circle.fa-dribbble {\n      background: #da83ae;\n      color: #fff; }\n      .icon.circle.fa-dribbble:hover {\n        background: #df93b8; }\n  .icon.featured {\n    cursor: default;\n    display: block;\n    margin: 0 0 1.5em 0;\n    opacity: 0.35;\n    text-align: center; }\n    .icon.featured:before {\n      font-size: 5em;\n      line-height: 1em; }\n  .icon > .label {\n    display: none; }\n\n/* List */\nol.default {\n  list-style: decimal;\n  padding-left: 1.25em; }\n  ol.default li {\n    padding-left: 0.25em; }\n\nul.default {\n  list-style: disc;\n  padding-left: 1em; }\n  ul.default li {\n    padding-left: 0.5em; }\n\nul.icons {\n  cursor: default; }\n  ul.icons li {\n    display: inline-block;\n    line-height: 1em;\n    padding-left: 0.5em; }\n    ul.icons li:first-child {\n      padding-left: 0; }\n\nul.featured-icons {\n  cursor: default;\n  margin: -0.75em 0 0 0;\n  opacity: 0.35;\n  overflow: hidden;\n  position: relative; }\n  ul.featured-icons li {\n    display: block;\n    float: left;\n    text-align: center;\n    width: 50%; }\n    ul.featured-icons li .icon {\n      display: inline-block;\n      font-size: 6.25em;\n      height: 1.25em;\n      line-height: 1.25em;\n      width: 1em; }\n\nul.buttons {\n  cursor: default; }\n  ul.buttons:last-child {\n    margin-bottom: 0; }\n  ul.buttons li {\n    display: inline-block;\n    padding: 0 0 0 1.5em; }\n    ul.buttons li:first-child {\n      padding: 0; }\n  ul.buttons.vertical li {\n    display: block;\n    padding: 1.5em 0 0 0; }\n    ul.buttons.vertical li:first-child {\n      padding: 0; }\n\n/* Table */\ntable {\n  width: 100%; }\n  table.default {\n    width: 100%; }\n    table.default tbody tr {\n      border-bottom: solid 1px rgba(124, 128, 129, 0.2); }\n    table.default td {\n      padding: 0.5em 1em 0.5em 1em; }\n    table.default th {\n      font-weight: 400;\n      padding: 0.5em 1em 0.5em 1em;\n      text-align: left; }\n    table.default thead {\n      background: #7c8081;\n      color: #fff; }\n\n/* Button */\ninput[type=\"button\"],\ninput[type=\"submit\"],\ninput[type=\"reset\"],\n.button {\n  -moz-appearance: none;\n  -webkit-appearance: none;\n  -ms-appearance: none;\n  appearance: none;\n  -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  background: none;\n  border: solid 1px;\n  color: inherit;\n  cursor: pointer;\n  display: inline-block;\n  font-size: 0.8em;\n  font-weight: 900;\n  letter-spacing: 2px;\n  min-width: 18em;\n  padding: 0 0.75em;\n  line-height: 3.75em;\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase; }\n  input[type=\"button\"]:hover,\n  input[type=\"submit\"]:hover,\n  input[type=\"reset\"]:hover,\n  .button:hover {\n    background: rgba(188, 202, 206, 0.15);\n    border-color: inherit; }\n  input[type=\"button\"].special,\n  input[type=\"submit\"].special,\n  input[type=\"reset\"].special,\n  .button.special {\n    background: #E1BC29;\n    border-color: #E1BC29;\n    color: #fff !important; }\n    input[type=\"button\"].special:hover,\n    input[type=\"submit\"].special:hover,\n    input[type=\"reset\"].special:hover,\n    .button.special:hover {\n      background: #e4c33f !important;\n      border-color: #e4c33f !important; }\n  input[type=\"button\"].fit,\n  input[type=\"submit\"].fit,\n  input[type=\"reset\"].fit,\n  .button.fit {\n    width: 100%; }\n  input[type=\"button\"].small,\n  input[type=\"submit\"].small,\n  input[type=\"reset\"].small,\n  .button.small {\n    font-size: 0.7em;\n    min-width: 14em;\n    padding: 0.5em; }\n\n/* Wrapper */\n.wrapper {\n  margin-bottom: 3em;\n  margin-top: 2em;\n  padding: 5em; }\n  .wrapper.style1 {\n    padding: 0; }\n  .wrapper.style2 {\n    background-color: #E1BC29;\n    color: #fff; }\n    .wrapper.style2 .button:hover {\n      background: rgba(255, 255, 255, 0.15) !important; }\n    .wrapper.style2 .button.special {\n      background: #fff;\n      border-color: #fff;\n      color: #E1BC29 !important; }\n      .wrapper.style2 .button.special:hover {\n        border-color: inherit !important;\n        color: #fff !important; }\n  .wrapper.style3 {\n    background: #fafbfd;\n    color: inherit; }\n    .wrapper.style3 footer {\n      margin: 0 auto; }\n  .wrapper.style4 {\n    background: #fff;\n    color: inherit;\n    padding: 4em; }\n  .wrapper.worked {\n    margin-top: 3em;\n    padding-bottom: 5em;\n    margin-bottom: 5em;\n    background: #fff; }\n  .wrapper.services {\n    padding-left: 0;\n    padding-top: 0;\n    padding-right: 0;\n    margin-bottom: 0; }\n\n/* Wide */\n@media screen and (max-width: 1680px) {\n  /* Basic */\n  body, input, select, textarea {\n    font-size: 14pt; }\n  /* Section/Article */\n  header.special {\n    padding-top: 3em;\n    margin-bottom: 4em; } }\n\n/* Normal */\n@media screen and (max-width: 1280px) {\n  /* Basic */\n  body, input, select, textarea {\n    font-size: 13pt;\n    letter-spacing: 0.025em;\n    line-height: 1.65em; }\n  h1, h2, h3, h4, h5, h6 {\n    line-height: 1.5em; }\n  /* Section/Article */\n  header.major {\n    padding-bottom: 1.5em; }\n  footer.major {\n    padding-top: 2em; }\n  /* Wrapper */\n  .wrapper {\n    margin-bottom: 4em;\n    padding: 4em 3em; }\n    .wrapper.style4 {\n      padding: 3em; }\n  /* Header */\n  #header nav ul li {\n    margin-left: 1em; }\n  /* Banner */\n  #banner {\n    background-attachment: scroll; }\n    #banner .inner {\n      width: 70%; }\n  /* CTA */\n  #cta {\n    padding: 4em;\n    background-attachment: scroll; }\n  /* Footer */\n  #footer {\n    padding: 4em; } }\n\n@media screen and (max-width: 980px) {\n  /* Basic */\n  body, input, select, textarea {\n    font-size: 13pt;\n    letter-spacing: 0.025em;\n    line-height: 1.5em; }\n  /* Section/Article */\n  header br {\n    display: none; }\n  header.major {\n    padding-bottom: 1em; }\n  header.special {\n    padding-left: 2.5em;\n    padding-right: 2.5em; }\n  footer.major {\n    padding-top: 1.5em; }\n  .wrapper {\n    margin-bottom: 3em;\n    padding: 3em 2.5em; }\n    .wrapper.special br {\n      display: none; }\n    .wrapper.style1 {\n      padding: 0 2.5em; }\n    .wrapper.style2 {\n      background-size: 15em; }\n    .wrapper.style4 {\n      padding: 2.5em; }\n  /* Main */\n  #main {\n    background-size: 15em; }\n  /* CTA */\n  #cta {\n    padding: 3em; } }\n\n@media screen and (max-width: 840px) {\n  .wrapper.special-alt {\n    text-align: center; }\n  .wrapper.style4 {\n    padding-bottom: 3em; }\n  /* Basic */\n  html, body {\n    overflow-x: hidden; }\n  header.major {\n    padding-bottom: 0.25em; }\n  header.special {\n    margin-bottom: 4em;\n    padding-top: 3em; }\n    header.special:before, header.special:after {\n      width: 40%; }\n    header.special h2 + p {\n      padding-top: 1.25em; }\n  /* Section/Article */\n  section {\n    margin: 1em 0 1em 0; }\n    section:first-child {\n      margin-top: 0; }\n  /* Button */\n  input[type=\"button\"].small,\n  input[type=\"submit\"].small,\n  input[type=\"reset\"].small,\n  .button.small {\n    font-size: 0.8em;\n    min-width: 18em;\n    padding: 0.75em 0; }\n  /* List */\n  ul.featured-icons {\n    margin: 0; }\n    ul.featured-icons li {\n      display: inline-block;\n      float: none;\n      width: auto; }\n      ul.featured-icons li .icon {\n        font-size: 4em;\n        width: 1.25em; }\n  ul.buttons li {\n    display: block;\n    padding: 1em 0 0 0; }\n  /* Header */\n  #header {\n    display: none; }\n  /* Wrapper */\n  .wrapper.special-alt {\n    text-align: center; }\n  .wrapper.style4 {\n    padding-bottom: 3em; }\n  /* Main */\n  #main {\n    padding: 5em 0; }\n    #main .sidebar {\n      border-top: solid 1px rgba(124, 128, 129, 0.1);\n      padding-top: 3em; }\n      #main .sidebar section {\n        border-top: 0;\n        padding-top: 0; }\n  body.index #main {\n    padding-top: 4.5em; }\n  /* CTA */\n  #cta {\n    margin: 0; }\n  /* Footer */\n  #footer {\n    padding: 4em 1.5em; }\n  /* Off-Canvas Navigation */\n  #page-wrapper {\n    -moz-backface-visibility: hidden;\n    -webkit-backface-visibility: hidden;\n    -ms-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -moz-transition: -moz-transform 0.5s ease;\n    -webkit-transition: -webkit-transform 0.5s ease;\n    -ms-transition: -ms-transform 0.5s ease;\n    transition: transform 0.5s ease;\n    padding-bottom: 1px; }\n  #navButton {\n    -moz-backface-visibility: hidden;\n    -webkit-backface-visibility: hidden;\n    -ms-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -moz-transition: -moz-transform 0.5s ease;\n    -webkit-transition: -webkit-transform 0.5s ease;\n    -ms-transition: -ms-transform 0.5s ease;\n    transition: transform 0.5s ease;\n    display: block;\n    height: 60px;\n    left: 0;\n    position: fixed;\n    top: 0;\n    width: 100%;\n    z-index: 1001; }\n    #navButton .toggle {\n      text-decoration: none;\n      height: 60px;\n      left: 0;\n      position: absolute;\n      text-align: center;\n      top: 0;\n      width: 100%;\n      border: 0;\n      outline: 0; }\n      #navButton .toggle:before {\n        -moz-osx-font-smoothing: grayscale;\n        -webkit-font-smoothing: antialiased;\n        font-family: FontAwesome;\n        font-style: normal;\n        font-weight: normal;\n        text-transform: none !important; }\n      #navButton .toggle:before {\n        color: #fff;\n        content: '\\f0c9';\n        font-size: 1em;\n        height: 40px;\n        left: 10px;\n        line-height: 40px;\n        opacity: 0.5;\n        position: absolute;\n        top: 11px;\n        width: 60px;\n        z-index: 1; }\n      #navButton .toggle:after {\n        background: rgba(163, 169, 170, 0.75);\n        border-radius: 2px;\n        content: '';\n        height: 40px;\n        left: 10px;\n        position: absolute;\n        top: 10px;\n        width: 60px; }\n  #navPanel {\n    -moz-backface-visibility: hidden;\n    -webkit-backface-visibility: hidden;\n    -ms-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -moz-transform: translateX(-275px);\n    -webkit-transform: translateX(-275px);\n    -ms-transform: translateX(-275px);\n    transform: translateX(-275px);\n    -moz-transition: -moz-transform 0.5s ease;\n    -webkit-transition: -webkit-transform 0.5s ease;\n    -ms-transition: -ms-transform 0.5s ease;\n    transition: transform 0.5s ease;\n    display: block;\n    height: 100%;\n    left: 0;\n    overflow-y: auto;\n    position: fixed;\n    top: 0;\n    width: 275px;\n    z-index: 1002;\n    background: #df7b77;\n    color: #fff;\n    font-size: 0.8em;\n    letter-spacing: 0.075em;\n    text-transform: uppercase;\n    padding: 0.25em 0.75em 1em 0.75em; }\n    #navPanel .link {\n      border: 0;\n      border-top: solid 1px rgba(255, 255, 255, 0.05);\n      color: inherit;\n      display: block;\n      height: 3em;\n      line-height: 3em;\n      opacity: 0.75;\n      text-decoration: none; }\n      #navPanel .link.depth-0 {\n        font-weight: 900; }\n      #navPanel .link:first-child {\n        border-top: 0; }\n    #navPanel .indent-1 {\n      display: inline-block;\n      width: 1em; }\n    #navPanel .indent-2 {\n      display: inline-block;\n      width: 2em; }\n    #navPanel .indent-3 {\n      display: inline-block;\n      width: 3em; }\n    #navPanel .indent-4 {\n      display: inline-block;\n      width: 4em; }\n    #navPanel .indent-5 {\n      display: inline-block;\n      width: 5em; }\n  body.navPanel-visible #page-wrapper {\n    -moz-transform: translateX(275px);\n    -webkit-transform: translateX(275px);\n    -ms-transform: translateX(275px);\n    transform: translateX(275px); }\n  body.navPanel-visible #navButton {\n    -moz-transform: translateX(275px);\n    -webkit-transform: translateX(275px);\n    -ms-transform: translateX(275px);\n    transform: translateX(275px); }\n  body.navPanel-visible #navPanel {\n    -moz-transform: translateX(0);\n    -webkit-transform: translateX(0);\n    -ms-transform: translateX(0);\n    transform: translateX(0); } }\n\n/* Mobile */\n@media screen and (max-width: 736px) {\n  /* Basic */\n  body {\n    min-width: 320px; }\n  h2 {\n    font-size: 1.25em;\n    letter-spacing: 0.1em; }\n  h3 {\n    font-size: 1em;\n    letter-spacing: 0.025em; }\n  p {\n    text-align: justify; }\n  .image.featured {\n    display: none; }\n    .image.featured img {\n      display: none; }\n  /* Section/Article */\n  header {\n    text-align: center; }\n    header.home {\n      padding-top: 4em; }\n    header.major {\n      padding-bottom: 0; }\n    header.special {\n      margin-bottom: 3em;\n      padding-left: 1em;\n      padding-right: 1em; }\n      header.special:before, header.special:after {\n        width: 38%; }\n      header.special .icon {\n        font-size: 0.75em;\n        top: 0; }\n    header p {\n      text-align: center; }\n  .home-header {\n    background: white;\n    padding-left: 0.5em;\n    padding-right: 0.5em;\n    padding-top: 1.5em;\n    padding-bottom: 1.5em;\n    margin-top: -5em; }\n  footer.major {\n    padding-top: 0; }\n  /* Icon */\n  .icon.circle {\n    font-size: 1em; }\n  /* Button */\n  input[type=\"button\"],\n  input[type=\"submit\"],\n  input[type=\"reset\"],\n  .button {\n    max-width: 20em;\n    width: 100%; }\n    input[type=\"button\"].fit,\n    input[type=\"submit\"].fit,\n    input[type=\"reset\"].fit,\n    .button.fit {\n      width: auto; }\n  /* List */\n  ul.icons li {\n    padding-left: 0.25em; }\n  ul.featured-icons li .icon {\n    width: 1.1em; }\n  ul.buttons {\n    text-align: center; }\n  /* CTA */\n  #cta p {\n    text-align: center;\n    margin-top: 2em; }\n  #cta.level-test {\n    background-image: url(\"/dist/assets/images/overlay.png\"), url(\"/dist/assets/images/people-woman-coffee-meeting_mobile.jpg\"); }\n  #cta.get-in-touch {\n    background-image: url(\"/dist/assets/images/overlay.png\"), url(\"/dist/assets/images/in-touch_mobile.jpg\"); }\n  /* Wrapper */\n  .wrapper {\n    margin: 0;\n    padding: 3.25em 1.5em; }\n    .wrapper.special br {\n      display: none; }\n    .wrapper.style1 {\n      padding: 0 1.5em; }\n    .wrapper.style2 {\n      background-size: 25em;\n      padding: 2.25em 1.5em; }\n    .wrapper.style4 {\n      background-size: 25em;\n      padding: 1.5em 1.5em 3em 1.5em; }\n    .wrapper.worked {\n      margin: 0; }\n  /* Banner */\n  #banner {\n    background-image: url(/dist/assets/images/london1_mobile.jpg);\n    margin: 0 auto;\n    padding: 4em 0; }\n    #banner .inner {\n      background: none;\n      padding: 0; }\n      #banner .inner img {\n        width: 90%; }\n      #banner .inner header {\n        text-align: center; }\n        #banner .inner header h2 {\n          font-size: 2.0em; }\n        #banner .inner header .home-title {\n          display: none; }\n      #banner .inner p {\n        text-align: center; }\n      #banner .inner br {\n        display: none; }\n    #banner.about-us {\n      background-image: url(/dist/assets/images/about-us_mobile.jpg);\n      height: 300px !important; }\n    #banner.services-banner {\n      background-image: url(/dist/assets/images/london-eye_mobile.jpg);\n      height: 300px !important; }\n  /* Main */\n  #main {\n    padding: 0 0 2.5em 0; }\n  body.index #main {\n    padding: 2.5em 0 0 0; }\n  body.contact #main {\n    padding-bottom: 0; }\n  /* Footer */\n  #footer {\n    padding: 3em 1.5em; }\n    #footer .copyright li {\n      display: block;\n      margin: 1em 0 0 0;\n      padding: 0;\n      border: 0; }\n  /* Off-Canvas Navigation */\n  #navButton .toggle:before {\n    top: 8px;\n    left: 8px;\n    width: 50px;\n    height: 34px;\n    line-height: 34px; }\n  #navButton .toggle:after {\n    top: 8px;\n    left: 8px;\n    width: 50px;\n    height: 34px; }\n  .tabset-content {\n    padding: 0 !important; } }\n\n/* Modal */\n.modal-dialog {\n  width: 600px;\n  margin: 30px auto; }\n\n.modal-backdrop {\n  opacity: .5;\n  z-index: 10030;\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1040;\n  background-color: #000; }\n\n.modal {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1050;\n  display: none;\n  -webkit-overflow-scrolling: touch;\n  outline: 0; }\n\n.modal-content {\n  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);\n  position: relative;\n  background-color: #fff;\n  -webkit-background-clip: padding-box;\n  background-clip: padding-box;\n  border: 1px solid #999;\n  border: 1px solid rgba(0, 0, 0, 0.2);\n  border-radius: 6px;\n  outline: 0;\n  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  padding: 30px;\n  z-index: 10050; }\n\n.modal-footer {\n  text-align: center; }\n\n@media screen and (max-width: 980px) {\n  .modal-lg {\n    width: 900px; } }\n\n@media screen and (max-width: 736px) {\n  .modal-dialog {\n    width: 90%; }\n  input[type=\"button\"], input[type=\"submit\"], input[type=\"reset\"], .button {\n    min-width: 0; } }\n\n/* Tick List */\nul.tick {\n  margin-top: 0;\n  padding-left: 1.5em; }\n\nul.tick li:before {\n  position: absolute;\n  margin-left: -1.3em;\n  font-weight: bold;\n  content: '✓'; }\n\n/* Tabs */\n.tabset-content {\n  background-color: #ffffff;\n  padding: 5em 2em;\n  border-top: none;\n  border-left: 1px solid #ddd;\n  border-bottom: 1px solid #ddd;\n  border-right: 1px solid #ddd; }\n\n.nav-tabs > li {\n  width: 50%;\n  background-color: #fafbfd;\n  border-bottom: none; }\n\n.nav-tabs > li > a {\n  color: #E1BC29;\n  font-size: 1.2em;\n  border-bottom: 1px solid #ddd; }\n\n.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {\n  color: #df7b77; }\n\n.nav-tabs > li > a:hover {\n  background-color: #E8EEF4; }\n\n/* Logos */\n.logo-table {\n  display: table;\n  /* Allow the centering to work */\n  margin: 0 auto;\n  width: 100%;\n  margin-top: 0px; }\n\n.logos img {\n  max-width: 100%; }\n\n.logos ul {\n  margin: auto;\n  width: 100%; }\n\n.logos li {\n  display: inline-block;\n  padding: 1em 2em 1em 2em;\n  margin: auto; }\n\n/* alerts */\n.alert-danger {\n  color: #a94442;\n  border-color: #ebccd1;\n  float: left; }\n"
+module.exports = "@charset \"UTF-8\";\n@import url(\"https://fonts.googleapis.com/css?family=Lato:300,400,900\");\n@import url(\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\");\n/* Reset */\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  -webkit-text-size-adjust: none; }\n\n/* Box Model */\n*, *:before, *:after {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n/* Containers */\n.container {\n  margin-left: auto;\n  margin-right: auto; }\n\n.container.\\31 25\\25\t\t{\n  width: 100%;\n  max-width: 1750px;\n  min-width: 1400px; }\n\n.container.\\37 5\\25\t\t\t{\n  width: 1050px; }\n\n.container.\\35 0\\25\t\t\t{\n  width: 700px; }\n\n.container.\\32 5\\25\t\t\t{\n  width: 350px; }\n\n.container {\n  width: 1400px; }\n\n@media screen and (max-width: 1680px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 1500px;\n    min-width: 1200px; }\n  .container.\\37 5\\25\t\t\t{\n    width: 900px; }\n  .container.\\35 0\\25\t\t\t{\n    width: 600px; }\n  .container.\\32 5\\25\t\t\t{\n    width: 300px; }\n  .container {\n    width: 1200px; } }\n\n@media screen and (max-width: 1280px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 1200px;\n    min-width: 960px; }\n  .container.\\37 5\\25\t\t\t{\n    width: 720px; }\n  .container.\\35 0\\25\t\t\t{\n    width: 480px; }\n  .container.\\32 5\\25\t\t\t{\n    width: 240px; }\n  .container {\n    width: 960px; } }\n\n@media screen and (max-width: 980px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 118.75%;\n    min-width: 95%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 71.25%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 47.5%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 23.75%; }\n  .container {\n    width: 95%; } }\n\n@media screen and (max-width: 840px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 118.75%;\n    min-width: 95%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 71.25%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 47.5%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 23.75%; }\n  .container {\n    width: 95% !important; } }\n\n@media screen and (max-width: 736px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 125%;\n    min-width: 100%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 75%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 50%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 25%; }\n  .container {\n    width: 100% !important; } }\n\n/* Grid */\n.row {\n  border-bottom: solid 1px transparent;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.row > * {\n  float: left;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.row:after, .row:before {\n  content: '';\n  display: block;\n  clear: both;\n  height: 0; }\n\n.row.uniform > * > :first-child {\n  margin-top: 0; }\n\n.row.uniform > * > :last-child {\n  margin-bottom: 0; }\n\n.row.\\30 \\25 > * {\n  padding: 0px 0 0 0px; }\n\n.row.\\30 \\25 {\n  margin: 0px 0 -1px 0px; }\n\n.row.uniform.\\30 \\25 > * {\n  padding: 0px 0 0 0px; }\n\n.row.uniform.\\30 \\25 {\n  margin: 0px 0 -1px 0px; }\n\n.row > * {\n  padding: 50px 0 0 50px; }\n\n.row {\n  margin: -50px 0 -1px -50px; }\n\n.row.uniform > * {\n  padding: 50px 0 0 50px; }\n\n.row.uniform {\n  margin: -50px 0 -1px -50px; }\n\n.row.\\32 00\\25 > * {\n  padding: 100px 0 0 100px; }\n\n.row.\\32 00\\25 {\n  margin: -100px 0 -1px -100px; }\n\n.row.uniform.\\32 00\\25 > * {\n  padding: 100px 0 0 100px; }\n\n.row.uniform.\\32 00\\25 {\n  margin: -100px 0 -1px -100px; }\n\n.row.\\31 50\\25 > * {\n  padding: 75px 0 0 75px; }\n\n.row.\\31 50\\25 {\n  margin: -75px 0 -1px -75px; }\n\n.row.uniform.\\31 50\\25 > * {\n  padding: 75px 0 0 75px; }\n\n.row.uniform.\\31 50\\25 {\n  margin: -75px 0 -1px -75px; }\n\n.row.\\35 0\\25 > * {\n  padding: 25px 0 0 25px; }\n\n.row.\\35 0\\25 {\n  margin: -25px 0 -1px -25px; }\n\n.row.uniform.\\35 0\\25 > * {\n  padding: 25px 0 0 25px; }\n\n.row.uniform.\\35 0\\25 {\n  margin: -25px 0 -1px -25px; }\n\n.row.\\32 5\\25 > * {\n  padding: 12.5px 0 0 12.5px; }\n\n.row.\\32 5\\25 {\n  margin: -12.5px 0 -1px -12.5px; }\n\n.row.uniform.\\32 5\\25 > * {\n  padding: 12.5px 0 0 12.5px; }\n\n.row.uniform.\\32 5\\25 {\n  margin: -12.5px 0 -1px -12.5px; }\n\n.\\31 2u, .\\31 2u\\24 {\n  width: 100%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 1u, .\\31 1u\\24 {\n  width: 91.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 0u, .\\31 0u\\24 {\n  width: 83.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\39 u, .\\39 u\\24 {\n  width: 75%;\n  clear: none;\n  margin-left: 0; }\n\n.\\38 u, .\\38 u\\24 {\n  width: 66.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\37 u, .\\37 u\\24 {\n  width: 58.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\36 u, .\\36 u\\24 {\n  width: 50%;\n  clear: none;\n  margin-left: 0; }\n\n.\\35 u, .\\35 u\\24 {\n  width: 41.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\34 u, .\\34 u\\24 {\n  width: 33.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\33 u, .\\33 u\\24 {\n  width: 25%;\n  clear: none;\n  margin-left: 0; }\n\n.\\32 u, .\\32 u\\24 {\n  width: 16.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 u, .\\31 u\\24 {\n  width: 8.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 2u\\24 + *,\n.\\31 1u\\24 + *,\n.\\31 0u\\24 + *,\n.\\39 u\\24 + *,\n.\\38 u\\24 + *,\n.\\37 u\\24 + *,\n.\\36 u\\24 + *,\n.\\35 u\\24 + *,\n.\\34 u\\24 + *,\n.\\33 u\\24 + *,\n.\\32 u\\24 + *,\n.\\31 u\\24 + * {\n  clear: left; }\n\n.\\-11u {\n  margin-left: 91.6666666667%; }\n\n.\\-10u {\n  margin-left: 83.3333333333%; }\n\n.\\-9u {\n  margin-left: 75%; }\n\n.\\-8u {\n  margin-left: 66.6666666667%; }\n\n.\\-7u {\n  margin-left: 58.3333333333%; }\n\n.\\-6u {\n  margin-left: 50%; }\n\n.\\-5u {\n  margin-left: 41.6666666667%; }\n\n.\\-4u {\n  margin-left: 33.3333333333%; }\n\n.\\-3u {\n  margin-left: 25%; }\n\n.\\-2u {\n  margin-left: 16.6666666667%; }\n\n.\\-1u {\n  margin-left: 8.3333333333%; }\n\n@media screen and (max-width: 1680px) {\n  .row > * {\n    padding: 40px 0 0 40px; }\n  .row {\n    margin: -40px 0 -1px -40px; }\n  .row.uniform > * {\n    padding: 40px 0 0 40px; }\n  .row.uniform {\n    margin: -40px 0 -1px -40px; }\n  .row.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .\\31 2u\\28wide\\29, .\\31 2u\\24\\28wide\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28wide\\29, .\\31 1u\\24\\28wide\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28wide\\29, .\\31 0u\\24\\28wide\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28wide\\29, .\\39 u\\24\\28wide\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28wide\\29, .\\38 u\\24\\28wide\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28wide\\29, .\\37 u\\24\\28wide\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28wide\\29, .\\36 u\\24\\28wide\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28wide\\29, .\\35 u\\24\\28wide\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28wide\\29, .\\34 u\\24\\28wide\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28wide\\29, .\\33 u\\24\\28wide\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28wide\\29, .\\32 u\\24\\28wide\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28wide\\29, .\\31 u\\24\\28wide\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28wide\\29 + *,\n  .\\31 1u\\24\\28wide\\29 + *,\n  .\\31 0u\\24\\28wide\\29 + *,\n  .\\39 u\\24\\28wide\\29 + *,\n  .\\38 u\\24\\28wide\\29 + *,\n  .\\37 u\\24\\28wide\\29 + *,\n  .\\36 u\\24\\28wide\\29 + *,\n  .\\35 u\\24\\28wide\\29 + *,\n  .\\34 u\\24\\28wide\\29 + *,\n  .\\33 u\\24\\28wide\\29 + *,\n  .\\32 u\\24\\28wide\\29 + *,\n  .\\31 u\\24\\28wide\\29 + * {\n    clear: left; }\n  .\\-11u\\28wide\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28wide\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28wide\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28wide\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28wide\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28wide\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28wide\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28wide\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28wide\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28wide\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28wide\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 1280px) {\n  .row > * {\n    padding: 40px 0 0 40px; }\n  .row {\n    margin: -40px 0 -1px -40px; }\n  .row.uniform > * {\n    padding: 40px 0 0 40px; }\n  .row.uniform {\n    margin: -40px 0 -1px -40px; }\n  .row.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .\\31 2u\\28normal\\29, .\\31 2u\\24\\28normal\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28normal\\29, .\\31 1u\\24\\28normal\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28normal\\29, .\\31 0u\\24\\28normal\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28normal\\29, .\\39 u\\24\\28normal\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28normal\\29, .\\38 u\\24\\28normal\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28normal\\29, .\\37 u\\24\\28normal\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28normal\\29, .\\36 u\\24\\28normal\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28normal\\29, .\\35 u\\24\\28normal\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28normal\\29, .\\34 u\\24\\28normal\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28normal\\29, .\\33 u\\24\\28normal\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28normal\\29, .\\32 u\\24\\28normal\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28normal\\29, .\\31 u\\24\\28normal\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28normal\\29 + *,\n  .\\31 1u\\24\\28normal\\29 + *,\n  .\\31 0u\\24\\28normal\\29 + *,\n  .\\39 u\\24\\28normal\\29 + *,\n  .\\38 u\\24\\28normal\\29 + *,\n  .\\37 u\\24\\28normal\\29 + *,\n  .\\36 u\\24\\28normal\\29 + *,\n  .\\35 u\\24\\28normal\\29 + *,\n  .\\34 u\\24\\28normal\\29 + *,\n  .\\33 u\\24\\28normal\\29 + *,\n  .\\32 u\\24\\28normal\\29 + *,\n  .\\31 u\\24\\28normal\\29 + * {\n    clear: left; }\n  .\\-11u\\28normal\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28normal\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28normal\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28normal\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28normal\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28normal\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28normal\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28normal\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28normal\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28normal\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28normal\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 980px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28narrow\\29, .\\31 2u\\24\\28narrow\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28narrow\\29, .\\31 1u\\24\\28narrow\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28narrow\\29, .\\31 0u\\24\\28narrow\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28narrow\\29, .\\39 u\\24\\28narrow\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28narrow\\29, .\\38 u\\24\\28narrow\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28narrow\\29, .\\37 u\\24\\28narrow\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28narrow\\29, .\\36 u\\24\\28narrow\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28narrow\\29, .\\35 u\\24\\28narrow\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28narrow\\29, .\\34 u\\24\\28narrow\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28narrow\\29, .\\33 u\\24\\28narrow\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28narrow\\29, .\\32 u\\24\\28narrow\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28narrow\\29, .\\31 u\\24\\28narrow\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28narrow\\29 + *,\n  .\\31 1u\\24\\28narrow\\29 + *,\n  .\\31 0u\\24\\28narrow\\29 + *,\n  .\\39 u\\24\\28narrow\\29 + *,\n  .\\38 u\\24\\28narrow\\29 + *,\n  .\\37 u\\24\\28narrow\\29 + *,\n  .\\36 u\\24\\28narrow\\29 + *,\n  .\\35 u\\24\\28narrow\\29 + *,\n  .\\34 u\\24\\28narrow\\29 + *,\n  .\\33 u\\24\\28narrow\\29 + *,\n  .\\32 u\\24\\28narrow\\29 + *,\n  .\\31 u\\24\\28narrow\\29 + * {\n    clear: left; }\n  .\\-11u\\28narrow\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28narrow\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28narrow\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28narrow\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28narrow\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28narrow\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28narrow\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28narrow\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28narrow\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28narrow\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28narrow\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 840px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28narrower\\29, .\\31 2u\\24\\28narrower\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28narrower\\29, .\\31 1u\\24\\28narrower\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28narrower\\29, .\\31 0u\\24\\28narrower\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28narrower\\29, .\\39 u\\24\\28narrower\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28narrower\\29, .\\38 u\\24\\28narrower\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28narrower\\29, .\\37 u\\24\\28narrower\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28narrower\\29, .\\36 u\\24\\28narrower\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28narrower\\29, .\\35 u\\24\\28narrower\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28narrower\\29, .\\34 u\\24\\28narrower\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28narrower\\29, .\\33 u\\24\\28narrower\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28narrower\\29, .\\32 u\\24\\28narrower\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28narrower\\29, .\\31 u\\24\\28narrower\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28narrower\\29 + *,\n  .\\31 1u\\24\\28narrower\\29 + *,\n  .\\31 0u\\24\\28narrower\\29 + *,\n  .\\39 u\\24\\28narrower\\29 + *,\n  .\\38 u\\24\\28narrower\\29 + *,\n  .\\37 u\\24\\28narrower\\29 + *,\n  .\\36 u\\24\\28narrower\\29 + *,\n  .\\35 u\\24\\28narrower\\29 + *,\n  .\\34 u\\24\\28narrower\\29 + *,\n  .\\33 u\\24\\28narrower\\29 + *,\n  .\\32 u\\24\\28narrower\\29 + *,\n  .\\31 u\\24\\28narrower\\29 + * {\n    clear: left; }\n  .\\-11u\\28narrower\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28narrower\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28narrower\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28narrower\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28narrower\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28narrower\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28narrower\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28narrower\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28narrower\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28narrower\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28narrower\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 736px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28mobile\\29, .\\31 2u\\24\\28mobile\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28mobile\\29, .\\31 1u\\24\\28mobile\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28mobile\\29, .\\31 0u\\24\\28mobile\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28mobile\\29, .\\39 u\\24\\28mobile\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28mobile\\29, .\\38 u\\24\\28mobile\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28mobile\\29, .\\37 u\\24\\28mobile\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28mobile\\29, .\\36 u\\24\\28mobile\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28mobile\\29, .\\35 u\\24\\28mobile\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28mobile\\29, .\\34 u\\24\\28mobile\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28mobile\\29, .\\33 u\\24\\28mobile\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28mobile\\29, .\\32 u\\24\\28mobile\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28mobile\\29, .\\31 u\\24\\28mobile\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28mobile\\29 + *,\n  .\\31 1u\\24\\28mobile\\29 + *,\n  .\\31 0u\\24\\28mobile\\29 + *,\n  .\\39 u\\24\\28mobile\\29 + *,\n  .\\38 u\\24\\28mobile\\29 + *,\n  .\\37 u\\24\\28mobile\\29 + *,\n  .\\36 u\\24\\28mobile\\29 + *,\n  .\\35 u\\24\\28mobile\\29 + *,\n  .\\34 u\\24\\28mobile\\29 + *,\n  .\\33 u\\24\\28mobile\\29 + *,\n  .\\32 u\\24\\28mobile\\29 + *,\n  .\\31 u\\24\\28mobile\\29 + * {\n    clear: left; }\n  .\\-11u\\28mobile\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28mobile\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28mobile\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28mobile\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28mobile\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28mobile\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28mobile\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28mobile\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28mobile\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28mobile\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28mobile\\29 {\n    margin-left: 8.3333333333%; } }\n\n#navPanel, #navButton {\n  display: none; }\n\n/* Basic */\nbody {\n  background: #fafbfd; }\n  body.is-loading *, body.is-loading *:before, body.is-loading *:after {\n    -moz-animation: none !important;\n    -webkit-animation: none !important;\n    -ms-animation: none !important;\n    animation: none !important;\n    -moz-transition: none !important;\n    -webkit-transition: none !important;\n    -ms-transition: none !important;\n    transition: none !important; }\n\nbody, input, select, textarea {\n  color: #7c8081;\n  font-family: 'Lato', sans-serif;\n  font-size: 15pt;\n  font-weight: 300;\n  letter-spacing: 0.025em;\n  line-height: 1.75em; }\n\na {\n  -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  color: #ffffff;\n  text-decoration: none;\n  border-bottom: dotted 1px; }\n  a:hover {\n    border-bottom-color: transparent; }\n\nstrong, b {\n  font-weight: 400; }\n\np, ul, ol, dl, table, blockquote {\n  margin: 0 0 2em 0; }\n\n.logos {\n  margin: 0 !important; }\n\nh1, h2, h3, h4, h5, h6 {\n  color: inherit;\n  font-weight: 300;\n  line-height: 1.75em;\n  margin-bottom: 1em;\n  text-transform: uppercase; }\n  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {\n    color: inherit;\n    text-decoration: none;\n    border: 0; }\n\nh2 {\n  font-size: 1.5em;\n  letter-spacing: 0.1em; }\n\nh3 {\n  font-size: 1.15em;\n  letter-spacing: 0.025em; }\n\nsub {\n  font-size: 0.8em;\n  position: relative;\n  top: 0.5em; }\n\nsup {\n  font-size: 0.8em;\n  position: relative;\n  top: -0.5em; }\n\nhr {\n  border-top: solid 1px rgba(124, 128, 129, 0.2);\n  border: 0;\n  margin-bottom: 1.5em; }\n\nblockquote {\n  border-left: solid 0.5em rgba(124, 128, 129, 0.2);\n  font-style: italic;\n  padding: 1em 0 1em 2em; }\n\n/* Banner */\n@-moz-keyframes reveal-banner {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@-webkit-keyframes reveal-banner {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@-ms-keyframes reveal-banner {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@keyframes reveal-banner {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\nheader.home {\n  padding-top: 0 !important; }\n\n#banner {\n  background-attachment: scroll, scroll, scroll, fixed;\n  background-color: #fff;\n  width: 100%;\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-image: url(\"/dist/assets/images/london1.jpg\");\n  cursor: default;\n  padding: 6em 0;\n  text-align: center;\n  color: #fff;\n  cursor: default;\n  padding: 6em 0;\n  max-height: 714px; }\n  #banner .inner {\n    /*@include vendor('animation', 'reveal-banner 2s 0.25s ease-in-out');\r\n        @include vendor('animation-fill-mode', 'forwards');*/\n    color: #fff;\n    display: inline-block;\n    opacity: 1;\n    text-align: center;\n    width: 55%; }\n    #banner .inner img {\n      width: 50%;\n      margin: 1em; }\n    #banner .inner header {\n      display: inline-block;\n      margin: 0 0 2em 0;\n      padding: 3px 0 3px 0; }\n      #banner .inner header .home-title {\n        font-size: 1.8em; }\n      #banner .inner header h2 {\n        border-bottom: solid 2px;\n        border-top: solid 2px;\n        font-size: 2.5em;\n        font-weight: 900;\n        letter-spacing: 0.2em;\n        margin: 0;\n        padding-left: 0.05em;\n        position: relative;\n        text-transform: uppercase; }\n    #banner .inner p {\n      letter-spacing: 0.1em;\n      margin: 0;\n      text-transform: uppercase; }\n      #banner .inner p a {\n        color: inherit;\n        font-weight: 400;\n        text-decoration: none; }\n    #banner .inner footer {\n      margin: 2em 0 0 0; }\n  #banner.about-us {\n    background-image: url(/dist/assets/images/about-us.jpg);\n    background-position: top;\n    height: 450px; }\n  #banner.services-banner {\n    background-image: url(/dist/assets/images/london-eye.jpg);\n    background-position: center;\n    height: 450px;\n    opacity: 0.9; }\n\n/* Main */\n#main {\n  background-size: 25em;\n  padding: 3em 0 3em 0;\n  margin-top: 3em; }\n  #main > :last-child {\n    margin-bottom: 0; }\n  #main .sidebar section {\n    border-top: solid 1px rgba(124, 128, 129, 0.2);\n    margin: 3em 0 0 0;\n    padding: 3em 0 0 0; }\n    #main .sidebar section:first-child {\n      border-top: 0;\n      padding-top: 0;\n      margin-top: 0; }\n\nbody.index #main {\n  padding-top: 5em; }\n\n/* CTA */\n#cta {\n  background-attachment: scroll, fixed;\n  background-color: #e28783;\n  color: #ffffff;\n  padding: 5em;\n  text-align: center;\n  padding: 5em; }\n  #cta .button {\n    background-color: #e4c33f; }\n  #cta header {\n    margin-bottom: 2em; }\n  #cta.level-test {\n    background-image: url(\"/dist/assets/images/overlay.png\"), url(\"/dist/assets/images/people-woman-coffee-meeting.jpg\");\n    background-position: top left, bottom center;\n    background-repeat: repeat, no-repeat;\n    background-size: auto, cover; }\n  #cta.get-in-touch {\n    background-image: url(\"/dist/assets/images/overlay.png\"), url(\"/dist/assets/images/in-touch.jpg\");\n    background-position: top left, bottom center;\n    background-repeat: repeat, no-repeat;\n    background-size: auto, cover; }\n\n/* Section/Article */\nsection.special, article.special {\n  text-align: center; }\n\nheader.major {\n  padding-bottom: 2em; }\n\nheader.special {\n  margin-bottom: 5em;\n  padding-top: 4em;\n  position: relative;\n  text-align: center; }\n  header.special:before {\n    left: 0; }\n  header.special:after {\n    right: 0; }\n  header.special h2 {\n    margin-bottom: 0; }\n  header.special h2 + p {\n    margin-bottom: 0;\n    padding-top: 1.5em; }\n  header.special .icon {\n    cursor: default;\n    height: 7em;\n    left: 0;\n    position: absolute;\n    text-align: center;\n    top: 0;\n    width: 100%; }\n    header.special .icon:before {\n      font-size: 3.5em;\n      opacity: 0.35; }\n\nfooter > :last-child {\n  margin-bottom: 0; }\n\nfooter.major {\n  padding-top: 3em; }\n\n/* Form */\ninput[type=\"text\"],\ninput[type=\"password\"],\ninput[type=\"email\"],\ntextarea {\n  -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;\n  -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;\n  -ms-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;\n  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;\n  -moz-appearance: none;\n  -webkit-appearance: none;\n  -ms-appearance: none;\n  appearance: none;\n  background: none;\n  border: solid 1px rgba(124, 128, 129, 0.2);\n  color: inherit;\n  display: block;\n  padding: 0.75em;\n  text-decoration: none;\n  width: 100%;\n  outline: 0; }\n  input[type=\"text\"]:focus,\n  input[type=\"password\"]:focus,\n  input[type=\"email\"]:focus,\n  textarea:focus {\n    border-color: #E1BC29; }\n\ninput[type=\"text\"],\ninput[type=\"password\"],\ninput[type=\"email\"] {\n  line-height: 1em; }\n\n::-webkit-input-placeholder {\n  color: inherit;\n  opacity: 0.5;\n  position: relative;\n  top: 3px; }\n\n:-moz-placeholder {\n  color: inherit;\n  opacity: 0.5; }\n\n::-moz-placeholder {\n  color: inherit;\n  opacity: 0.5; }\n\n:-ms-input-placeholder {\n  color: inherit;\n  opacity: 0.5; }\n\n.formerize-placeholder {\n  color: rgba(124, 128, 129, 0.5) !important; }\n\n/* Image */\n.image {\n  border: 0;\n  position: relative; }\n  .image:before {\n    background: url(\"images/overlay.png\");\n    content: '';\n    height: 100%;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 100%; }\n  .image.fit {\n    display: block; }\n    .image.fit img {\n      display: block;\n      width: 100%; }\n  .image.featured {\n    display: block;\n    margin: 0 0 2em 0;\n    width: 100%; }\n    .image.featured img {\n      display: block;\n      width: 100%; }\n\n/* Icon */\n.icon {\n  text-decoration: none;\n  position: relative; }\n  .icon:before {\n    -moz-osx-font-smoothing: grayscale;\n    -webkit-font-smoothing: antialiased;\n    font-family: FontAwesome;\n    font-style: normal;\n    font-weight: normal;\n    text-transform: none !important; }\n  .icon.circle {\n    -moz-transition: all 0.2s ease-in-out;\n    -webkit-transition: all 0.2s ease-in-out;\n    -ms-transition: all 0.2s ease-in-out;\n    transition: all 0.2s ease-in-out;\n    border: 0;\n    border-radius: 100%;\n    display: inline-block;\n    font-size: 1.25em;\n    height: 2.25em;\n    left: 0;\n    line-height: 2.25em;\n    text-align: center;\n    text-decoration: none;\n    top: 0;\n    width: 2.25em; }\n    .icon.circle:hover {\n      top: -0.2em; }\n    .icon.circle.fa-twitter {\n      background: #70aecd;\n      color: #fff; }\n      .icon.circle.fa-twitter:hover {\n        background: #7fb7d2; }\n    .icon.circle.fa-facebook {\n      background: #7490c3;\n      color: #fff; }\n      .icon.circle.fa-facebook:hover {\n        background: #829bc9; }\n    .icon.circle.fa-google-plus {\n      background: #db6b67;\n      color: #fff; }\n      .icon.circle.fa-google-plus:hover {\n        background: #df7b77; }\n    .icon.circle.fa-github {\n      background: #dcad8b;\n      color: #fff; }\n      .icon.circle.fa-github:hover {\n        background: #e1b89b; }\n    .icon.circle.fa-linkedin {\n      background: #70aecd;\n      color: #fff; }\n      .icon.circle.fa-linkedin:hover {\n        background: #7fb7d2; }\n    .icon.circle.fa-dribbble {\n      background: #da83ae;\n      color: #fff; }\n      .icon.circle.fa-dribbble:hover {\n        background: #df93b8; }\n  .icon.featured {\n    cursor: default;\n    display: block;\n    margin: 0 0 1.5em 0;\n    opacity: 0.35;\n    text-align: center; }\n    .icon.featured:before {\n      font-size: 5em;\n      line-height: 1em; }\n  .icon > .label {\n    display: none; }\n\n/* List */\nol.default {\n  list-style: decimal;\n  padding-left: 1.25em; }\n  ol.default li {\n    padding-left: 0.25em; }\n\nul.default {\n  list-style: disc;\n  padding-left: 1em; }\n  ul.default li {\n    padding-left: 0.5em; }\n\nul.icons {\n  cursor: default; }\n  ul.icons li {\n    display: inline-block;\n    line-height: 1em;\n    padding-left: 0.5em; }\n    ul.icons li:first-child {\n      padding-left: 0; }\n\nul.featured-icons {\n  cursor: default;\n  margin: -0.75em 0 0 0;\n  opacity: 0.35;\n  overflow: hidden;\n  position: relative; }\n  ul.featured-icons li {\n    display: block;\n    float: left;\n    text-align: center;\n    width: 50%; }\n    ul.featured-icons li .icon {\n      display: inline-block;\n      font-size: 6.25em;\n      height: 1.25em;\n      line-height: 1.25em;\n      width: 1em; }\n\nul.buttons {\n  cursor: default; }\n  ul.buttons:last-child {\n    margin-bottom: 0; }\n  ul.buttons li {\n    display: inline-block;\n    padding: 0 0 0 1.5em; }\n    ul.buttons li:first-child {\n      padding: 0; }\n  ul.buttons.vertical li {\n    display: block;\n    padding: 1.5em 0 0 0; }\n    ul.buttons.vertical li:first-child {\n      padding: 0; }\n\n/* Table */\ntable {\n  width: 100%; }\n  table.default {\n    width: 100%; }\n    table.default tbody tr {\n      border-bottom: solid 1px rgba(124, 128, 129, 0.2); }\n    table.default td {\n      padding: 0.5em 1em 0.5em 1em; }\n    table.default th {\n      font-weight: 400;\n      padding: 0.5em 1em 0.5em 1em;\n      text-align: left; }\n    table.default thead {\n      background: #7c8081;\n      color: #fff; }\n\n/* Button */\ninput[type=\"button\"],\ninput[type=\"submit\"],\ninput[type=\"reset\"],\n.button {\n  -moz-appearance: none;\n  -webkit-appearance: none;\n  -ms-appearance: none;\n  appearance: none;\n  -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  background: none;\n  border: solid 1px;\n  color: inherit;\n  cursor: pointer;\n  display: inline-block;\n  font-size: 0.8em;\n  font-weight: 900;\n  letter-spacing: 2px;\n  min-width: 18em;\n  padding: 0 0.75em;\n  line-height: 3.75em;\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase; }\n  input[type=\"button\"]:hover,\n  input[type=\"submit\"]:hover,\n  input[type=\"reset\"]:hover,\n  .button:hover {\n    background: rgba(188, 202, 206, 0.15);\n    border-color: inherit; }\n  input[type=\"button\"].special,\n  input[type=\"submit\"].special,\n  input[type=\"reset\"].special,\n  .button.special {\n    background: #E1BC29;\n    border-color: #E1BC29;\n    color: #fff !important; }\n    input[type=\"button\"].special:hover,\n    input[type=\"submit\"].special:hover,\n    input[type=\"reset\"].special:hover,\n    .button.special:hover {\n      background: #e4c33f !important;\n      border-color: #e4c33f !important; }\n  input[type=\"button\"].fit,\n  input[type=\"submit\"].fit,\n  input[type=\"reset\"].fit,\n  .button.fit {\n    width: 100%; }\n  input[type=\"button\"].small,\n  input[type=\"submit\"].small,\n  input[type=\"reset\"].small,\n  .button.small {\n    font-size: 0.7em;\n    min-width: 14em;\n    padding: 0.5em; }\n\n/* Wrapper */\n.wrapper {\n  margin-bottom: 3em;\n  margin-top: 2em;\n  padding: 5em; }\n  .wrapper.style1 {\n    padding: 0; }\n  .wrapper.style2 {\n    background-color: #E1BC29;\n    color: #fff; }\n    .wrapper.style2 .button:hover {\n      background: rgba(255, 255, 255, 0.15) !important; }\n    .wrapper.style2 .button.special {\n      background: #fff;\n      border-color: #fff;\n      color: #E1BC29 !important; }\n      .wrapper.style2 .button.special:hover {\n        border-color: inherit !important;\n        color: #fff !important; }\n  .wrapper.style3 {\n    background: #fafbfd;\n    color: inherit; }\n    .wrapper.style3 footer {\n      margin: 0 auto; }\n  .wrapper.style4 {\n    background: #fff;\n    color: inherit;\n    padding: 4em; }\n  .wrapper.worked {\n    margin-top: 3em;\n    padding-bottom: 5em;\n    margin-bottom: 5em;\n    background: #fff; }\n  .wrapper.services {\n    padding-left: 0;\n    padding-top: 0;\n    padding-right: 0;\n    margin-bottom: 0; }\n\n/* Wide */\n@media screen and (max-width: 1680px) {\n  /* Basic */\n  body, input, select, textarea {\n    font-size: 14pt; }\n  /* Section/Article */\n  header.special {\n    padding-top: 3em;\n    margin-bottom: 4em; } }\n\n/* Normal */\n@media screen and (max-width: 1280px) {\n  /* Basic */\n  body, input, select, textarea {\n    font-size: 13pt;\n    letter-spacing: 0.025em;\n    line-height: 1.65em; }\n  h1, h2, h3, h4, h5, h6 {\n    line-height: 1.5em; }\n  /* Section/Article */\n  header.major {\n    padding-bottom: 1.5em; }\n  footer.major {\n    padding-top: 2em; }\n  /* Wrapper */\n  .wrapper {\n    margin-bottom: 4em;\n    padding: 4em 3em; }\n    .wrapper.style4 {\n      padding: 3em; }\n  /* Header */\n  #header nav ul li {\n    margin-left: 1em; }\n  /* Banner */\n  #banner {\n    background-attachment: scroll; }\n    #banner .inner {\n      width: 70%; }\n  /* CTA */\n  #cta {\n    padding: 4em;\n    background-attachment: scroll; }\n  /* Footer */\n  #footer {\n    padding: 4em; } }\n\n@media screen and (max-width: 980px) {\n  /* Basic */\n  body, input, select, textarea {\n    font-size: 13pt;\n    letter-spacing: 0.025em;\n    line-height: 1.5em; }\n  /* Section/Article */\n  header br {\n    display: none; }\n  header.major {\n    padding-bottom: 1em; }\n  header.special {\n    padding-left: 2.5em;\n    padding-right: 2.5em; }\n  footer.major {\n    padding-top: 1.5em; }\n  .wrapper {\n    margin-bottom: 3em;\n    padding: 3em 2.5em; }\n    .wrapper.special br {\n      display: none; }\n    .wrapper.style1 {\n      padding: 0 2.5em; }\n    .wrapper.style2 {\n      background-size: 15em; }\n    .wrapper.style4 {\n      padding: 2.5em; }\n  /* Main */\n  #main {\n    background-size: 15em; }\n  /* CTA */\n  #cta {\n    padding: 3em; } }\n\n@media screen and (max-width: 840px) {\n  .wrapper.special-alt {\n    text-align: center; }\n  .wrapper.style4 {\n    padding-bottom: 3em; }\n  /* Basic */\n  html, body {\n    overflow-x: hidden; }\n  header.major {\n    padding-bottom: 0.25em; }\n  header.special {\n    margin-bottom: 4em;\n    padding-top: 3em; }\n    header.special:before, header.special:after {\n      width: 40%; }\n    header.special h2 + p {\n      padding-top: 1.25em; }\n  /* Section/Article */\n  section {\n    margin: 1em 0 1em 0; }\n    section:first-child {\n      margin-top: 0; }\n  /* Button */\n  input[type=\"button\"].small,\n  input[type=\"submit\"].small,\n  input[type=\"reset\"].small,\n  .button.small {\n    font-size: 0.8em;\n    min-width: 18em;\n    padding: 0.75em 0; }\n  /* List */\n  ul.featured-icons {\n    margin: 0; }\n    ul.featured-icons li {\n      display: inline-block;\n      float: none;\n      width: auto; }\n      ul.featured-icons li .icon {\n        font-size: 4em;\n        width: 1.25em; }\n  ul.buttons li {\n    display: block;\n    padding: 1em 0 0 0; }\n  /* Header */\n  #header {\n    display: none; }\n  /* Wrapper */\n  .wrapper.special-alt {\n    text-align: center; }\n  .wrapper.style4 {\n    padding-bottom: 3em; }\n  /* Main */\n  #main {\n    padding: 5em 0; }\n    #main .sidebar {\n      border-top: solid 1px rgba(124, 128, 129, 0.1);\n      padding-top: 3em; }\n      #main .sidebar section {\n        border-top: 0;\n        padding-top: 0; }\n  body.index #main {\n    padding-top: 4.5em; }\n  /* CTA */\n  #cta {\n    margin: 0; }\n  /* Footer */\n  #footer {\n    padding: 4em 1.5em; }\n  /* Off-Canvas Navigation */\n  #page-wrapper {\n    -moz-backface-visibility: hidden;\n    -webkit-backface-visibility: hidden;\n    -ms-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -moz-transition: -moz-transform 0.5s ease;\n    -webkit-transition: -webkit-transform 0.5s ease;\n    -ms-transition: -ms-transform 0.5s ease;\n    transition: transform 0.5s ease;\n    padding-bottom: 1px; }\n  #navButton {\n    -moz-backface-visibility: hidden;\n    -webkit-backface-visibility: hidden;\n    -ms-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -moz-transition: -moz-transform 0.5s ease;\n    -webkit-transition: -webkit-transform 0.5s ease;\n    -ms-transition: -ms-transform 0.5s ease;\n    transition: transform 0.5s ease;\n    display: block;\n    height: 60px;\n    left: 0;\n    position: fixed;\n    top: 0;\n    width: 100%;\n    z-index: 1001; }\n    #navButton .toggle {\n      text-decoration: none;\n      height: 60px;\n      left: 0;\n      position: absolute;\n      text-align: center;\n      top: 0;\n      width: 100%;\n      border: 0;\n      outline: 0; }\n      #navButton .toggle:before {\n        -moz-osx-font-smoothing: grayscale;\n        -webkit-font-smoothing: antialiased;\n        font-family: FontAwesome;\n        font-style: normal;\n        font-weight: normal;\n        text-transform: none !important; }\n      #navButton .toggle:before {\n        color: #fff;\n        content: '\\f0c9';\n        font-size: 1em;\n        height: 40px;\n        left: 10px;\n        line-height: 40px;\n        opacity: 0.5;\n        position: absolute;\n        top: 11px;\n        width: 60px;\n        z-index: 1; }\n      #navButton .toggle:after {\n        background: rgba(163, 169, 170, 0.75);\n        border-radius: 2px;\n        content: '';\n        height: 40px;\n        left: 10px;\n        position: absolute;\n        top: 10px;\n        width: 60px; }\n  #navPanel {\n    -moz-backface-visibility: hidden;\n    -webkit-backface-visibility: hidden;\n    -ms-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -moz-transform: translateX(-275px);\n    -webkit-transform: translateX(-275px);\n    -ms-transform: translateX(-275px);\n    transform: translateX(-275px);\n    -moz-transition: -moz-transform 0.5s ease;\n    -webkit-transition: -webkit-transform 0.5s ease;\n    -ms-transition: -ms-transform 0.5s ease;\n    transition: transform 0.5s ease;\n    display: block;\n    height: 100%;\n    left: 0;\n    overflow-y: auto;\n    position: fixed;\n    top: 0;\n    width: 275px;\n    z-index: 1002;\n    background: #df7b77;\n    color: #fff;\n    font-size: 0.8em;\n    letter-spacing: 0.075em;\n    text-transform: uppercase;\n    padding: 0.25em 0.75em 1em 0.75em; }\n    #navPanel .link {\n      border: 0;\n      border-top: solid 1px rgba(255, 255, 255, 0.05);\n      color: inherit;\n      display: block;\n      height: 3em;\n      line-height: 3em;\n      opacity: 0.75;\n      text-decoration: none; }\n      #navPanel .link.depth-0 {\n        font-weight: 900; }\n      #navPanel .link:first-child {\n        border-top: 0; }\n    #navPanel .indent-1 {\n      display: inline-block;\n      width: 1em; }\n    #navPanel .indent-2 {\n      display: inline-block;\n      width: 2em; }\n    #navPanel .indent-3 {\n      display: inline-block;\n      width: 3em; }\n    #navPanel .indent-4 {\n      display: inline-block;\n      width: 4em; }\n    #navPanel .indent-5 {\n      display: inline-block;\n      width: 5em; }\n  body.navPanel-visible #page-wrapper {\n    -moz-transform: translateX(275px);\n    -webkit-transform: translateX(275px);\n    -ms-transform: translateX(275px);\n    transform: translateX(275px); }\n  body.navPanel-visible #navButton {\n    -moz-transform: translateX(275px);\n    -webkit-transform: translateX(275px);\n    -ms-transform: translateX(275px);\n    transform: translateX(275px); }\n  body.navPanel-visible #navPanel {\n    -moz-transform: translateX(0);\n    -webkit-transform: translateX(0);\n    -ms-transform: translateX(0);\n    transform: translateX(0); } }\n\n/* Mobile */\n@media screen and (max-width: 736px) {\n  /* Basic */\n  body {\n    min-width: 320px; }\n  h2 {\n    font-size: 1.25em;\n    letter-spacing: 0.1em; }\n  h3 {\n    font-size: 1em;\n    letter-spacing: 0.025em; }\n  p {\n    text-align: justify; }\n  .image.featured {\n    display: none; }\n    .image.featured img {\n      display: none; }\n  /* Section/Article */\n  header {\n    text-align: center; }\n    header.home {\n      padding-top: 4em; }\n    header.major {\n      padding-bottom: 0; }\n    header.special {\n      margin-bottom: 3em;\n      padding-left: 1em;\n      padding-right: 1em; }\n      header.special:before, header.special:after {\n        width: 38%; }\n      header.special .icon {\n        font-size: 0.75em;\n        top: 0; }\n    header p {\n      text-align: center; }\n  .home-header {\n    background: white;\n    padding-left: 0.5em;\n    padding-right: 0.5em;\n    padding-top: 1.5em;\n    padding-bottom: 1.5em;\n    margin-top: -5em; }\n  footer.major {\n    padding-top: 0; }\n  /* Icon */\n  .icon.circle {\n    font-size: 1em; }\n  /* Button */\n  input[type=\"button\"],\n  input[type=\"submit\"],\n  input[type=\"reset\"],\n  .button {\n    max-width: 20em;\n    width: 100%; }\n    input[type=\"button\"].fit,\n    input[type=\"submit\"].fit,\n    input[type=\"reset\"].fit,\n    .button.fit {\n      width: auto; }\n  /* List */\n  ul.icons li {\n    padding-left: 0.25em; }\n  ul.featured-icons li .icon {\n    width: 1.1em; }\n  ul.buttons {\n    text-align: center; }\n  /* CTA */\n  #cta p {\n    text-align: center;\n    margin-top: 2em; }\n  #cta.level-test {\n    background-image: url(\"/dist/assets/images/overlay.png\"), url(\"/dist/assets/images/people-woman-coffee-meeting_mobile.jpg\"); }\n  #cta.get-in-touch {\n    background-image: url(\"/dist/assets/images/overlay.png\"), url(\"/dist/assets/images/in-touch_mobile.jpg\"); }\n  /* Wrapper */\n  .wrapper {\n    margin: 0;\n    padding: 3.25em 1.5em; }\n    .wrapper.special br {\n      display: none; }\n    .wrapper.style1 {\n      padding: 0 1.5em; }\n    .wrapper.style2 {\n      background-size: 25em;\n      padding: 2.25em 1.5em; }\n    .wrapper.style4 {\n      background-size: 25em;\n      padding: 1.5em 1.5em 3em 1.5em; }\n    .wrapper.worked {\n      margin: 0; }\n  /* Banner */\n  #banner {\n    background-image: url(/dist/assets/images/london1_mobile.jpg);\n    margin: 0 auto;\n    padding: 4em 0; }\n    #banner .inner {\n      background: none;\n      padding: 0; }\n      #banner .inner img {\n        width: 90%; }\n      #banner .inner header {\n        text-align: center; }\n        #banner .inner header h2 {\n          font-size: 2.0em; }\n        #banner .inner header .home-title {\n          display: none; }\n      #banner .inner p {\n        text-align: center; }\n      #banner .inner br {\n        display: none; }\n    #banner.about-us {\n      background-image: url(/dist/assets/images/about-us_mobile.jpg);\n      height: 300px !important; }\n    #banner.services-banner {\n      background-image: url(/dist/assets/images/london-eye_mobile.jpg);\n      height: 300px !important; }\n  /* Main */\n  #main {\n    padding: 0 0 2.5em 0; }\n  body.index #main {\n    padding: 2.5em 0 0 0; }\n  body.contact #main {\n    padding-bottom: 0; }\n  /* Footer */\n  #footer {\n    padding: 3em 1.5em; }\n    #footer .copyright li {\n      display: block;\n      margin: 1em 0 0 0;\n      padding: 0;\n      border: 0; }\n  /* Off-Canvas Navigation */\n  #navButton .toggle:before {\n    top: 8px;\n    left: 8px;\n    width: 50px;\n    height: 34px;\n    line-height: 34px; }\n  #navButton .toggle:after {\n    top: 8px;\n    left: 8px;\n    width: 50px;\n    height: 34px; }\n  .tabset-content {\n    padding: 0 !important; } }\n\n/* Modal */\n.modal-dialog {\n  width: 600px;\n  margin: 30px auto; }\n\n.modal-backdrop {\n  opacity: .5;\n  z-index: 10030;\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1040;\n  background-color: #000; }\n\n.modal {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1050;\n  display: none;\n  -webkit-overflow-scrolling: touch;\n  outline: 0; }\n\n.modal-content {\n  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);\n  position: relative;\n  background-color: #fff;\n  -webkit-background-clip: padding-box;\n  background-clip: padding-box;\n  border: 1px solid #999;\n  border: 1px solid rgba(0, 0, 0, 0.2);\n  border-radius: 6px;\n  outline: 0;\n  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  padding: 30px;\n  z-index: 10050; }\n\n.modal-footer {\n  text-align: center; }\n\n@media screen and (max-width: 980px) {\n  .modal-lg {\n    width: 900px; } }\n\n@media screen and (max-width: 736px) {\n  .modal-dialog {\n    width: 90%; }\n  input[type=\"button\"], input[type=\"submit\"], input[type=\"reset\"], .button {\n    min-width: 0; } }\n\n/* Tick List */\nul.tick {\n  margin-top: 0;\n  padding-left: 1.5em; }\n\nul.tick li:before {\n  position: absolute;\n  margin-left: -1.3em;\n  font-weight: bold;\n  content: '✓'; }\n\n/* Tabs */\n.tabset-content {\n  background-color: #ffffff;\n  padding: 5em 2em;\n  border-top: none;\n  border-left: 1px solid #ddd;\n  border-bottom: 1px solid #ddd;\n  border-right: 1px solid #ddd; }\n\n.nav-tabs > li {\n  width: 50%;\n  background-color: #fafbfd;\n  border-bottom: none; }\n\n.nav-tabs > li > a {\n  color: #E1BC29;\n  font-size: 1.2em;\n  border-bottom: 1px solid #ddd; }\n\n.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {\n  color: #df7b77; }\n\n.nav-tabs > li > a:hover {\n  background-color: #E8EEF4; }\n\n/* Logos */\n.logo-table {\n  display: table;\n  /* Allow the centering to work */\n  margin: 0 auto;\n  width: 100%;\n  margin-top: 0px; }\n\n.logos img {\n  max-width: 100%; }\n\n.logos ul {\n  margin: auto;\n  width: 100%; }\n\n.logos li {\n  display: inline-block;\n  padding: 1em 2em 1em 2em;\n  margin: auto; }\n\n/* alerts */\n.alert-danger {\n  color: #a94442;\n  border-color: #ebccd1;\n  float: left; }\n\n/* coursel */\n.tile {\n  height: 160px;\n  box-shadow: none !important;\n  border: 1px solid lightgray !important; }\n"
 
 /***/ }),
-/* 49 */
+/* 60 */
 /***/ (function(module, exports) {
 
-module.exports = "ul {\n  float: left; }\n  ul li {\n    float: left; }\n\n#banner {\n  background-image: none;\n  background-color: #E1BC29; }\n\n.list-group-item.active {\n  background-color: #E1BC29;\n  border-color: #E1BC29; }\n\n.progress-bar {\n  background-color: #df7b77; }\n\nbutton {\n  margin-top: 1.5em; }\n\n.alert {\n  padding: 0.3em;\n  padding-left: 0.6em;\n  padding-right: 0.6em;\n  margin-top: 1em; }\n"
+module.exports = "ul {\n  float: left; }\n  ul li {\n    float: left; }\n\n#banner {\n  background-image: url(\"/dist/assets/images/level.png\");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: 100%;\n  background-size: contain;\n  /*background-color: _palette(header, alt-bg);*/ }\n\n.list-group-item.active {\n  background-color: #E1BC29;\n  border-color: #E1BC29; }\n\n.progress-bar {\n  background-color: #df7b77; }\n\nbutton {\n  margin-top: 1.5em; }\n\n.alert {\n  padding: 0.3em;\n  padding-left: 0.6em;\n  padding-right: 0.6em;\n  margin-top: 1em; }\n"
 
 /***/ }),
-/* 50 */
+/* 61 */
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
-/* 51 */
+/* 62 */
 /***/ (function(module, exports) {
 
 module.exports = "/* Footer */\n#footer {\n  background: #E8EEF4;\n  color: #7c8081;\n  padding: 5em 5em 10em 5em;\n  text-align: center; }\n  #footer .copyright {\n    font-size: 0.8em;\n    line-height: 1em; }\n    #footer .copyright a {\n      color: inherit; }\n    #footer .copyright li {\n      display: inline-block;\n      margin-left: 1em;\n      padding-left: 1em;\n      border-left: dotted 1px; }\n      #footer .copyright li:first-child {\n        margin: 0;\n        padding: 0;\n        border: 0; }\n\n@media screen {\n  #footer {\n    padding: 4em; } }\n\n@media screen {\n  #footer {\n    padding: 4em 1.5em; } }\n\n@media screen {\n  #footer {\n    padding: 3em 1.5em; }\n    #footer .copyright li {\n      display: block;\n      margin: 1em 0 0 0;\n      padding: 0;\n      border: 0; } }\n"
 
 /***/ }),
-/* 52 */
+/* 63 */
 /***/ (function(module, exports) {
 
-module.exports = "/* Reset */\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  -webkit-text-size-adjust: none; }\n\n/* Box Model */\n*, *:before, *:after {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n/* Containers */\n.container {\n  margin-left: auto;\n  margin-right: auto; }\n\n.container.\\31 25\\25\t\t{\n  width: 100%;\n  max-width: 1750px;\n  min-width: 1400px; }\n\n.container.\\37 5\\25\t\t\t{\n  width: 1050px; }\n\n.container.\\35 0\\25\t\t\t{\n  width: 700px; }\n\n.container.\\32 5\\25\t\t\t{\n  width: 350px; }\n\n.container {\n  width: 1400px; }\n\n@media screen and (max-width: 1680px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 1500px;\n    min-width: 1200px; }\n  .container.\\37 5\\25\t\t\t{\n    width: 900px; }\n  .container.\\35 0\\25\t\t\t{\n    width: 600px; }\n  .container.\\32 5\\25\t\t\t{\n    width: 300px; }\n  .container {\n    width: 1200px; } }\n\n@media screen and (max-width: 1280px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 1200px;\n    min-width: 960px; }\n  .container.\\37 5\\25\t\t\t{\n    width: 720px; }\n  .container.\\35 0\\25\t\t\t{\n    width: 480px; }\n  .container.\\32 5\\25\t\t\t{\n    width: 240px; }\n  .container {\n    width: 960px; } }\n\n@media screen and (max-width: 980px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 118.75%;\n    min-width: 95%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 71.25%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 47.5%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 23.75%; }\n  .container {\n    width: 95%; } }\n\n@media screen and (max-width: 840px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 118.75%;\n    min-width: 95%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 71.25%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 47.5%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 23.75%; }\n  .container {\n    width: 95% !important; } }\n\n@media screen and (max-width: 736px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 125%;\n    min-width: 100%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 75%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 50%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 25%; }\n  .container {\n    width: 100% !important; } }\n\n/* Grid */\n.row {\n  border-bottom: solid 1px transparent;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.row > * {\n  float: left;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.row:after, .row:before {\n  content: '';\n  display: block;\n  clear: both;\n  height: 0; }\n\n.row.uniform > * > :first-child {\n  margin-top: 0; }\n\n.row.uniform > * > :last-child {\n  margin-bottom: 0; }\n\n.row.\\30 \\25 > * {\n  padding: 0px 0 0 0px; }\n\n.row.\\30 \\25 {\n  margin: 0px 0 -1px 0px; }\n\n.row.uniform.\\30 \\25 > * {\n  padding: 0px 0 0 0px; }\n\n.row.uniform.\\30 \\25 {\n  margin: 0px 0 -1px 0px; }\n\n.row > * {\n  padding: 50px 0 0 50px; }\n\n.row {\n  margin: -50px 0 -1px -50px; }\n\n.row.uniform > * {\n  padding: 50px 0 0 50px; }\n\n.row.uniform {\n  margin: -50px 0 -1px -50px; }\n\n.row.\\32 00\\25 > * {\n  padding: 100px 0 0 100px; }\n\n.row.\\32 00\\25 {\n  margin: -100px 0 -1px -100px; }\n\n.row.uniform.\\32 00\\25 > * {\n  padding: 100px 0 0 100px; }\n\n.row.uniform.\\32 00\\25 {\n  margin: -100px 0 -1px -100px; }\n\n.row.\\31 50\\25 > * {\n  padding: 75px 0 0 75px; }\n\n.row.\\31 50\\25 {\n  margin: -75px 0 -1px -75px; }\n\n.row.uniform.\\31 50\\25 > * {\n  padding: 75px 0 0 75px; }\n\n.row.uniform.\\31 50\\25 {\n  margin: -75px 0 -1px -75px; }\n\n.row.\\35 0\\25 > * {\n  padding: 25px 0 0 25px; }\n\n.row.\\35 0\\25 {\n  margin: -25px 0 -1px -25px; }\n\n.row.uniform.\\35 0\\25 > * {\n  padding: 25px 0 0 25px; }\n\n.row.uniform.\\35 0\\25 {\n  margin: -25px 0 -1px -25px; }\n\n.row.\\32 5\\25 > * {\n  padding: 12.5px 0 0 12.5px; }\n\n.row.\\32 5\\25 {\n  margin: -12.5px 0 -1px -12.5px; }\n\n.row.uniform.\\32 5\\25 > * {\n  padding: 12.5px 0 0 12.5px; }\n\n.row.uniform.\\32 5\\25 {\n  margin: -12.5px 0 -1px -12.5px; }\n\n.\\31 2u, .\\31 2u\\24 {\n  width: 100%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 1u, .\\31 1u\\24 {\n  width: 91.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 0u, .\\31 0u\\24 {\n  width: 83.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\39 u, .\\39 u\\24 {\n  width: 75%;\n  clear: none;\n  margin-left: 0; }\n\n.\\38 u, .\\38 u\\24 {\n  width: 66.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\37 u, .\\37 u\\24 {\n  width: 58.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\36 u, .\\36 u\\24 {\n  width: 50%;\n  clear: none;\n  margin-left: 0; }\n\n.\\35 u, .\\35 u\\24 {\n  width: 41.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\34 u, .\\34 u\\24 {\n  width: 33.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\33 u, .\\33 u\\24 {\n  width: 25%;\n  clear: none;\n  margin-left: 0; }\n\n.\\32 u, .\\32 u\\24 {\n  width: 16.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 u, .\\31 u\\24 {\n  width: 8.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 2u\\24 + *,\n.\\31 1u\\24 + *,\n.\\31 0u\\24 + *,\n.\\39 u\\24 + *,\n.\\38 u\\24 + *,\n.\\37 u\\24 + *,\n.\\36 u\\24 + *,\n.\\35 u\\24 + *,\n.\\34 u\\24 + *,\n.\\33 u\\24 + *,\n.\\32 u\\24 + *,\n.\\31 u\\24 + * {\n  clear: left; }\n\n.\\-11u {\n  margin-left: 91.6666666667%; }\n\n.\\-10u {\n  margin-left: 83.3333333333%; }\n\n.\\-9u {\n  margin-left: 75%; }\n\n.\\-8u {\n  margin-left: 66.6666666667%; }\n\n.\\-7u {\n  margin-left: 58.3333333333%; }\n\n.\\-6u {\n  margin-left: 50%; }\n\n.\\-5u {\n  margin-left: 41.6666666667%; }\n\n.\\-4u {\n  margin-left: 33.3333333333%; }\n\n.\\-3u {\n  margin-left: 25%; }\n\n.\\-2u {\n  margin-left: 16.6666666667%; }\n\n.\\-1u {\n  margin-left: 8.3333333333%; }\n\n@media screen and (max-width: 1680px) {\n  .row > * {\n    padding: 40px 0 0 40px; }\n  .row {\n    margin: -40px 0 -1px -40px; }\n  .row.uniform > * {\n    padding: 40px 0 0 40px; }\n  .row.uniform {\n    margin: -40px 0 -1px -40px; }\n  .row.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .\\31 2u\\28wide\\29, .\\31 2u\\24\\28wide\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28wide\\29, .\\31 1u\\24\\28wide\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28wide\\29, .\\31 0u\\24\\28wide\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28wide\\29, .\\39 u\\24\\28wide\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28wide\\29, .\\38 u\\24\\28wide\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28wide\\29, .\\37 u\\24\\28wide\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28wide\\29, .\\36 u\\24\\28wide\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28wide\\29, .\\35 u\\24\\28wide\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28wide\\29, .\\34 u\\24\\28wide\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28wide\\29, .\\33 u\\24\\28wide\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28wide\\29, .\\32 u\\24\\28wide\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28wide\\29, .\\31 u\\24\\28wide\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28wide\\29 + *,\n  .\\31 1u\\24\\28wide\\29 + *,\n  .\\31 0u\\24\\28wide\\29 + *,\n  .\\39 u\\24\\28wide\\29 + *,\n  .\\38 u\\24\\28wide\\29 + *,\n  .\\37 u\\24\\28wide\\29 + *,\n  .\\36 u\\24\\28wide\\29 + *,\n  .\\35 u\\24\\28wide\\29 + *,\n  .\\34 u\\24\\28wide\\29 + *,\n  .\\33 u\\24\\28wide\\29 + *,\n  .\\32 u\\24\\28wide\\29 + *,\n  .\\31 u\\24\\28wide\\29 + * {\n    clear: left; }\n  .\\-11u\\28wide\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28wide\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28wide\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28wide\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28wide\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28wide\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28wide\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28wide\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28wide\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28wide\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28wide\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 1280px) {\n  .row > * {\n    padding: 40px 0 0 40px; }\n  .row {\n    margin: -40px 0 -1px -40px; }\n  .row.uniform > * {\n    padding: 40px 0 0 40px; }\n  .row.uniform {\n    margin: -40px 0 -1px -40px; }\n  .row.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .\\31 2u\\28normal\\29, .\\31 2u\\24\\28normal\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28normal\\29, .\\31 1u\\24\\28normal\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28normal\\29, .\\31 0u\\24\\28normal\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28normal\\29, .\\39 u\\24\\28normal\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28normal\\29, .\\38 u\\24\\28normal\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28normal\\29, .\\37 u\\24\\28normal\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28normal\\29, .\\36 u\\24\\28normal\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28normal\\29, .\\35 u\\24\\28normal\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28normal\\29, .\\34 u\\24\\28normal\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28normal\\29, .\\33 u\\24\\28normal\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28normal\\29, .\\32 u\\24\\28normal\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28normal\\29, .\\31 u\\24\\28normal\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28normal\\29 + *,\n  .\\31 1u\\24\\28normal\\29 + *,\n  .\\31 0u\\24\\28normal\\29 + *,\n  .\\39 u\\24\\28normal\\29 + *,\n  .\\38 u\\24\\28normal\\29 + *,\n  .\\37 u\\24\\28normal\\29 + *,\n  .\\36 u\\24\\28normal\\29 + *,\n  .\\35 u\\24\\28normal\\29 + *,\n  .\\34 u\\24\\28normal\\29 + *,\n  .\\33 u\\24\\28normal\\29 + *,\n  .\\32 u\\24\\28normal\\29 + *,\n  .\\31 u\\24\\28normal\\29 + * {\n    clear: left; }\n  .\\-11u\\28normal\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28normal\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28normal\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28normal\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28normal\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28normal\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28normal\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28normal\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28normal\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28normal\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28normal\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 980px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28narrow\\29, .\\31 2u\\24\\28narrow\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28narrow\\29, .\\31 1u\\24\\28narrow\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28narrow\\29, .\\31 0u\\24\\28narrow\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28narrow\\29, .\\39 u\\24\\28narrow\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28narrow\\29, .\\38 u\\24\\28narrow\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28narrow\\29, .\\37 u\\24\\28narrow\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28narrow\\29, .\\36 u\\24\\28narrow\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28narrow\\29, .\\35 u\\24\\28narrow\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28narrow\\29, .\\34 u\\24\\28narrow\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28narrow\\29, .\\33 u\\24\\28narrow\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28narrow\\29, .\\32 u\\24\\28narrow\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28narrow\\29, .\\31 u\\24\\28narrow\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28narrow\\29 + *,\n  .\\31 1u\\24\\28narrow\\29 + *,\n  .\\31 0u\\24\\28narrow\\29 + *,\n  .\\39 u\\24\\28narrow\\29 + *,\n  .\\38 u\\24\\28narrow\\29 + *,\n  .\\37 u\\24\\28narrow\\29 + *,\n  .\\36 u\\24\\28narrow\\29 + *,\n  .\\35 u\\24\\28narrow\\29 + *,\n  .\\34 u\\24\\28narrow\\29 + *,\n  .\\33 u\\24\\28narrow\\29 + *,\n  .\\32 u\\24\\28narrow\\29 + *,\n  .\\31 u\\24\\28narrow\\29 + * {\n    clear: left; }\n  .\\-11u\\28narrow\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28narrow\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28narrow\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28narrow\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28narrow\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28narrow\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28narrow\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28narrow\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28narrow\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28narrow\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28narrow\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 840px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28narrower\\29, .\\31 2u\\24\\28narrower\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28narrower\\29, .\\31 1u\\24\\28narrower\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28narrower\\29, .\\31 0u\\24\\28narrower\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28narrower\\29, .\\39 u\\24\\28narrower\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28narrower\\29, .\\38 u\\24\\28narrower\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28narrower\\29, .\\37 u\\24\\28narrower\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28narrower\\29, .\\36 u\\24\\28narrower\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28narrower\\29, .\\35 u\\24\\28narrower\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28narrower\\29, .\\34 u\\24\\28narrower\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28narrower\\29, .\\33 u\\24\\28narrower\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28narrower\\29, .\\32 u\\24\\28narrower\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28narrower\\29, .\\31 u\\24\\28narrower\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28narrower\\29 + *,\n  .\\31 1u\\24\\28narrower\\29 + *,\n  .\\31 0u\\24\\28narrower\\29 + *,\n  .\\39 u\\24\\28narrower\\29 + *,\n  .\\38 u\\24\\28narrower\\29 + *,\n  .\\37 u\\24\\28narrower\\29 + *,\n  .\\36 u\\24\\28narrower\\29 + *,\n  .\\35 u\\24\\28narrower\\29 + *,\n  .\\34 u\\24\\28narrower\\29 + *,\n  .\\33 u\\24\\28narrower\\29 + *,\n  .\\32 u\\24\\28narrower\\29 + *,\n  .\\31 u\\24\\28narrower\\29 + * {\n    clear: left; }\n  .\\-11u\\28narrower\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28narrower\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28narrower\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28narrower\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28narrower\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28narrower\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28narrower\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28narrower\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28narrower\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28narrower\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28narrower\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 736px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28mobile\\29, .\\31 2u\\24\\28mobile\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28mobile\\29, .\\31 1u\\24\\28mobile\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28mobile\\29, .\\31 0u\\24\\28mobile\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28mobile\\29, .\\39 u\\24\\28mobile\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28mobile\\29, .\\38 u\\24\\28mobile\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28mobile\\29, .\\37 u\\24\\28mobile\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28mobile\\29, .\\36 u\\24\\28mobile\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28mobile\\29, .\\35 u\\24\\28mobile\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28mobile\\29, .\\34 u\\24\\28mobile\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28mobile\\29, .\\33 u\\24\\28mobile\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28mobile\\29, .\\32 u\\24\\28mobile\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28mobile\\29, .\\31 u\\24\\28mobile\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28mobile\\29 + *,\n  .\\31 1u\\24\\28mobile\\29 + *,\n  .\\31 0u\\24\\28mobile\\29 + *,\n  .\\39 u\\24\\28mobile\\29 + *,\n  .\\38 u\\24\\28mobile\\29 + *,\n  .\\37 u\\24\\28mobile\\29 + *,\n  .\\36 u\\24\\28mobile\\29 + *,\n  .\\35 u\\24\\28mobile\\29 + *,\n  .\\34 u\\24\\28mobile\\29 + *,\n  .\\33 u\\24\\28mobile\\29 + *,\n  .\\32 u\\24\\28mobile\\29 + *,\n  .\\31 u\\24\\28mobile\\29 + * {\n    clear: left; }\n  .\\-11u\\28mobile\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28mobile\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28mobile\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28mobile\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28mobile\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28mobile\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28mobile\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28mobile\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28mobile\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28mobile\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28mobile\\29 {\n    margin-left: 8.3333333333%; } }\n\nheader.major {\n  padding-bottom: 2em; }\n\nheader.home {\n  margin-top: 0; }\n\nheader.special {\n  margin-bottom: 0;\n  padding-top: 7em;\n  position: relative;\n  text-align: center; }\n  header.special:before, header.special:after {\n    border-bottom: solid 1.5px;\n    border-top: solid 1.5px;\n    content: '';\n    height: 7px;\n    opacity: 0.1;\n    position: absolute;\n    top: 1.75em;\n    width: 43%; }\n  header.special:before {\n    left: 0; }\n  header.special:after {\n    right: 0; }\n  header.special h2 {\n    margin-bottom: 0; }\n  header.special h2 + p {\n    margin-bottom: 0;\n    padding-top: 1.5em; }\n  header.special .icon {\n    cursor: default;\n    height: 7em;\n    left: 0;\n    position: absolute;\n    text-align: center;\n    top: 1em;\n    width: 100%; }\n    header.special .icon:before {\n      font-size: 3.5em;\n      opacity: 0.35; }\n\n/* Header */\n@-moz-keyframes reveal-header {\n  0% {\n    top: -5em; }\n  100% {\n    top: 0; } }\n\n@-webkit-keyframes reveal-header {\n  0% {\n    top: -5em; }\n  100% {\n    top: 0; } }\n\n@-ms-keyframes reveal-header {\n  0% {\n    top: -5em; }\n  100% {\n    top: 0; } }\n\n@keyframes reveal-header {\n  0% {\n    top: -5em; }\n  100% {\n    top: 0; } }\n\n#header {\n  background: #ffffff;\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);\n  color: #df7b77;\n  cursor: default;\n  font-size: 0.8em;\n  left: 0;\n  padding: 1em 1.5em;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  z-index: 1300; }\n  #header h1 {\n    font-weight: 900;\n    margin: 0; }\n    #header h1 span {\n      font-weight: 300; }\n  #header .home-title {\n    font-size: 2.0em; }\n  #header nav {\n    letter-spacing: 0.075em;\n    position: absolute;\n    right: 1.5em;\n    text-transform: uppercase;\n    top: 0.75em; }\n    #header nav ul li {\n      display: inline-block;\n      margin-left: 1.5em; }\n      #header nav ul li > ul {\n        display: none; }\n      #header nav ul li a {\n        border: solid 1px transparent;\n        color: inherit;\n        display: inline-block;\n        line-height: 1em;\n        padding: 0.6em 0.75em;\n        text-decoration: none; }\n      #header nav ul li input[type=\"button\"],\n      #header nav ul li input[type=\"submit\"],\n      #header nav ul li input[type=\"reset\"],\n      #header nav ul li .button {\n        font-size: 1em;\n        min-width: 0;\n        width: auto; }\n      #header nav ul li.submenu > a {\n        text-decoration: none; }\n        #header nav ul li.submenu > a:before {\n          -moz-osx-font-smoothing: grayscale;\n          -webkit-font-smoothing: antialiased;\n          font-family: FontAwesome;\n          font-style: normal;\n          font-weight: normal;\n          text-transform: none !important; }\n        #header nav ul li.submenu > a:before {\n          content: '\\f107';\n          margin-right: 0.65em; }\n      #header nav ul li.active > a, #header nav ul li:hover > a {\n        -moz-transition: all 0.2s ease-in-out;\n        -webkit-transition: all 0.2s ease-in-out;\n        -ms-transition: all 0.2s ease-in-out;\n        transition: all 0.2s ease-in-out;\n        background: rgba(188, 202, 206, 0.15); }\n      #header nav ul li.current > a {\n        font-weight: 900; }\n  #header.reveal {\n    -moz-animation: reveal-header 0.5s;\n    -webkit-animation: reveal-header 0.5s;\n    -ms-animation: reveal-header 0.5s;\n    animation: reveal-header 0.5s; }\n  #header.alt {\n    -moz-animation: none;\n    -webkit-animation: none;\n    -ms-animation: none;\n    animation: none;\n    background: transparent;\n    box-shadow: none;\n    color: #fff;\n    padding: 1em .5em;\n    position: absolute; }\n\n/* Dropotron */\n.dropotron {\n  background: #fff;\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);\n  line-height: 2.25em;\n  min-width: 13em;\n  padding: 1em 0;\n  text-transform: uppercase;\n  margin-top: calc(-1em + 1px); }\n  .dropotron.level-0 {\n    font-size: 0.7em;\n    font-weight: 400;\n    margin-top: 1.5em; }\n    .dropotron.level-0:before {\n      border-bottom: solid 0.5em #fff;\n      border-left: solid 0.5em transparent;\n      border-right: solid 0.5em transparent;\n      content: '';\n      left: 0.75em;\n      position: absolute;\n      top: -0.45em; }\n  .dropotron > li {\n    border-top: solid 1px rgba(124, 128, 129, 0.2); }\n    .dropotron > li > a {\n      -moz-transition: none;\n      -webkit-transition: none;\n      -ms-transition: none;\n      transition: none;\n      color: inherit;\n      text-decoration: none;\n      padding: 0 1em;\n      border: 0; }\n    .dropotron > li:hover > a {\n      background: #E1BC29;\n      color: #fff; }\n    .dropotron > li:first-child {\n      border-top: 0; }\n\n@media screen and (max-width: 840px) {\n  /* Header */\n  #header {\n    display: none; } }\n"
+module.exports = "/* Reset */\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  -webkit-text-size-adjust: none; }\n\n/* Box Model */\n*, *:before, *:after {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n/* Containers */\n.container {\n  margin-left: auto;\n  margin-right: auto; }\n\n.container.\\31 25\\25\t\t{\n  width: 100%;\n  max-width: 1750px;\n  min-width: 1400px; }\n\n.container.\\37 5\\25\t\t\t{\n  width: 1050px; }\n\n.container.\\35 0\\25\t\t\t{\n  width: 700px; }\n\n.container.\\32 5\\25\t\t\t{\n  width: 350px; }\n\n.container {\n  width: 1400px; }\n\n@media screen and (max-width: 1680px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 1500px;\n    min-width: 1200px; }\n  .container.\\37 5\\25\t\t\t{\n    width: 900px; }\n  .container.\\35 0\\25\t\t\t{\n    width: 600px; }\n  .container.\\32 5\\25\t\t\t{\n    width: 300px; }\n  .container {\n    width: 1200px; } }\n\n@media screen and (max-width: 1280px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 1200px;\n    min-width: 960px; }\n  .container.\\37 5\\25\t\t\t{\n    width: 720px; }\n  .container.\\35 0\\25\t\t\t{\n    width: 480px; }\n  .container.\\32 5\\25\t\t\t{\n    width: 240px; }\n  .container {\n    width: 960px; } }\n\n@media screen and (max-width: 980px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 118.75%;\n    min-width: 95%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 71.25%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 47.5%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 23.75%; }\n  .container {\n    width: 95%; } }\n\n@media screen and (max-width: 840px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 118.75%;\n    min-width: 95%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 71.25%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 47.5%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 23.75%; }\n  .container {\n    width: 95% !important; } }\n\n@media screen and (max-width: 736px) {\n  .container.\\31 25\\25\t\t{\n    width: 100%;\n    max-width: 125%;\n    min-width: 100%; }\n  .container.\\37 5\\25\t\t\t{\n    width: 75%; }\n  .container.\\35 0\\25\t\t\t{\n    width: 50%; }\n  .container.\\32 5\\25\t\t\t{\n    width: 25%; }\n  .container {\n    width: 100% !important; } }\n\n/* Grid */\n.row {\n  border-bottom: solid 1px transparent;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.row > * {\n  float: left;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.row:after, .row:before {\n  content: '';\n  display: block;\n  clear: both;\n  height: 0; }\n\n.row.uniform > * > :first-child {\n  margin-top: 0; }\n\n.row.uniform > * > :last-child {\n  margin-bottom: 0; }\n\n.row.\\30 \\25 > * {\n  padding: 0px 0 0 0px; }\n\n.row.\\30 \\25 {\n  margin: 0px 0 -1px 0px; }\n\n.row.uniform.\\30 \\25 > * {\n  padding: 0px 0 0 0px; }\n\n.row.uniform.\\30 \\25 {\n  margin: 0px 0 -1px 0px; }\n\n.row > * {\n  padding: 50px 0 0 50px; }\n\n.row {\n  margin: -50px 0 -1px -50px; }\n\n.row.uniform > * {\n  padding: 50px 0 0 50px; }\n\n.row.uniform {\n  margin: -50px 0 -1px -50px; }\n\n.row.\\32 00\\25 > * {\n  padding: 100px 0 0 100px; }\n\n.row.\\32 00\\25 {\n  margin: -100px 0 -1px -100px; }\n\n.row.uniform.\\32 00\\25 > * {\n  padding: 100px 0 0 100px; }\n\n.row.uniform.\\32 00\\25 {\n  margin: -100px 0 -1px -100px; }\n\n.row.\\31 50\\25 > * {\n  padding: 75px 0 0 75px; }\n\n.row.\\31 50\\25 {\n  margin: -75px 0 -1px -75px; }\n\n.row.uniform.\\31 50\\25 > * {\n  padding: 75px 0 0 75px; }\n\n.row.uniform.\\31 50\\25 {\n  margin: -75px 0 -1px -75px; }\n\n.row.\\35 0\\25 > * {\n  padding: 25px 0 0 25px; }\n\n.row.\\35 0\\25 {\n  margin: -25px 0 -1px -25px; }\n\n.row.uniform.\\35 0\\25 > * {\n  padding: 25px 0 0 25px; }\n\n.row.uniform.\\35 0\\25 {\n  margin: -25px 0 -1px -25px; }\n\n.row.\\32 5\\25 > * {\n  padding: 12.5px 0 0 12.5px; }\n\n.row.\\32 5\\25 {\n  margin: -12.5px 0 -1px -12.5px; }\n\n.row.uniform.\\32 5\\25 > * {\n  padding: 12.5px 0 0 12.5px; }\n\n.row.uniform.\\32 5\\25 {\n  margin: -12.5px 0 -1px -12.5px; }\n\n.\\31 2u, .\\31 2u\\24 {\n  width: 100%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 1u, .\\31 1u\\24 {\n  width: 91.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 0u, .\\31 0u\\24 {\n  width: 83.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\39 u, .\\39 u\\24 {\n  width: 75%;\n  clear: none;\n  margin-left: 0; }\n\n.\\38 u, .\\38 u\\24 {\n  width: 66.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\37 u, .\\37 u\\24 {\n  width: 58.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\36 u, .\\36 u\\24 {\n  width: 50%;\n  clear: none;\n  margin-left: 0; }\n\n.\\35 u, .\\35 u\\24 {\n  width: 41.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\34 u, .\\34 u\\24 {\n  width: 33.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\33 u, .\\33 u\\24 {\n  width: 25%;\n  clear: none;\n  margin-left: 0; }\n\n.\\32 u, .\\32 u\\24 {\n  width: 16.6666666667%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 u, .\\31 u\\24 {\n  width: 8.3333333333%;\n  clear: none;\n  margin-left: 0; }\n\n.\\31 2u\\24 + *,\n.\\31 1u\\24 + *,\n.\\31 0u\\24 + *,\n.\\39 u\\24 + *,\n.\\38 u\\24 + *,\n.\\37 u\\24 + *,\n.\\36 u\\24 + *,\n.\\35 u\\24 + *,\n.\\34 u\\24 + *,\n.\\33 u\\24 + *,\n.\\32 u\\24 + *,\n.\\31 u\\24 + * {\n  clear: left; }\n\n.\\-11u {\n  margin-left: 91.6666666667%; }\n\n.\\-10u {\n  margin-left: 83.3333333333%; }\n\n.\\-9u {\n  margin-left: 75%; }\n\n.\\-8u {\n  margin-left: 66.6666666667%; }\n\n.\\-7u {\n  margin-left: 58.3333333333%; }\n\n.\\-6u {\n  margin-left: 50%; }\n\n.\\-5u {\n  margin-left: 41.6666666667%; }\n\n.\\-4u {\n  margin-left: 33.3333333333%; }\n\n.\\-3u {\n  margin-left: 25%; }\n\n.\\-2u {\n  margin-left: 16.6666666667%; }\n\n.\\-1u {\n  margin-left: 8.3333333333%; }\n\n@media screen and (max-width: 1680px) {\n  .row > * {\n    padding: 40px 0 0 40px; }\n  .row {\n    margin: -40px 0 -1px -40px; }\n  .row.uniform > * {\n    padding: 40px 0 0 40px; }\n  .row.uniform {\n    margin: -40px 0 -1px -40px; }\n  .row.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .\\31 2u\\28wide\\29, .\\31 2u\\24\\28wide\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28wide\\29, .\\31 1u\\24\\28wide\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28wide\\29, .\\31 0u\\24\\28wide\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28wide\\29, .\\39 u\\24\\28wide\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28wide\\29, .\\38 u\\24\\28wide\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28wide\\29, .\\37 u\\24\\28wide\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28wide\\29, .\\36 u\\24\\28wide\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28wide\\29, .\\35 u\\24\\28wide\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28wide\\29, .\\34 u\\24\\28wide\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28wide\\29, .\\33 u\\24\\28wide\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28wide\\29, .\\32 u\\24\\28wide\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28wide\\29, .\\31 u\\24\\28wide\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28wide\\29 + *,\n  .\\31 1u\\24\\28wide\\29 + *,\n  .\\31 0u\\24\\28wide\\29 + *,\n  .\\39 u\\24\\28wide\\29 + *,\n  .\\38 u\\24\\28wide\\29 + *,\n  .\\37 u\\24\\28wide\\29 + *,\n  .\\36 u\\24\\28wide\\29 + *,\n  .\\35 u\\24\\28wide\\29 + *,\n  .\\34 u\\24\\28wide\\29 + *,\n  .\\33 u\\24\\28wide\\29 + *,\n  .\\32 u\\24\\28wide\\29 + *,\n  .\\31 u\\24\\28wide\\29 + * {\n    clear: left; }\n  .\\-11u\\28wide\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28wide\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28wide\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28wide\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28wide\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28wide\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28wide\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28wide\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28wide\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28wide\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28wide\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 1280px) {\n  .row > * {\n    padding: 40px 0 0 40px; }\n  .row {\n    margin: -40px 0 -1px -40px; }\n  .row.uniform > * {\n    padding: 40px 0 0 40px; }\n  .row.uniform {\n    margin: -40px 0 -1px -40px; }\n  .row.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 80px 0 0 80px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -80px 0 -1px -80px; }\n  .row.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 20px 0 0 20px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -20px 0 -1px -20px; }\n  .row.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 10px 0 0 10px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -10px 0 -1px -10px; }\n  .\\31 2u\\28normal\\29, .\\31 2u\\24\\28normal\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28normal\\29, .\\31 1u\\24\\28normal\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28normal\\29, .\\31 0u\\24\\28normal\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28normal\\29, .\\39 u\\24\\28normal\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28normal\\29, .\\38 u\\24\\28normal\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28normal\\29, .\\37 u\\24\\28normal\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28normal\\29, .\\36 u\\24\\28normal\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28normal\\29, .\\35 u\\24\\28normal\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28normal\\29, .\\34 u\\24\\28normal\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28normal\\29, .\\33 u\\24\\28normal\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28normal\\29, .\\32 u\\24\\28normal\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28normal\\29, .\\31 u\\24\\28normal\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28normal\\29 + *,\n  .\\31 1u\\24\\28normal\\29 + *,\n  .\\31 0u\\24\\28normal\\29 + *,\n  .\\39 u\\24\\28normal\\29 + *,\n  .\\38 u\\24\\28normal\\29 + *,\n  .\\37 u\\24\\28normal\\29 + *,\n  .\\36 u\\24\\28normal\\29 + *,\n  .\\35 u\\24\\28normal\\29 + *,\n  .\\34 u\\24\\28normal\\29 + *,\n  .\\33 u\\24\\28normal\\29 + *,\n  .\\32 u\\24\\28normal\\29 + *,\n  .\\31 u\\24\\28normal\\29 + * {\n    clear: left; }\n  .\\-11u\\28normal\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28normal\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28normal\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28normal\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28normal\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28normal\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28normal\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28normal\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28normal\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28normal\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28normal\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 980px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28narrow\\29, .\\31 2u\\24\\28narrow\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28narrow\\29, .\\31 1u\\24\\28narrow\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28narrow\\29, .\\31 0u\\24\\28narrow\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28narrow\\29, .\\39 u\\24\\28narrow\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28narrow\\29, .\\38 u\\24\\28narrow\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28narrow\\29, .\\37 u\\24\\28narrow\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28narrow\\29, .\\36 u\\24\\28narrow\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28narrow\\29, .\\35 u\\24\\28narrow\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28narrow\\29, .\\34 u\\24\\28narrow\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28narrow\\29, .\\33 u\\24\\28narrow\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28narrow\\29, .\\32 u\\24\\28narrow\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28narrow\\29, .\\31 u\\24\\28narrow\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28narrow\\29 + *,\n  .\\31 1u\\24\\28narrow\\29 + *,\n  .\\31 0u\\24\\28narrow\\29 + *,\n  .\\39 u\\24\\28narrow\\29 + *,\n  .\\38 u\\24\\28narrow\\29 + *,\n  .\\37 u\\24\\28narrow\\29 + *,\n  .\\36 u\\24\\28narrow\\29 + *,\n  .\\35 u\\24\\28narrow\\29 + *,\n  .\\34 u\\24\\28narrow\\29 + *,\n  .\\33 u\\24\\28narrow\\29 + *,\n  .\\32 u\\24\\28narrow\\29 + *,\n  .\\31 u\\24\\28narrow\\29 + * {\n    clear: left; }\n  .\\-11u\\28narrow\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28narrow\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28narrow\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28narrow\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28narrow\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28narrow\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28narrow\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28narrow\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28narrow\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28narrow\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28narrow\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 840px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28narrower\\29, .\\31 2u\\24\\28narrower\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28narrower\\29, .\\31 1u\\24\\28narrower\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28narrower\\29, .\\31 0u\\24\\28narrower\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28narrower\\29, .\\39 u\\24\\28narrower\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28narrower\\29, .\\38 u\\24\\28narrower\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28narrower\\29, .\\37 u\\24\\28narrower\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28narrower\\29, .\\36 u\\24\\28narrower\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28narrower\\29, .\\35 u\\24\\28narrower\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28narrower\\29, .\\34 u\\24\\28narrower\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28narrower\\29, .\\33 u\\24\\28narrower\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28narrower\\29, .\\32 u\\24\\28narrower\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28narrower\\29, .\\31 u\\24\\28narrower\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28narrower\\29 + *,\n  .\\31 1u\\24\\28narrower\\29 + *,\n  .\\31 0u\\24\\28narrower\\29 + *,\n  .\\39 u\\24\\28narrower\\29 + *,\n  .\\38 u\\24\\28narrower\\29 + *,\n  .\\37 u\\24\\28narrower\\29 + *,\n  .\\36 u\\24\\28narrower\\29 + *,\n  .\\35 u\\24\\28narrower\\29 + *,\n  .\\34 u\\24\\28narrower\\29 + *,\n  .\\33 u\\24\\28narrower\\29 + *,\n  .\\32 u\\24\\28narrower\\29 + *,\n  .\\31 u\\24\\28narrower\\29 + * {\n    clear: left; }\n  .\\-11u\\28narrower\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28narrower\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28narrower\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28narrower\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28narrower\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28narrower\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28narrower\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28narrower\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28narrower\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28narrower\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28narrower\\29 {\n    margin-left: 8.3333333333%; } }\n\n@media screen and (max-width: 736px) {\n  .row > * {\n    padding: 30px 0 0 30px; }\n  .row {\n    margin: -30px 0 -1px -30px; }\n  .row.uniform > * {\n    padding: 30px 0 0 30px; }\n  .row.uniform {\n    margin: -30px 0 -1px -30px; }\n  .row.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.uniform.\\32 00\\25 > * {\n    padding: 60px 0 0 60px; }\n  .row.uniform.\\32 00\\25 {\n    margin: -60px 0 -1px -60px; }\n  .row.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.uniform.\\31 50\\25 > * {\n    padding: 45px 0 0 45px; }\n  .row.uniform.\\31 50\\25 {\n    margin: -45px 0 -1px -45px; }\n  .row.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.uniform.\\35 0\\25 > * {\n    padding: 15px 0 0 15px; }\n  .row.uniform.\\35 0\\25 {\n    margin: -15px 0 -1px -15px; }\n  .row.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .row.uniform.\\32 5\\25 > * {\n    padding: 7.5px 0 0 7.5px; }\n  .row.uniform.\\32 5\\25 {\n    margin: -7.5px 0 -1px -7.5px; }\n  .\\31 2u\\28mobile\\29, .\\31 2u\\24\\28mobile\\29 {\n    width: 100%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 1u\\28mobile\\29, .\\31 1u\\24\\28mobile\\29 {\n    width: 91.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 0u\\28mobile\\29, .\\31 0u\\24\\28mobile\\29 {\n    width: 83.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\39 u\\28mobile\\29, .\\39 u\\24\\28mobile\\29 {\n    width: 75%;\n    clear: none;\n    margin-left: 0; }\n  .\\38 u\\28mobile\\29, .\\38 u\\24\\28mobile\\29 {\n    width: 66.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\37 u\\28mobile\\29, .\\37 u\\24\\28mobile\\29 {\n    width: 58.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\36 u\\28mobile\\29, .\\36 u\\24\\28mobile\\29 {\n    width: 50%;\n    clear: none;\n    margin-left: 0; }\n  .\\35 u\\28mobile\\29, .\\35 u\\24\\28mobile\\29 {\n    width: 41.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\34 u\\28mobile\\29, .\\34 u\\24\\28mobile\\29 {\n    width: 33.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\33 u\\28mobile\\29, .\\33 u\\24\\28mobile\\29 {\n    width: 25%;\n    clear: none;\n    margin-left: 0; }\n  .\\32 u\\28mobile\\29, .\\32 u\\24\\28mobile\\29 {\n    width: 16.6666666667%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 u\\28mobile\\29, .\\31 u\\24\\28mobile\\29 {\n    width: 8.3333333333%;\n    clear: none;\n    margin-left: 0; }\n  .\\31 2u\\24\\28mobile\\29 + *,\n  .\\31 1u\\24\\28mobile\\29 + *,\n  .\\31 0u\\24\\28mobile\\29 + *,\n  .\\39 u\\24\\28mobile\\29 + *,\n  .\\38 u\\24\\28mobile\\29 + *,\n  .\\37 u\\24\\28mobile\\29 + *,\n  .\\36 u\\24\\28mobile\\29 + *,\n  .\\35 u\\24\\28mobile\\29 + *,\n  .\\34 u\\24\\28mobile\\29 + *,\n  .\\33 u\\24\\28mobile\\29 + *,\n  .\\32 u\\24\\28mobile\\29 + *,\n  .\\31 u\\24\\28mobile\\29 + * {\n    clear: left; }\n  .\\-11u\\28mobile\\29 {\n    margin-left: 91.6666666667%; }\n  .\\-10u\\28mobile\\29 {\n    margin-left: 83.3333333333%; }\n  .\\-9u\\28mobile\\29 {\n    margin-left: 75%; }\n  .\\-8u\\28mobile\\29 {\n    margin-left: 66.6666666667%; }\n  .\\-7u\\28mobile\\29 {\n    margin-left: 58.3333333333%; }\n  .\\-6u\\28mobile\\29 {\n    margin-left: 50%; }\n  .\\-5u\\28mobile\\29 {\n    margin-left: 41.6666666667%; }\n  .\\-4u\\28mobile\\29 {\n    margin-left: 33.3333333333%; }\n  .\\-3u\\28mobile\\29 {\n    margin-left: 25%; }\n  .\\-2u\\28mobile\\29 {\n    margin-left: 16.6666666667%; }\n  .\\-1u\\28mobile\\29 {\n    margin-left: 8.3333333333%; } }\n\nheader.major {\n  padding-bottom: 2em; }\n\nheader.home {\n  margin-top: 0; }\n\nheader.special {\n  margin-bottom: 0;\n  padding-top: 7em;\n  position: relative;\n  text-align: center; }\n  header.special:before, header.special:after {\n    border-bottom: solid 1.5px;\n    border-top: solid 1.5px;\n    content: '';\n    height: 7px;\n    opacity: 0.1;\n    position: absolute;\n    top: 1.75em;\n    width: 43%; }\n  header.special:before {\n    left: 0; }\n  header.special:after {\n    right: 0; }\n  header.special h2 {\n    margin-bottom: 0; }\n  header.special h2 + p {\n    margin-bottom: 0;\n    padding-top: 1.5em; }\n  header.special .icon {\n    cursor: default;\n    height: 7em;\n    left: 0;\n    position: absolute;\n    text-align: center;\n    top: 1em;\n    width: 100%; }\n    header.special .icon:before {\n      font-size: 3.5em;\n      opacity: 0.35; }\n\n#header {\n  background: #ffffff;\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);\n  color: #df7b77;\n  cursor: default;\n  font-size: 0.8em;\n  left: 0;\n  padding: 1em 1.5em;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  z-index: 1300; }\n  #header h1 {\n    font-weight: 900;\n    margin: 0; }\n    #header h1 span {\n      font-weight: 300; }\n  #header .home-title {\n    font-size: 2.0em; }\n  #header nav {\n    letter-spacing: 0.075em;\n    position: absolute;\n    right: 1.5em;\n    text-transform: uppercase;\n    top: 0.75em; }\n    #header nav ul li {\n      display: inline-block;\n      margin-left: 1.5em; }\n      #header nav ul li > ul {\n        display: none; }\n      #header nav ul li a {\n        border: solid 1px transparent;\n        color: inherit;\n        display: inline-block;\n        line-height: 1em;\n        padding: 0.6em 0.75em;\n        text-decoration: none; }\n      #header nav ul li input[type=\"button\"],\n      #header nav ul li input[type=\"submit\"],\n      #header nav ul li input[type=\"reset\"],\n      #header nav ul li .button {\n        font-size: 1em;\n        min-width: 0;\n        width: auto; }\n      #header nav ul li.submenu > a {\n        text-decoration: none; }\n        #header nav ul li.submenu > a:before {\n          -moz-osx-font-smoothing: grayscale;\n          -webkit-font-smoothing: antialiased;\n          font-family: FontAwesome;\n          font-style: normal;\n          font-weight: normal;\n          text-transform: none !important; }\n        #header nav ul li.submenu > a:before {\n          content: '\\f107';\n          margin-right: 0.65em; }\n      #header nav ul li.active > a, #header nav ul li:hover > a {\n        -moz-transition: all 0.2s ease-in-out;\n        -webkit-transition: all 0.2s ease-in-out;\n        -ms-transition: all 0.2s ease-in-out;\n        transition: all 0.2s ease-in-out;\n        background: rgba(188, 202, 206, 0.15); }\n      #header nav ul li.current > a {\n        font-weight: 900; }\n  #header.alt {\n    -moz-animation: none;\n    -webkit-animation: none;\n    -ms-animation: none;\n    animation: none;\n    background: transparent;\n    box-shadow: none;\n    color: #fff;\n    padding: 1em .5em;\n    position: absolute; }\n\n/* Dropotron */\n.dropotron {\n  background: #fff;\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);\n  line-height: 2.25em;\n  min-width: 13em;\n  padding: 1em 0;\n  text-transform: uppercase;\n  margin-top: calc(-1em + 1px); }\n  .dropotron.level-0 {\n    font-size: 0.7em;\n    font-weight: 400;\n    margin-top: 1.5em; }\n    .dropotron.level-0:before {\n      border-bottom: solid 0.5em #fff;\n      border-left: solid 0.5em transparent;\n      border-right: solid 0.5em transparent;\n      content: '';\n      left: 0.75em;\n      position: absolute;\n      top: -0.45em; }\n  .dropotron > li {\n    border-top: solid 1px rgba(124, 128, 129, 0.2); }\n    .dropotron > li > a {\n      -moz-transition: none;\n      -webkit-transition: none;\n      -ms-transition: none;\n      transition: none;\n      color: inherit;\n      text-decoration: none;\n      padding: 0 1em;\n      border: 0; }\n    .dropotron > li:hover > a {\n      background: #E1BC29;\n      color: #fff; }\n    .dropotron > li:first-child {\n      border-top: 0; }\n\n@media screen and (max-width: 840px) {\n  /* Header */\n  #header {\n    display: none; } }\n"
 
 /***/ }),
-/* 53 */
+/* 64 */
+/***/ (function(module, exports) {
+
+module.exports = ".leftRs {\n  position: absolute;\n  margin: auto;\n  top: 0;\n  bottom: 0;\n  width: 50px;\n  height: 50px;\n  border-radius: 999px;\n  left: 0;\n  display: none !important; }\n\n.rightRs {\n  position: absolute;\n  margin: auto;\n  top: 0;\n  bottom: 0;\n  width: 50px;\n  height: 50px;\n  border-radius: 999px;\n  right: 0;\n  display: none !important; }\n\nimg {\n  max-width: 100%;\n  padding: 1.5em; }\n\n.tile {\n  height: 250px;\n  box-shadow: none !important;\n  border: 1px solid lightgray !important; }\n"
+
+/***/ }),
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process, global) {/*! *****************************************************************************
@@ -4620,10 +5596,10 @@ var Reflect;
             Function("return this;")());
 })(Reflect || (Reflect = {}));
 //# sourceMappingURL=Reflect.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(61), __webpack_require__(72)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(73), __webpack_require__(82)))
 
 /***/ }),
-/* 54 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4633,10 +5609,10 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var ArrayObservable_1 = __webpack_require__(62);
-var isArray_1 = __webpack_require__(63);
-var OuterSubscriber_1 = __webpack_require__(73);
-var subscribeToResult_1 = __webpack_require__(60);
+var ArrayObservable_1 = __webpack_require__(74);
+var isArray_1 = __webpack_require__(75);
+var OuterSubscriber_1 = __webpack_require__(84);
+var subscribeToResult_1 = __webpack_require__(72);
 var none = {};
 /* tslint:enable:max-line-length */
 /**
@@ -4781,12 +5757,12 @@ exports.CombineLatestSubscriber = CombineLatestSubscriber;
 //# sourceMappingURL=combineLatest.js.map
 
 /***/ }),
-/* 55 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var root_1 = __webpack_require__(65);
+var root_1 = __webpack_require__(77);
 /* tslint:enable:max-line-length */
 /**
  * Converts an Observable sequence to a ES2015 compliant promise.
@@ -4859,12 +5835,12 @@ exports.toPromise = toPromise;
 //# sourceMappingURL=toPromise.js.map
 
 /***/ }),
-/* 56 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ansiRegex = __webpack_require__(17)();
+var ansiRegex = __webpack_require__(20)();
 
 module.exports = function (str) {
 	return typeof str === 'string' ? str.replace(ansiRegex, '') : str;
@@ -4872,7 +5848,7 @@ module.exports = function (str) {
 
 
 /***/ }),
-/* 57 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*eslint-env browser*/
@@ -4901,7 +5877,7 @@ for (var key in styles) {
   clientOverlay.style[key] = styles[key];
 }
 
-var ansiHTML = __webpack_require__(16);
+var ansiHTML = __webpack_require__(19);
 var colors = {
   reset: ['transparent', 'transparent'],
   black: '181818',
@@ -4916,7 +5892,7 @@ var colors = {
 };
 ansiHTML.setColors(colors);
 
-var Entities = __webpack_require__(33).AllHtmlEntities;
+var Entities = __webpack_require__(37).AllHtmlEntities;
 var entities = new Entities();
 
 exports.showProblems =
@@ -4957,7 +5933,7 @@ function problemType (type) {
 
 
 /***/ }),
-/* 58 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -5095,7 +6071,7 @@ module.exports = function(hash, moduleMap, options) {
 
 
 /***/ }),
-/* 59 */
+/* 71 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -5123,97 +6099,3121 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 60 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(11);
-
-/***/ }),
-/* 61 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(14);
-
-/***/ }),
-/* 62 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(15);
-
-/***/ }),
-/* 63 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(22);
-
-/***/ }),
-/* 64 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(32);
-
-/***/ }),
-/* 65 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(4);
-
-/***/ }),
-/* 66 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(44);
-
-/***/ }),
-/* 67 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(5);
-
-/***/ }),
-/* 68 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(52);
-
-/***/ }),
-/* 69 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(53);
-
-/***/ }),
-/* 70 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(6);
-
-/***/ }),
-/* 71 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(0))(79);
-
-/***/ }),
 /* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(0))(8);
+module.exports = (__webpack_require__(1))(11);
 
 /***/ }),
 /* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(0))(9);
+module.exports = (__webpack_require__(1))(14);
 
 /***/ }),
 /* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(15);
-__webpack_require__(14);
-module.exports = __webpack_require__(13);
+module.exports = (__webpack_require__(1))(15);
 
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(22);
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(32);
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(4);
+
+/***/ }),
+/* 78 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(44);
+
+/***/ }),
+/* 79 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(52);
+
+/***/ }),
+/* 80 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(53);
+
+/***/ }),
+/* 81 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(54);
+
+/***/ }),
+/* 82 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(8);
+
+/***/ }),
+/* 83 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(80);
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(9);
+
+/***/ }),
+/* 85 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(18);
+__webpack_require__(17);
+module.exports = __webpack_require__(16);
+
+
+/***/ }),
+/* 86 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return AnimationDriver; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AnimationEngine; });
+/* unused harmony export ɵAnimation */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return AnimationStyleNormalizer; });
+/* unused harmony export ɵNoopAnimationStyleNormalizer */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return WebAnimationsStyleNormalizer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return NoopAnimationDriver; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return DomAnimationEngine; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return NoopAnimationEngine; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return WebAnimationsDriver; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return supportsWebAnimations; });
+/* unused harmony export ɵWebAnimationsPlayer */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_animations__ = __webpack_require__(88);
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+/**
+ * @license Angular v4.1.2
+ * (c) 2010-2017 Google, Inc. https://angular.io/
+ * License: MIT
+ */
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @experimental
+ */
+var NoopAnimationDriver = (function () {
+    function NoopAnimationDriver() {
+    }
+    NoopAnimationDriver.prototype.animate = function (element, keyframes, duration, delay, easing, previousPlayers) {
+        if (previousPlayers === void 0) { previousPlayers = []; }
+        return new __WEBPACK_IMPORTED_MODULE_0__angular_animations__["NoopAnimationPlayer"]();
+    };
+    return NoopAnimationDriver;
+}());
+/**
+ * @experimental
+ */
+var AnimationDriver = (function () {
+    function AnimationDriver() {
+    }
+    return AnimationDriver;
+}());
+AnimationDriver.NOOP = new NoopAnimationDriver();
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @abstract
+ */
+var AnimationEngine = (function () {
+    function AnimationEngine() {
+    }
+    /**
+     * @abstract
+     * @param {?} trigger
+     * @param {?=} name
+     * @return {?}
+     */
+    AnimationEngine.prototype.registerTrigger = function (trigger, name) { };
+    /**
+     * @abstract
+     * @param {?} element
+     * @param {?} domFn
+     * @return {?}
+     */
+    AnimationEngine.prototype.onInsert = function (element, domFn) { };
+    /**
+     * @abstract
+     * @param {?} element
+     * @param {?} domFn
+     * @return {?}
+     */
+    AnimationEngine.prototype.onRemove = function (element, domFn) { };
+    /**
+     * @abstract
+     * @param {?} element
+     * @param {?} property
+     * @param {?} value
+     * @return {?}
+     */
+    AnimationEngine.prototype.setProperty = function (element, property, value) { };
+    /**
+     * @abstract
+     * @param {?} element
+     * @param {?} eventName
+     * @param {?} eventPhase
+     * @param {?} callback
+     * @return {?}
+     */
+    AnimationEngine.prototype.listen = function (element, eventName, eventPhase, callback) { };
+    /**
+     * @abstract
+     * @return {?}
+     */
+    AnimationEngine.prototype.flush = function () { };
+    Object.defineProperty(AnimationEngine.prototype, "activePlayers", {
+        /**
+         * @return {?}
+         */
+        get: function () { throw new Error('...'); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AnimationEngine.prototype, "queuedPlayers", {
+        /**
+         * @return {?}
+         */
+        get: function () { throw new Error('...'); },
+        enumerable: true,
+        configurable: true
+    });
+    return AnimationEngine;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var ONE_SECOND = 1000;
+/**
+ * @param {?} exp
+ * @param {?} errors
+ * @return {?}
+ */
+function parseTimeExpression(exp, errors) {
+    var /** @type {?} */ regex = /^([\.\d]+)(m?s)(?:\s+([\.\d]+)(m?s))?(?:\s+([-a-z]+(?:\(.+?\))?))?$/i;
+    var /** @type {?} */ duration;
+    var /** @type {?} */ delay = 0;
+    var /** @type {?} */ easing = null;
+    if (typeof exp === 'string') {
+        var /** @type {?} */ matches = exp.match(regex);
+        if (matches === null) {
+            errors.push("The provided timing value \"" + exp + "\" is invalid.");
+            return { duration: 0, delay: 0, easing: null };
+        }
+        var /** @type {?} */ durationMatch = parseFloat(matches[1]);
+        var /** @type {?} */ durationUnit = matches[2];
+        if (durationUnit == 's') {
+            durationMatch *= ONE_SECOND;
+        }
+        duration = Math.floor(durationMatch);
+        var /** @type {?} */ delayMatch = matches[3];
+        var /** @type {?} */ delayUnit = matches[4];
+        if (delayMatch != null) {
+            var /** @type {?} */ delayVal = parseFloat(delayMatch);
+            if (delayUnit != null && delayUnit == 's') {
+                delayVal *= ONE_SECOND;
+            }
+            delay = Math.floor(delayVal);
+        }
+        var /** @type {?} */ easingVal = matches[5];
+        if (easingVal) {
+            easing = easingVal;
+        }
+    }
+    else {
+        duration = (exp);
+    }
+    return { duration: duration, delay: delay, easing: easing };
+}
+/**
+ * @param {?} styles
+ * @return {?}
+ */
+function normalizeStyles(styles) {
+    var /** @type {?} */ normalizedStyles = {};
+    if (Array.isArray(styles)) {
+        styles.forEach(function (data) { return copyStyles(data, false, normalizedStyles); });
+    }
+    else {
+        copyStyles(styles, false, normalizedStyles);
+    }
+    return normalizedStyles;
+}
+/**
+ * @param {?} styles
+ * @param {?} readPrototype
+ * @param {?=} destination
+ * @return {?}
+ */
+function copyStyles(styles, readPrototype, destination) {
+    if (destination === void 0) { destination = {}; }
+    if (readPrototype) {
+        // we make use of a for-in loop so that the
+        // prototypically inherited properties are
+        // revealed from the backFill map
+        for (var /** @type {?} */ prop in styles) {
+            destination[prop] = styles[prop];
+        }
+    }
+    else {
+        Object.keys(styles).forEach(function (prop) { return destination[prop] = styles[prop]; });
+    }
+    return destination;
+}
+/**
+ * @param {?} element
+ * @param {?} styles
+ * @return {?}
+ */
+function setStyles(element, styles) {
+    if (element['style']) {
+        Object.keys(styles).forEach(function (prop) { return element.style[prop] = styles[prop]; });
+    }
+}
+/**
+ * @param {?} element
+ * @param {?} styles
+ * @return {?}
+ */
+function eraseStyles(element, styles) {
+    if (element['style']) {
+        Object.keys(styles).forEach(function (prop) {
+            // IE requires '' instead of null
+            // see https://github.com/angular/angular/issues/7916
+            element.style[prop] = '';
+        });
+    }
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @param {?} visitor
+ * @param {?} node
+ * @param {?} context
+ * @return {?}
+ */
+function visitAnimationNode(visitor, node, context) {
+    switch (node.type) {
+        case 0 /* State */:
+            return visitor.visitState(/** @type {?} */ (node), context);
+        case 1 /* Transition */:
+            return visitor.visitTransition(/** @type {?} */ (node), context);
+        case 2 /* Sequence */:
+            return visitor.visitSequence(/** @type {?} */ (node), context);
+        case 3 /* Group */:
+            return visitor.visitGroup(/** @type {?} */ (node), context);
+        case 4 /* Animate */:
+            return visitor.visitAnimate(/** @type {?} */ (node), context);
+        case 5 /* KeyframeSequence */:
+            return visitor.visitKeyframeSequence(/** @type {?} */ (node), context);
+        case 6 /* Style */:
+            return visitor.visitStyle(/** @type {?} */ (node), context);
+        default:
+            throw new Error("Unable to resolve animation metadata node #" + node.type);
+    }
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var ANY_STATE = '*';
+/**
+ * @param {?} transitionValue
+ * @param {?} errors
+ * @return {?}
+ */
+function parseTransitionExpr(transitionValue, errors) {
+    var /** @type {?} */ expressions = [];
+    if (typeof transitionValue == 'string') {
+        ((transitionValue))
+            .split(/\s*,\s*/)
+            .forEach(function (str) { return parseInnerTransitionStr(str, expressions, errors); });
+    }
+    else {
+        expressions.push(/** @type {?} */ (transitionValue));
+    }
+    return expressions;
+}
+/**
+ * @param {?} eventStr
+ * @param {?} expressions
+ * @param {?} errors
+ * @return {?}
+ */
+function parseInnerTransitionStr(eventStr, expressions, errors) {
+    if (eventStr[0] == ':') {
+        eventStr = parseAnimationAlias(eventStr, errors);
+    }
+    var /** @type {?} */ match = eventStr.match(/^(\*|[-\w]+)\s*(<?[=-]>)\s*(\*|[-\w]+)$/);
+    if (match == null || match.length < 4) {
+        errors.push("The provided transition expression \"" + eventStr + "\" is not supported");
+        return expressions;
+    }
+    var /** @type {?} */ fromState = match[1];
+    var /** @type {?} */ separator = match[2];
+    var /** @type {?} */ toState = match[3];
+    expressions.push(makeLambdaFromStates(fromState, toState));
+    var /** @type {?} */ isFullAnyStateExpr = fromState == ANY_STATE && toState == ANY_STATE;
+    if (separator[0] == '<' && !isFullAnyStateExpr) {
+        expressions.push(makeLambdaFromStates(toState, fromState));
+    }
+}
+/**
+ * @param {?} alias
+ * @param {?} errors
+ * @return {?}
+ */
+function parseAnimationAlias(alias, errors) {
+    switch (alias) {
+        case ':enter':
+            return 'void => *';
+        case ':leave':
+            return '* => void';
+        default:
+            errors.push("The transition alias value \"" + alias + "\" is not supported");
+            return '* => *';
+    }
+}
+/**
+ * @param {?} lhs
+ * @param {?} rhs
+ * @return {?}
+ */
+function makeLambdaFromStates(lhs, rhs) {
+    return function (fromState, toState) {
+        var /** @type {?} */ lhsMatch = lhs == ANY_STATE || lhs == fromState;
+        var /** @type {?} */ rhsMatch = rhs == ANY_STATE || rhs == toState;
+        return lhsMatch && rhsMatch;
+    };
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @param {?} keyframes
+ * @param {?} duration
+ * @param {?} delay
+ * @param {?} easing
+ * @return {?}
+ */
+function createTimelineInstruction(keyframes, duration, delay, easing) {
+    return {
+        type: 1 /* TimelineAnimation */,
+        keyframes: keyframes,
+        duration: duration,
+        delay: delay,
+        totalTime: duration + delay, easing: easing
+    };
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @param {?} ast
+ * @param {?=} startingStyles
+ * @param {?=} finalStyles
+ * @return {?}
+ */
+function buildAnimationKeyframes(ast, startingStyles, finalStyles) {
+    if (startingStyles === void 0) { startingStyles = {}; }
+    if (finalStyles === void 0) { finalStyles = {}; }
+    var /** @type {?} */ normalizedAst = Array.isArray(ast) ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["sequence"])(/** @type {?} */ (ast)) : (ast);
+    return new AnimationTimelineVisitor().buildKeyframes(normalizedAst, startingStyles, finalStyles);
+}
+var AnimationTimelineContext = (function () {
+    /**
+     * @param {?} errors
+     * @param {?} timelines
+     * @param {?=} initialTimeline
+     */
+    function AnimationTimelineContext(errors, timelines, initialTimeline) {
+        this.errors = errors;
+        this.timelines = timelines;
+        this.previousNode = ({});
+        this.subContextCount = 0;
+        this.currentTimeline = initialTimeline || new TimelineBuilder(0);
+        timelines.push(this.currentTimeline);
+    }
+    /**
+     * @return {?}
+     */
+    AnimationTimelineContext.prototype.createSubContext = function () {
+        var /** @type {?} */ context = new AnimationTimelineContext(this.errors, this.timelines, this.currentTimeline.fork());
+        context.previousNode = this.previousNode;
+        context.currentAnimateTimings = this.currentAnimateTimings;
+        this.subContextCount++;
+        return context;
+    };
+    /**
+     * @param {?=} newTime
+     * @return {?}
+     */
+    AnimationTimelineContext.prototype.transformIntoNewTimeline = function (newTime) {
+        if (newTime === void 0) { newTime = 0; }
+        this.currentTimeline = this.currentTimeline.fork(newTime);
+        this.timelines.push(this.currentTimeline);
+        return this.currentTimeline;
+    };
+    /**
+     * @param {?} time
+     * @return {?}
+     */
+    AnimationTimelineContext.prototype.incrementTime = function (time) {
+        this.currentTimeline.forwardTime(this.currentTimeline.duration + time);
+    };
+    return AnimationTimelineContext;
+}());
+var AnimationTimelineVisitor = (function () {
+    function AnimationTimelineVisitor() {
+    }
+    /**
+     * @param {?} ast
+     * @param {?} startingStyles
+     * @param {?} finalStyles
+     * @return {?}
+     */
+    AnimationTimelineVisitor.prototype.buildKeyframes = function (ast, startingStyles, finalStyles) {
+        var /** @type {?} */ context = new AnimationTimelineContext([], []);
+        context.currentTimeline.setStyles(startingStyles);
+        visitAnimationNode(this, ast, context);
+        // this checks to see if an actual animation happened
+        var /** @type {?} */ timelines = context.timelines.filter(function (timeline) { return timeline.hasStyling(); });
+        if (timelines.length && Object.keys(finalStyles).length) {
+            var /** @type {?} */ tl = timelines[timelines.length - 1];
+            if (!tl.allowOnlyTimelineStyles()) {
+                tl.setStyles(finalStyles);
+            }
+        }
+        return timelines.length ? timelines.map(function (timeline) { return timeline.buildKeyframes(); }) :
+            [createTimelineInstruction([], 0, 0, '')];
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTimelineVisitor.prototype.visitState = function (ast, context) {
+        // these values are not visited in this AST
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTimelineVisitor.prototype.visitTransition = function (ast, context) {
+        // these values are not visited in this AST
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTimelineVisitor.prototype.visitSequence = function (ast, context) {
+        var _this = this;
+        var /** @type {?} */ subContextCount = context.subContextCount;
+        if (context.previousNode.type == 6 /* Style */) {
+            context.currentTimeline.forwardFrame();
+            context.currentTimeline.snapshotCurrentStyles();
+        }
+        ast.steps.forEach(function (s) { return visitAnimationNode(_this, s, context); });
+        // this means that some animation function within the sequence
+        // ended up creating a sub timeline (which means the current
+        // timeline cannot overlap with the contents of the sequence)
+        if (context.subContextCount > subContextCount) {
+            context.transformIntoNewTimeline();
+        }
+        context.previousNode = ast;
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTimelineVisitor.prototype.visitGroup = function (ast, context) {
+        var _this = this;
+        var /** @type {?} */ innerTimelines = [];
+        var /** @type {?} */ furthestTime = context.currentTimeline.currentTime;
+        ast.steps.forEach(function (s) {
+            var /** @type {?} */ innerContext = context.createSubContext();
+            visitAnimationNode(_this, s, innerContext);
+            furthestTime = Math.max(furthestTime, innerContext.currentTimeline.currentTime);
+            innerTimelines.push(innerContext.currentTimeline);
+        });
+        // this operation is run after the AST loop because otherwise
+        // if the parent timeline's collected styles were updated then
+        // it would pass in invalid data into the new-to-be forked items
+        innerTimelines.forEach(function (timeline) { return context.currentTimeline.mergeTimelineCollectedStyles(timeline); });
+        context.transformIntoNewTimeline(furthestTime);
+        context.previousNode = ast;
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTimelineVisitor.prototype.visitAnimate = function (ast, context) {
+        var /** @type {?} */ timings = ast.timings.hasOwnProperty('duration') ? (ast.timings) :
+            parseTimeExpression(/** @type {?} */ (ast.timings), context.errors);
+        context.currentAnimateTimings = timings;
+        if (timings.delay) {
+            context.incrementTime(timings.delay);
+            context.currentTimeline.snapshotCurrentStyles();
+        }
+        var /** @type {?} */ astType = ast.styles ? ast.styles.type : -1;
+        if (astType == 5 /* KeyframeSequence */) {
+            this.visitKeyframeSequence(/** @type {?} */ (ast.styles), context);
+        }
+        else {
+            var /** @type {?} */ styleAst = (ast.styles);
+            if (!styleAst) {
+                var /** @type {?} */ newStyleData = {};
+                if (timings.easing) {
+                    newStyleData['easing'] = timings.easing;
+                }
+                styleAst = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["style"])(newStyleData);
+                ((styleAst))['treatAsEmptyStep'] = true;
+            }
+            context.incrementTime(timings.duration);
+            if (styleAst) {
+                this.visitStyle(styleAst, context);
+            }
+        }
+        context.currentAnimateTimings = null;
+        context.previousNode = ast;
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTimelineVisitor.prototype.visitStyle = function (ast, context) {
+        // this is a special case when a style() call is issued directly after
+        // a call to animate(). If the clock is not forwarded by one frame then
+        // the style() calls will be merged into the previous animate() call
+        // which is incorrect.
+        if (!context.currentAnimateTimings &&
+            context.previousNode.type == 4 /* Animate */) {
+            context.currentTimeline.forwardFrame();
+        }
+        var /** @type {?} */ normalizedStyles = normalizeStyles(ast.styles);
+        var /** @type {?} */ easing = context.currentAnimateTimings && context.currentAnimateTimings.easing;
+        this._applyStyles(normalizedStyles, easing, ((ast))['treatAsEmptyStep'] ? true : false, context);
+        context.previousNode = ast;
+    };
+    /**
+     * @param {?} styles
+     * @param {?} easing
+     * @param {?} treatAsEmptyStep
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTimelineVisitor.prototype._applyStyles = function (styles, easing, treatAsEmptyStep, context) {
+        if (styles.hasOwnProperty('easing')) {
+            easing = easing || (styles['easing']);
+            delete styles['easing'];
+        }
+        context.currentTimeline.setStyles(styles, easing, treatAsEmptyStep);
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTimelineVisitor.prototype.visitKeyframeSequence = function (ast, context) {
+        var _this = this;
+        var /** @type {?} */ MAX_KEYFRAME_OFFSET = 1;
+        var /** @type {?} */ limit = ast.steps.length - 1;
+        var /** @type {?} */ firstKeyframe = ast.steps[0];
+        var /** @type {?} */ offsetGap = 0;
+        var /** @type {?} */ containsOffsets = getOffset(firstKeyframe) != null;
+        if (!containsOffsets) {
+            offsetGap = MAX_KEYFRAME_OFFSET / limit;
+        }
+        var /** @type {?} */ startTime = context.currentTimeline.duration;
+        var /** @type {?} */ duration = ((context.currentAnimateTimings)).duration;
+        var /** @type {?} */ innerContext = context.createSubContext();
+        var /** @type {?} */ innerTimeline = innerContext.currentTimeline;
+        innerTimeline.easing = ((context.currentAnimateTimings)).easing;
+        ast.steps.forEach(function (step, i) {
+            var /** @type {?} */ normalizedStyles = normalizeStyles(step.styles);
+            var /** @type {?} */ offset = containsOffsets ?
+                (step.offset != null ? step.offset : parseFloat(/** @type {?} */ (normalizedStyles['offset']))) :
+                (i == limit ? MAX_KEYFRAME_OFFSET : i * offsetGap);
+            innerTimeline.forwardTime(offset * duration);
+            _this._applyStyles(normalizedStyles, null, false, innerContext);
+        });
+        // this will ensure that the parent timeline gets all the styles from
+        // the child even if the new timeline below is not used
+        context.currentTimeline.mergeTimelineCollectedStyles(innerTimeline);
+        // we do this because the window between this timeline and the sub timeline
+        // should ensure that the styles within are exactly the same as they were before
+        context.transformIntoNewTimeline(startTime + duration);
+        context.previousNode = ast;
+    };
+    return AnimationTimelineVisitor;
+}());
+var TimelineBuilder = (function () {
+    /**
+     * @param {?} startTime
+     * @param {?=} globalTimelineStyles
+     */
+    function TimelineBuilder(startTime, globalTimelineStyles) {
+        this.startTime = startTime;
+        this.duration = 0;
+        this.easing = '';
+        this._previousKeyframe = {};
+        this._keyframes = new Map();
+        this._styleSummary = {};
+        this._backFill = {};
+        this._currentEmptyStepKeyframe = null;
+        this._localTimelineStyles = Object.create(this._backFill, {});
+        this._globalTimelineStyles =
+            globalTimelineStyles ? globalTimelineStyles : this._localTimelineStyles;
+        this._loadKeyframe();
+    }
+    /**
+     * @return {?}
+     */
+    TimelineBuilder.prototype.hasStyling = function () { return this._keyframes.size > 1; };
+    Object.defineProperty(TimelineBuilder.prototype, "currentTime", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this.startTime + this.duration; },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @param {?=} currentTime
+     * @return {?}
+     */
+    TimelineBuilder.prototype.fork = function (currentTime) {
+        if (currentTime === void 0) { currentTime = 0; }
+        return new TimelineBuilder(currentTime || this.currentTime, this._globalTimelineStyles);
+    };
+    /**
+     * @return {?}
+     */
+    TimelineBuilder.prototype._loadKeyframe = function () {
+        if (this._currentKeyframe) {
+            this._previousKeyframe = this._currentKeyframe;
+        }
+        this._currentKeyframe = ((this._keyframes.get(this.duration)));
+        if (!this._currentKeyframe) {
+            this._currentKeyframe = Object.create(this._backFill, {});
+            this._keyframes.set(this.duration, this._currentKeyframe);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    TimelineBuilder.prototype.forwardFrame = function () {
+        this.duration++;
+        this._loadKeyframe();
+    };
+    /**
+     * @param {?} time
+     * @return {?}
+     */
+    TimelineBuilder.prototype.forwardTime = function (time) {
+        this.duration = time;
+        this._loadKeyframe();
+    };
+    /**
+     * @param {?} prop
+     * @param {?} value
+     * @return {?}
+     */
+    TimelineBuilder.prototype._updateStyle = function (prop, value) {
+        this._localTimelineStyles[prop] = value; /** @type {?} */
+        ((this._globalTimelineStyles))[prop] = value;
+        this._styleSummary[prop] = { time: this.currentTime, value: value };
+    };
+    /**
+     * @return {?}
+     */
+    TimelineBuilder.prototype.allowOnlyTimelineStyles = function () { return this._currentEmptyStepKeyframe !== this._currentKeyframe; };
+    /**
+     * @param {?} styles
+     * @param {?=} easing
+     * @param {?=} treatAsEmptyStep
+     * @return {?}
+     */
+    TimelineBuilder.prototype.setStyles = function (styles, easing, treatAsEmptyStep) {
+        var _this = this;
+        if (easing === void 0) { easing = null; }
+        if (treatAsEmptyStep === void 0) { treatAsEmptyStep = false; }
+        if (easing) {
+            ((this._previousKeyframe))['easing'] = easing;
+        }
+        if (treatAsEmptyStep) {
+            // special case for animate(duration):
+            // all missing styles are filled with a `*` value then
+            // if any destination styles are filled in later on the same
+            // keyframe then they will override the overridden styles
+            // We use `_globalTimelineStyles` here because there may be
+            // styles in previous keyframes that are not present in this timeline
+            Object.keys(this._globalTimelineStyles).forEach(function (prop) {
+                _this._backFill[prop] = _this._globalTimelineStyles[prop] || __WEBPACK_IMPORTED_MODULE_0__angular_animations__["AUTO_STYLE"];
+                _this._currentKeyframe[prop] = __WEBPACK_IMPORTED_MODULE_0__angular_animations__["AUTO_STYLE"];
+            });
+            this._currentEmptyStepKeyframe = this._currentKeyframe;
+        }
+        else {
+            Object.keys(styles).forEach(function (prop) {
+                if (prop !== 'offset') {
+                    var /** @type {?} */ val = styles[prop];
+                    _this._currentKeyframe[prop] = val;
+                    if (!_this._localTimelineStyles[prop]) {
+                        _this._backFill[prop] = _this._globalTimelineStyles[prop] || __WEBPACK_IMPORTED_MODULE_0__angular_animations__["AUTO_STYLE"];
+                    }
+                    _this._updateStyle(prop, val);
+                }
+            });
+            Object.keys(this._localTimelineStyles).forEach(function (prop) {
+                if (!_this._currentKeyframe.hasOwnProperty(prop)) {
+                    _this._currentKeyframe[prop] = _this._localTimelineStyles[prop];
+                }
+            });
+        }
+    };
+    /**
+     * @return {?}
+     */
+    TimelineBuilder.prototype.snapshotCurrentStyles = function () { copyStyles(this._localTimelineStyles, false, this._currentKeyframe); };
+    /**
+     * @return {?}
+     */
+    TimelineBuilder.prototype.getFinalKeyframe = function () { return ((this._keyframes.get(this.duration))); };
+    Object.defineProperty(TimelineBuilder.prototype, "properties", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            var /** @type {?} */ properties = [];
+            for (var /** @type {?} */ prop in this._currentKeyframe) {
+                properties.push(prop);
+            }
+            return properties;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @param {?} timeline
+     * @return {?}
+     */
+    TimelineBuilder.prototype.mergeTimelineCollectedStyles = function (timeline) {
+        var _this = this;
+        Object.keys(timeline._styleSummary).forEach(function (prop) {
+            var /** @type {?} */ details0 = _this._styleSummary[prop];
+            var /** @type {?} */ details1 = timeline._styleSummary[prop];
+            if (!details0 || details1.time > details0.time) {
+                _this._updateStyle(prop, details1.value);
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    TimelineBuilder.prototype.buildKeyframes = function () {
+        var _this = this;
+        var /** @type {?} */ finalKeyframes = [];
+        // special case for when there are only start/destination
+        // styles but no actual animation animate steps...
+        if (this.duration == 0) {
+            var /** @type {?} */ targetKeyframe = this.getFinalKeyframe();
+            var /** @type {?} */ firstKeyframe = copyStyles(targetKeyframe, true);
+            firstKeyframe['offset'] = 0;
+            finalKeyframes.push(firstKeyframe);
+            var /** @type {?} */ lastKeyframe = copyStyles(targetKeyframe, true);
+            lastKeyframe['offset'] = 1;
+            finalKeyframes.push(lastKeyframe);
+        }
+        else {
+            this._keyframes.forEach(function (keyframe, time) {
+                var /** @type {?} */ finalKeyframe = copyStyles(keyframe, true);
+                finalKeyframe['offset'] = time / _this.duration;
+                finalKeyframes.push(finalKeyframe);
+            });
+        }
+        return createTimelineInstruction(finalKeyframes, this.duration, this.startTime, this.easing);
+    };
+    return TimelineBuilder;
+}());
+/**
+ * @param {?} ast
+ * @return {?}
+ */
+function getOffset(ast) {
+    var /** @type {?} */ offset = ast.offset;
+    if (offset == null) {
+        var /** @type {?} */ styles = ast.styles;
+        if (Array.isArray(styles)) {
+            for (var /** @type {?} */ i = 0; i < styles.length; i++) {
+                var /** @type {?} */ o = (styles[i]['offset']);
+                if (o != null) {
+                    offset = o;
+                    break;
+                }
+            }
+        }
+        else {
+            offset = (styles['offset']);
+        }
+    }
+    return ((offset));
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @param {?} triggerName
+ * @param {?} fromState
+ * @param {?} toState
+ * @param {?} isRemovalTransition
+ * @param {?} fromStyles
+ * @param {?} toStyles
+ * @param {?} timelines
+ * @return {?}
+ */
+function createTransitionInstruction(triggerName, fromState, toState, isRemovalTransition, fromStyles, toStyles, timelines) {
+    return {
+        type: 0 /* TransitionAnimation */,
+        triggerName: triggerName,
+        isRemovalTransition: isRemovalTransition,
+        fromState: fromState,
+        fromStyles: fromStyles,
+        toState: toState,
+        toStyles: toStyles,
+        timelines: timelines
+    };
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var AnimationTransitionFactory = (function () {
+    /**
+     * @param {?} _triggerName
+     * @param {?} ast
+     * @param {?} matchFns
+     * @param {?} _stateStyles
+     */
+    function AnimationTransitionFactory(_triggerName, ast, matchFns, _stateStyles) {
+        this._triggerName = _triggerName;
+        this.matchFns = matchFns;
+        this._stateStyles = _stateStyles;
+        var normalizedAst = Array.isArray(ast.animation) ?
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["sequence"])(ast.animation) :
+            ast.animation;
+        this._animationAst = normalizedAst;
+    }
+    /**
+     * @param {?} currentState
+     * @param {?} nextState
+     * @return {?}
+     */
+    AnimationTransitionFactory.prototype.match = function (currentState, nextState) {
+        if (!oneOrMoreTransitionsMatch(this.matchFns, currentState, nextState))
+            return;
+        var /** @type {?} */ backupStateStyles = this._stateStyles['*'] || {};
+        var /** @type {?} */ currentStateStyles = this._stateStyles[currentState] || backupStateStyles;
+        var /** @type {?} */ nextStateStyles = this._stateStyles[nextState] || backupStateStyles;
+        var /** @type {?} */ timelines = buildAnimationKeyframes(this._animationAst, currentStateStyles, nextStateStyles);
+        return createTransitionInstruction(this._triggerName, currentState, nextState, nextState === 'void', currentStateStyles, nextStateStyles, timelines);
+    };
+    return AnimationTransitionFactory;
+}());
+/**
+ * @param {?} matchFns
+ * @param {?} currentState
+ * @param {?} nextState
+ * @return {?}
+ */
+function oneOrMoreTransitionsMatch(matchFns, currentState, nextState) {
+    return matchFns.some(function (fn) { return fn(currentState, nextState); });
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @param {?} ast
+ * @return {?}
+ */
+function validateAnimationSequence(ast) {
+    var /** @type {?} */ normalizedAst = Array.isArray(ast) ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["sequence"])(/** @type {?} */ (ast)) : (ast);
+    return new AnimationValidatorVisitor().validate(normalizedAst);
+}
+var AnimationValidatorVisitor = (function () {
+    function AnimationValidatorVisitor() {
+    }
+    /**
+     * @param {?} ast
+     * @return {?}
+     */
+    AnimationValidatorVisitor.prototype.validate = function (ast) {
+        var /** @type {?} */ context = new AnimationValidatorContext();
+        visitAnimationNode(this, ast, context);
+        return context.errors;
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationValidatorVisitor.prototype.visitState = function (ast, context) {
+        // these values are not visited in this AST
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationValidatorVisitor.prototype.visitTransition = function (ast, context) {
+        // these values are not visited in this AST
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationValidatorVisitor.prototype.visitSequence = function (ast, context) {
+        var _this = this;
+        ast.steps.forEach(function (step) { return visitAnimationNode(_this, step, context); });
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationValidatorVisitor.prototype.visitGroup = function (ast, context) {
+        var _this = this;
+        var /** @type {?} */ currentTime = context.currentTime;
+        var /** @type {?} */ furthestTime = 0;
+        ast.steps.forEach(function (step) {
+            context.currentTime = currentTime;
+            visitAnimationNode(_this, step, context);
+            furthestTime = Math.max(furthestTime, context.currentTime);
+        });
+        context.currentTime = furthestTime;
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationValidatorVisitor.prototype.visitAnimate = function (ast, context) {
+        // we reassign the timings here so that they are not reparsed each
+        // time an animation occurs
+        context.currentAnimateTimings = ast.timings =
+            parseTimeExpression(/** @type {?} */ (ast.timings), context.errors);
+        var /** @type {?} */ astType = ast.styles && ast.styles.type;
+        if (astType == 5 /* KeyframeSequence */) {
+            this.visitKeyframeSequence(/** @type {?} */ (ast.styles), context);
+        }
+        else {
+            context.currentTime +=
+                context.currentAnimateTimings.duration + context.currentAnimateTimings.delay;
+            if (astType == 6 /* Style */) {
+                this.visitStyle(/** @type {?} */ (ast.styles), context);
+            }
+        }
+        context.currentAnimateTimings = null;
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationValidatorVisitor.prototype.visitStyle = function (ast, context) {
+        var /** @type {?} */ styleData = normalizeStyles(ast.styles);
+        var /** @type {?} */ timings = context.currentAnimateTimings;
+        var /** @type {?} */ endTime = context.currentTime;
+        var /** @type {?} */ startTime = context.currentTime;
+        if (timings && startTime > 0) {
+            startTime -= timings.duration + timings.delay;
+        }
+        Object.keys(styleData).forEach(function (prop) {
+            var /** @type {?} */ collectedEntry = context.collectedStyles[prop];
+            var /** @type {?} */ updateCollectedStyle = true;
+            if (collectedEntry) {
+                if (startTime != endTime && startTime >= collectedEntry.startTime &&
+                    endTime <= collectedEntry.endTime) {
+                    context.errors.push("The CSS property \"" + prop + "\" that exists between the times of \"" + collectedEntry.startTime + "ms\" and \"" + collectedEntry.endTime + "ms\" is also being animated in a parallel animation between the times of \"" + startTime + "ms\" and \"" + endTime + "ms\"");
+                    updateCollectedStyle = false;
+                }
+                // we always choose the smaller start time value since we
+                // want to have a record of the entire animation window where
+                // the style property is being animated in between
+                startTime = collectedEntry.startTime;
+            }
+            if (updateCollectedStyle) {
+                context.collectedStyles[prop] = { startTime: startTime, endTime: endTime };
+            }
+        });
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationValidatorVisitor.prototype.visitKeyframeSequence = function (ast, context) {
+        var _this = this;
+        var /** @type {?} */ totalKeyframesWithOffsets = 0;
+        var /** @type {?} */ offsets = [];
+        var /** @type {?} */ offsetsOutOfOrder = false;
+        var /** @type {?} */ keyframesOutOfRange = false;
+        var /** @type {?} */ previousOffset = 0;
+        ast.steps.forEach(function (step) {
+            var /** @type {?} */ styleData = normalizeStyles(step.styles);
+            var /** @type {?} */ offset = 0;
+            if (styleData.hasOwnProperty('offset')) {
+                totalKeyframesWithOffsets++;
+                offset = (styleData['offset']);
+            }
+            keyframesOutOfRange = keyframesOutOfRange || offset < 0 || offset > 1;
+            offsetsOutOfOrder = offsetsOutOfOrder || offset < previousOffset;
+            previousOffset = offset;
+            offsets.push(offset);
+        });
+        if (keyframesOutOfRange) {
+            context.errors.push("Please ensure that all keyframe offsets are between 0 and 1");
+        }
+        if (offsetsOutOfOrder) {
+            context.errors.push("Please ensure that all keyframe offsets are in order");
+        }
+        var /** @type {?} */ length = ast.steps.length;
+        var /** @type {?} */ generatedOffset = 0;
+        if (totalKeyframesWithOffsets > 0 && totalKeyframesWithOffsets < length) {
+            context.errors.push("Not all style() steps within the declared keyframes() contain offsets");
+        }
+        else if (totalKeyframesWithOffsets == 0) {
+            generatedOffset = 1 / length;
+        }
+        var /** @type {?} */ limit = length - 1;
+        var /** @type {?} */ currentTime = context.currentTime;
+        var /** @type {?} */ animateDuration = ((context.currentAnimateTimings)).duration;
+        ast.steps.forEach(function (step, i) {
+            var /** @type {?} */ offset = generatedOffset > 0 ? (i == limit ? 1 : (generatedOffset * i)) : offsets[i];
+            var /** @type {?} */ durationUpToThisFrame = offset * animateDuration;
+            context.currentTime =
+                currentTime + ((context.currentAnimateTimings)).delay + durationUpToThisFrame; /** @type {?} */
+            ((context.currentAnimateTimings)).duration = durationUpToThisFrame;
+            _this.visitStyle(step, context);
+        });
+    };
+    return AnimationValidatorVisitor;
+}());
+var AnimationValidatorContext = (function () {
+    function AnimationValidatorContext() {
+        this.errors = [];
+        this.currentTime = 0;
+        this.collectedStyles = {};
+    }
+    return AnimationValidatorContext;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * \@experimental Animation support is experimental.
+ * @param {?} name
+ * @param {?} definitions
+ * @return {?}
+ */
+function buildTrigger(name, definitions) {
+    return new AnimationTriggerVisitor().buildTrigger(name, definitions);
+}
+/**
+ * \@experimental Animation support is experimental.
+ */
+var AnimationTrigger = (function () {
+    /**
+     * @param {?} name
+     * @param {?} states
+     * @param {?} _transitionAsts
+     */
+    function AnimationTrigger(name, states, _transitionAsts) {
+        var _this = this;
+        this.name = name;
+        this._transitionAsts = _transitionAsts;
+        this.transitionFactories = [];
+        this.states = {};
+        Object.keys(states).forEach(function (stateName) { _this.states[stateName] = copyStyles(states[stateName], false); });
+        var errors = [];
+        _transitionAsts.forEach(function (ast) {
+            var exprs = parseTransitionExpr(ast.expr, errors);
+            var sequenceErrors = validateAnimationSequence(ast);
+            if (sequenceErrors.length) {
+                errors.push.apply(errors, sequenceErrors);
+            }
+            else {
+                _this.transitionFactories.push(new AnimationTransitionFactory(_this.name, ast, exprs, states));
+            }
+        });
+        if (errors.length) {
+            var LINE_START = '\n - ';
+            throw new Error("Animation parsing for the " + name + " trigger have failed:" + LINE_START + errors.join(LINE_START));
+        }
+    }
+    /**
+     * @param {?} currentState
+     * @param {?} nextState
+     * @return {?}
+     */
+    AnimationTrigger.prototype.createFallbackInstruction = function (currentState, nextState) {
+        var /** @type {?} */ backupStateStyles = this.states['*'] || {};
+        var /** @type {?} */ currentStateStyles = this.states[currentState] || backupStateStyles;
+        var /** @type {?} */ nextStateStyles = this.states[nextState] || backupStateStyles;
+        return createTransitionInstruction(this.name, currentState, nextState, nextState == 'void', currentStateStyles, nextStateStyles, []);
+    };
+    /**
+     * @param {?} currentState
+     * @param {?} nextState
+     * @return {?}
+     */
+    AnimationTrigger.prototype.matchTransition = function (currentState, nextState) {
+        for (var /** @type {?} */ i = 0; i < this.transitionFactories.length; i++) {
+            var /** @type {?} */ result = this.transitionFactories[i].match(currentState, nextState);
+            if (result)
+                return result;
+        }
+        return null;
+    };
+    return AnimationTrigger;
+}());
+var AnimationTriggerContext = (function () {
+    function AnimationTriggerContext() {
+        this.errors = [];
+        this.states = {};
+        this.transitions = [];
+    }
+    return AnimationTriggerContext;
+}());
+var AnimationTriggerVisitor = (function () {
+    function AnimationTriggerVisitor() {
+    }
+    /**
+     * @param {?} name
+     * @param {?} definitions
+     * @return {?}
+     */
+    AnimationTriggerVisitor.prototype.buildTrigger = function (name, definitions) {
+        var _this = this;
+        var /** @type {?} */ context = new AnimationTriggerContext();
+        definitions.forEach(function (def) { return visitAnimationNode(_this, def, context); });
+        return new AnimationTrigger(name, context.states, context.transitions);
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTriggerVisitor.prototype.visitState = function (ast, context) {
+        var /** @type {?} */ styles = normalizeStyles(ast.styles.styles);
+        ast.name.split(/\s*,\s*/).forEach(function (name) { context.states[name] = styles; });
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTriggerVisitor.prototype.visitTransition = function (ast, context) {
+        context.transitions.push(ast);
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTriggerVisitor.prototype.visitSequence = function (ast, context) {
+        // these values are not visited in this AST
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTriggerVisitor.prototype.visitGroup = function (ast, context) {
+        // these values are not visited in this AST
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTriggerVisitor.prototype.visitAnimate = function (ast, context) {
+        // these values are not visited in this AST
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTriggerVisitor.prototype.visitStyle = function (ast, context) {
+        // these values are not visited in this AST
+    };
+    /**
+     * @param {?} ast
+     * @param {?} context
+     * @return {?}
+     */
+    AnimationTriggerVisitor.prototype.visitKeyframeSequence = function (ast, context) {
+        // these values are not visited in this AST
+    };
+    return AnimationTriggerVisitor;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var MARKED_FOR_ANIMATION_CLASSNAME = 'ng-animating';
+var MARKED_FOR_ANIMATION_SELECTOR = '.ng-animating';
+var MARKED_FOR_REMOVAL = '$$ngRemove';
+var VOID_STATE = 'void';
+var DomAnimationEngine = (function () {
+    /**
+     * @param {?} _driver
+     * @param {?} _normalizer
+     */
+    function DomAnimationEngine(_driver, _normalizer) {
+        this._driver = _driver;
+        this._normalizer = _normalizer;
+        this._flaggedInserts = new Set();
+        this._queuedRemovals = new Map();
+        this._queuedTransitionAnimations = [];
+        this._activeTransitionAnimations = new Map();
+        this._activeElementAnimations = new Map();
+        this._elementTriggerStates = new Map();
+        this._triggers = Object.create(null);
+        this._triggerListeners = new Map();
+        this._pendingListenerRemovals = new Map();
+    }
+    Object.defineProperty(DomAnimationEngine.prototype, "queuedPlayers", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            return this._queuedTransitionAnimations.map(function (q) { return q.player; });
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DomAnimationEngine.prototype, "activePlayers", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            var /** @type {?} */ players = [];
+            this._activeElementAnimations.forEach(function (activePlayers) { return players.push.apply(players, activePlayers); });
+            return players;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @param {?} trigger
+     * @param {?=} name
+     * @return {?}
+     */
+    DomAnimationEngine.prototype.registerTrigger = function (trigger, name) {
+        name = name || trigger.name;
+        if (this._triggers[name]) {
+            return;
+        }
+        this._triggers[name] = buildTrigger(name, trigger.definitions);
+    };
+    /**
+     * @param {?} element
+     * @param {?} domFn
+     * @return {?}
+     */
+    DomAnimationEngine.prototype.onInsert = function (element, domFn) {
+        if (element['nodeType'] == 1) {
+            this._flaggedInserts.add(element);
+        }
+        domFn();
+    };
+    /**
+     * @param {?} element
+     * @param {?} domFn
+     * @return {?}
+     */
+    DomAnimationEngine.prototype.onRemove = function (element, domFn) {
+        var _this = this;
+        if (element['nodeType'] != 1) {
+            domFn();
+            return;
+        }
+        var /** @type {?} */ lookupRef = this._elementTriggerStates.get(element);
+        if (lookupRef) {
+            var /** @type {?} */ possibleTriggers = Object.keys(lookupRef);
+            var /** @type {?} */ hasRemoval = possibleTriggers.some(function (triggerName) {
+                var /** @type {?} */ oldValue = ((lookupRef))[triggerName];
+                var /** @type {?} */ instruction = _this._triggers[triggerName].matchTransition(oldValue, VOID_STATE);
+                return !!instruction;
+            });
+            if (hasRemoval) {
+                element[MARKED_FOR_REMOVAL] = true;
+                this._queuedRemovals.set(element, domFn);
+                return;
+            }
+        }
+        // this means that there are no animations to take on this
+        // leave operation therefore we should fire the done|start callbacks
+        if (this._triggerListeners.has(element)) {
+            element[MARKED_FOR_REMOVAL] = true;
+            this._queuedRemovals.set(element, function () { });
+        }
+        this._onRemovalTransition(element).forEach(function (player) { return player.destroy(); });
+        domFn();
+    };
+    /**
+     * @param {?} element
+     * @param {?} property
+     * @param {?} value
+     * @return {?}
+     */
+    DomAnimationEngine.prototype.setProperty = function (element, property, value) {
+        var /** @type {?} */ trigger = this._triggers[property];
+        if (!trigger) {
+            throw new Error("The provided animation trigger \"" + property + "\" has not been registered!");
+        }
+        var /** @type {?} */ lookupRef = this._elementTriggerStates.get(element);
+        if (!lookupRef) {
+            this._elementTriggerStates.set(element, lookupRef = {});
+        }
+        var /** @type {?} */ oldValue = lookupRef.hasOwnProperty(property) ? lookupRef[property] : VOID_STATE;
+        if (oldValue !== value) {
+            value = normalizeTriggerValue(value);
+            var /** @type {?} */ instruction = trigger.matchTransition(oldValue, value);
+            if (!instruction) {
+                // we do this to make sure we always have an animation player so
+                // that callback operations are properly called
+                instruction = trigger.createFallbackInstruction(oldValue, value);
+            }
+            this.animateTransition(element, instruction);
+            lookupRef[property] = value;
+        }
+    };
+    /**
+     * @param {?} element
+     * @param {?} eventName
+     * @param {?} eventPhase
+     * @param {?} callback
+     * @return {?}
+     */
+    DomAnimationEngine.prototype.listen = function (element, eventName, eventPhase, callback) {
+        var _this = this;
+        if (!eventPhase) {
+            throw new Error("Unable to listen on the animation trigger \"" + eventName + "\" because the provided event is undefined!");
+        }
+        if (!this._triggers[eventName]) {
+            throw new Error("Unable to listen on the animation trigger event \"" + eventPhase + "\" because the animation trigger \"" + eventName + "\" doesn't exist!");
+        }
+        var /** @type {?} */ elementListeners = this._triggerListeners.get(element);
+        if (!elementListeners) {
+            this._triggerListeners.set(element, elementListeners = []);
+        }
+        validatePlayerEvent(eventName, eventPhase);
+        var /** @type {?} */ tuple = ({ triggerName: eventName, phase: eventPhase, callback: callback });
+        elementListeners.push(tuple);
+        return function () {
+            // this is queued up in the event that a removal animation is set
+            // to fire on the element (the listeners need to be set during flush)
+            getOrSetAsInMap(_this._pendingListenerRemovals, element, []).push(tuple);
+        };
+    };
+    /**
+     * @return {?}
+     */
+    DomAnimationEngine.prototype._clearPendingListenerRemovals = function () {
+        var _this = this;
+        this._pendingListenerRemovals.forEach(function (tuples, element) {
+            var /** @type {?} */ elementListeners = _this._triggerListeners.get(element);
+            if (elementListeners) {
+                tuples.forEach(function (tuple) {
+                    var /** @type {?} */ index = elementListeners.indexOf(tuple);
+                    if (index >= 0) {
+                        elementListeners.splice(index, 1);
+                    }
+                });
+            }
+        });
+        this._pendingListenerRemovals.clear();
+    };
+    /**
+     * @param {?} element
+     * @return {?}
+     */
+    DomAnimationEngine.prototype._onRemovalTransition = function (element) {
+        // when a parent animation is set to trigger a removal we want to
+        // find all of the children that are currently animating and clear
+        // them out by destroying each of them.
+        var /** @type {?} */ elms = element.querySelectorAll(MARKED_FOR_ANIMATION_SELECTOR);
+        var _loop_1 = function (i) {
+            var /** @type {?} */ elm = elms[i];
+            var /** @type {?} */ activePlayers = this_1._activeElementAnimations.get(elm);
+            if (activePlayers) {
+                activePlayers.forEach(function (player) { return player.destroy(); });
+            }
+            var /** @type {?} */ activeTransitions = this_1._activeTransitionAnimations.get(elm);
+            if (activeTransitions) {
+                Object.keys(activeTransitions).forEach(function (triggerName) {
+                    var /** @type {?} */ player = activeTransitions[triggerName];
+                    if (player) {
+                        player.destroy();
+                    }
+                });
+            }
+        };
+        var this_1 = this;
+        for (var /** @type {?} */ i = 0; i < elms.length; i++) {
+            _loop_1(/** @type {?} */ i);
+        }
+        // we make a copy of the array because the actual source array is modified
+        // each time a player is finished/destroyed (the forEach loop would fail otherwise)
+        return copyArray(/** @type {?} */ ((this._activeElementAnimations.get(element))));
+    };
+    /**
+     * @param {?} element
+     * @param {?} instruction
+     * @return {?}
+     */
+    DomAnimationEngine.prototype.animateTransition = function (element, instruction) {
+        var _this = this;
+        var /** @type {?} */ triggerName = instruction.triggerName;
+        var /** @type {?} */ previousPlayers;
+        if (instruction.isRemovalTransition) {
+            previousPlayers = this._onRemovalTransition(element);
+        }
+        else {
+            previousPlayers = [];
+            var /** @type {?} */ existingTransitions = this._activeTransitionAnimations.get(element);
+            var /** @type {?} */ existingPlayer = existingTransitions ? existingTransitions[triggerName] : null;
+            if (existingPlayer) {
+                previousPlayers.push(existingPlayer);
+            }
+        }
+        // it's important to do this step before destroying the players
+        // so that the onDone callback below won't fire before this
+        eraseStyles(element, instruction.fromStyles);
+        // we first run this so that the previous animation player
+        // data can be passed into the successive animation players
+        var /** @type {?} */ totalTime = 0;
+        var /** @type {?} */ players = instruction.timelines.map(function (timelineInstruction, i) {
+            totalTime = Math.max(totalTime, timelineInstruction.totalTime);
+            return _this._buildPlayer(element, timelineInstruction, previousPlayers, i);
+        });
+        previousPlayers.forEach(function (previousPlayer) { return previousPlayer.destroy(); });
+        var /** @type {?} */ player = optimizeGroupPlayer(players);
+        player.onDone(function () {
+            player.destroy();
+            var /** @type {?} */ elmTransitionMap = _this._activeTransitionAnimations.get(element);
+            if (elmTransitionMap) {
+                delete elmTransitionMap[triggerName];
+                if (Object.keys(elmTransitionMap).length == 0) {
+                    _this._activeTransitionAnimations.delete(element);
+                }
+            }
+            deleteFromArrayMap(_this._activeElementAnimations, element, player);
+            setStyles(element, instruction.toStyles);
+        });
+        var /** @type {?} */ elmTransitionMap = getOrSetAsInMap(this._activeTransitionAnimations, element, {});
+        elmTransitionMap[triggerName] = player;
+        this._queuePlayer(element, triggerName, player, makeAnimationEvent(element, triggerName, instruction.fromState, instruction.toState, null, // this will be filled in during event creation
+        totalTime));
+        return player;
+    };
+    /**
+     * @param {?} element
+     * @param {?} instructions
+     * @param {?=} previousPlayers
+     * @return {?}
+     */
+    DomAnimationEngine.prototype.animateTimeline = function (element, instructions, previousPlayers) {
+        var _this = this;
+        if (previousPlayers === void 0) { previousPlayers = []; }
+        var /** @type {?} */ players = instructions.map(function (instruction, i) {
+            var /** @type {?} */ player = _this._buildPlayer(element, instruction, previousPlayers, i);
+            player.onDestroy(function () { deleteFromArrayMap(_this._activeElementAnimations, element, player); });
+            _this._markPlayerAsActive(element, player);
+            return player;
+        });
+        return optimizeGroupPlayer(players);
+    };
+    /**
+     * @param {?} element
+     * @param {?} instruction
+     * @param {?} previousPlayers
+     * @param {?=} index
+     * @return {?}
+     */
+    DomAnimationEngine.prototype._buildPlayer = function (element, instruction, previousPlayers, index) {
+        if (index === void 0) { index = 0; }
+        // only the very first animation can absorb the previous styles. This
+        // is here to prevent the an overlap situation where a group animation
+        // absorbs previous styles multiple times for the same element.
+        if (index && previousPlayers.length) {
+            previousPlayers = [];
+        }
+        return this._driver.animate(element, this._normalizeKeyframes(instruction.keyframes), instruction.duration, instruction.delay, instruction.easing, previousPlayers);
+    };
+    /**
+     * @param {?} keyframes
+     * @return {?}
+     */
+    DomAnimationEngine.prototype._normalizeKeyframes = function (keyframes) {
+        var _this = this;
+        var /** @type {?} */ errors = [];
+        var /** @type {?} */ normalizedKeyframes = [];
+        keyframes.forEach(function (kf) {
+            var /** @type {?} */ normalizedKeyframe = {};
+            Object.keys(kf).forEach(function (prop) {
+                var /** @type {?} */ normalizedProp = prop;
+                var /** @type {?} */ normalizedValue = kf[prop];
+                if (prop != 'offset') {
+                    normalizedProp = _this._normalizer.normalizePropertyName(prop, errors);
+                    normalizedValue =
+                        _this._normalizer.normalizeStyleValue(prop, normalizedProp, kf[prop], errors);
+                }
+                normalizedKeyframe[normalizedProp] = normalizedValue;
+            });
+            normalizedKeyframes.push(normalizedKeyframe);
+        });
+        if (errors.length) {
+            var /** @type {?} */ LINE_START = '\n - ';
+            throw new Error("Unable to animate due to the following errors:" + LINE_START + errors.join(LINE_START));
+        }
+        return normalizedKeyframes;
+    };
+    /**
+     * @param {?} element
+     * @param {?} player
+     * @return {?}
+     */
+    DomAnimationEngine.prototype._markPlayerAsActive = function (element, player) {
+        var /** @type {?} */ elementAnimations = getOrSetAsInMap(this._activeElementAnimations, element, []);
+        elementAnimations.push(player);
+    };
+    /**
+     * @param {?} element
+     * @param {?} triggerName
+     * @param {?} player
+     * @param {?} event
+     * @return {?}
+     */
+    DomAnimationEngine.prototype._queuePlayer = function (element, triggerName, player, event) {
+        var /** @type {?} */ tuple = ({ element: element, player: player, triggerName: triggerName, event: event });
+        this._queuedTransitionAnimations.push(tuple);
+        player.init();
+        element.classList.add(MARKED_FOR_ANIMATION_CLASSNAME);
+        player.onDone(function () { element.classList.remove(MARKED_FOR_ANIMATION_CLASSNAME); });
+    };
+    /**
+     * @return {?}
+     */
+    DomAnimationEngine.prototype._flushQueuedAnimations = function () {
+        var _loop_2 = function () {
+            var _a = ((this_2._queuedTransitionAnimations.shift())), player = _a.player, element = _a.element, triggerName = _a.triggerName, event = _a.event;
+            var /** @type {?} */ parent = element;
+            while (parent = parent.parentNode) {
+                // this means that a parent element will or will not
+                // have its own animation operation which in this case
+                // there's no point in even trying to do an animation
+                if (parent[MARKED_FOR_REMOVAL])
+                    return "continue-parentLoop";
+            }
+            var /** @type {?} */ listeners = this_2._triggerListeners.get(element);
+            if (listeners) {
+                listeners.forEach(function (tuple) {
+                    if (tuple.triggerName == triggerName) {
+                        listenOnPlayer(player, tuple.phase, event, tuple.callback);
+                    }
+                });
+            }
+            // if a removal exists for the given element then we need cancel
+            // all the queued players so that a proper removal animation can go
+            if (this_2._queuedRemovals.has(element)) {
+                player.destroy();
+                return "continue";
+            }
+            this_2._markPlayerAsActive(element, player);
+            // in the event that an animation throws an error then we do
+            // not want to re-run animations on any previous animations
+            // if they have already been kicked off beforehand
+            player.init();
+            if (!player.hasStarted()) {
+                player.play();
+            }
+        };
+        var this_2 = this;
+        parentLoop: while (this._queuedTransitionAnimations.length) {
+            var state_1 = _loop_2();
+            switch (state_1) {
+                case "continue-parentLoop": continue parentLoop;
+            }
+        }
+    };
+    /**
+     * @return {?}
+     */
+    DomAnimationEngine.prototype.flush = function () {
+        var _this = this;
+        var /** @type {?} */ leaveListeners = new Map();
+        this._queuedRemovals.forEach(function (callback, element) {
+            var /** @type {?} */ tuple = _this._pendingListenerRemovals.get(element);
+            if (tuple) {
+                leaveListeners.set(element, tuple);
+                _this._pendingListenerRemovals.delete(element);
+            }
+        });
+        this._clearPendingListenerRemovals();
+        this._pendingListenerRemovals = leaveListeners;
+        this._flushQueuedAnimations();
+        var /** @type {?} */ flushAgain = false;
+        this._queuedRemovals.forEach(function (callback, element) {
+            // an item that was inserted/removed in the same flush means
+            // that an animation should not happen anyway
+            if (_this._flaggedInserts.has(element))
+                return;
+            var /** @type {?} */ parent = element;
+            var /** @type {?} */ players = [];
+            while (parent = parent.parentNode) {
+                // there is no reason to even try to
+                if (parent[MARKED_FOR_REMOVAL]) {
+                    callback();
+                    return;
+                }
+                var /** @type {?} */ match = _this._activeElementAnimations.get(parent);
+                if (match) {
+                    players.push.apply(players, match);
+                    break;
+                }
+            }
+            // the loop was unable to find an parent that is animating even
+            // though this element has set to be removed, so the algorithm
+            // should check to see if there are any triggers on the element
+            // that are present to handle a leave animation and then setup
+            // those players to facilitate the callback after done
+            if (players.length == 0) {
+                // this means that the element has valid state triggers
+                var /** @type {?} */ stateDetails_1 = _this._elementTriggerStates.get(element);
+                if (stateDetails_1) {
+                    Object.keys(stateDetails_1).forEach(function (triggerName) {
+                        flushAgain = true;
+                        var /** @type {?} */ oldValue = stateDetails_1[triggerName];
+                        var /** @type {?} */ instruction = _this._triggers[triggerName].matchTransition(oldValue, VOID_STATE);
+                        if (instruction) {
+                            players.push(_this.animateTransition(element, instruction));
+                        }
+                        else {
+                            var /** @type {?} */ event = makeAnimationEvent(element, triggerName, oldValue, VOID_STATE, '', 0);
+                            var /** @type {?} */ player = new __WEBPACK_IMPORTED_MODULE_0__angular_animations__["NoopAnimationPlayer"]();
+                            _this._queuePlayer(element, triggerName, player, event);
+                        }
+                    });
+                }
+            }
+            if (players.length) {
+                optimizeGroupPlayer(players).onDone(callback);
+            }
+            else {
+                callback();
+            }
+        });
+        this._queuedRemovals.clear();
+        this._flaggedInserts.clear();
+        // this means that one or more leave animations were detected
+        if (flushAgain) {
+            this._flushQueuedAnimations();
+            this._clearPendingListenerRemovals();
+        }
+    };
+    return DomAnimationEngine;
+}());
+/**
+ * @param {?} map
+ * @param {?} key
+ * @param {?} defaultValue
+ * @return {?}
+ */
+function getOrSetAsInMap(map, key, defaultValue) {
+    var /** @type {?} */ value = map.get(key);
+    if (!value) {
+        map.set(key, value = defaultValue);
+    }
+    return value;
+}
+/**
+ * @param {?} map
+ * @param {?} key
+ * @param {?} value
+ * @return {?}
+ */
+function deleteFromArrayMap(map, key, value) {
+    var /** @type {?} */ arr = map.get(key);
+    if (arr) {
+        var /** @type {?} */ index = arr.indexOf(value);
+        if (index >= 0) {
+            arr.splice(index, 1);
+            if (arr.length == 0) {
+                map.delete(key);
+            }
+        }
+    }
+}
+/**
+ * @param {?} players
+ * @return {?}
+ */
+function optimizeGroupPlayer(players) {
+    switch (players.length) {
+        case 0:
+            return new __WEBPACK_IMPORTED_MODULE_0__angular_animations__["NoopAnimationPlayer"]();
+        case 1:
+            return players[0];
+        default:
+            return new __WEBPACK_IMPORTED_MODULE_0__angular_animations__["ɵAnimationGroupPlayer"](players);
+    }
+}
+/**
+ * @param {?} source
+ * @return {?}
+ */
+function copyArray(source) {
+    return source ? source.splice(0) : [];
+}
+/**
+ * @param {?} triggerName
+ * @param {?} eventName
+ * @return {?}
+ */
+function validatePlayerEvent(triggerName, eventName) {
+    switch (eventName) {
+        case 'start':
+        case 'done':
+            return;
+        default:
+            throw new Error("The provided animation trigger event \"" + eventName + "\" for the animation trigger \"" + triggerName + "\" is not supported!");
+    }
+}
+/**
+ * @param {?} player
+ * @param {?} eventName
+ * @param {?} baseEvent
+ * @param {?} callback
+ * @return {?}
+ */
+function listenOnPlayer(player, eventName, baseEvent, callback) {
+    switch (eventName) {
+        case 'start':
+            player.onStart(function () {
+                var /** @type {?} */ event = copyAnimationEvent(baseEvent);
+                event.phaseName = 'start';
+                callback(event);
+            });
+            break;
+        case 'done':
+            player.onDone(function () {
+                var /** @type {?} */ event = copyAnimationEvent(baseEvent);
+                event.phaseName = 'done';
+                callback(event);
+            });
+            break;
+    }
+}
+/**
+ * @param {?} e
+ * @return {?}
+ */
+function copyAnimationEvent(e) {
+    return makeAnimationEvent(e.element, e.triggerName, e.fromState, e.toState, e.phaseName, e.totalTime);
+}
+/**
+ * @param {?} element
+ * @param {?} triggerName
+ * @param {?} fromState
+ * @param {?} toState
+ * @param {?} phaseName
+ * @param {?} totalTime
+ * @return {?}
+ */
+function makeAnimationEvent(element, triggerName, fromState, toState, phaseName, totalTime) {
+    return ({ element: element, triggerName: triggerName, fromState: fromState, toState: toState, phaseName: phaseName, totalTime: totalTime });
+}
+/**
+ * @param {?} value
+ * @return {?}
+ */
+function normalizeTriggerValue(value) {
+    switch (typeof value) {
+        case 'boolean':
+            return value ? '1' : '0';
+        default:
+            return value ? value.toString() : null;
+    }
+}
+/**
+ * \@experimental Animation support is experimental.
+ * @abstract
+ */
+var AnimationStyleNormalizer = (function () {
+    function AnimationStyleNormalizer() {
+    }
+    /**
+     * @abstract
+     * @param {?} propertyName
+     * @param {?} errors
+     * @return {?}
+     */
+    AnimationStyleNormalizer.prototype.normalizePropertyName = function (propertyName, errors) { };
+    /**
+     * @abstract
+     * @param {?} userProvidedProperty
+     * @param {?} normalizedProperty
+     * @param {?} value
+     * @param {?} errors
+     * @return {?}
+     */
+    AnimationStyleNormalizer.prototype.normalizeStyleValue = function (userProvidedProperty, normalizedProperty, value, errors) { };
+    return AnimationStyleNormalizer;
+}());
+/**
+ * \@experimental Animation support is experimental.
+ */
+var NoopAnimationStyleNormalizer = (function () {
+    function NoopAnimationStyleNormalizer() {
+    }
+    /**
+     * @param {?} propertyName
+     * @param {?} errors
+     * @return {?}
+     */
+    NoopAnimationStyleNormalizer.prototype.normalizePropertyName = function (propertyName, errors) { return propertyName; };
+    /**
+     * @param {?} userProvidedProperty
+     * @param {?} normalizedProperty
+     * @param {?} value
+     * @param {?} errors
+     * @return {?}
+     */
+    NoopAnimationStyleNormalizer.prototype.normalizeStyleValue = function (userProvidedProperty, normalizedProperty, value, errors) {
+        return (value);
+    };
+    return NoopAnimationStyleNormalizer;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var Animation = (function () {
+    /**
+     * @param {?} input
+     */
+    function Animation(input) {
+        var ast = Array.isArray(input) ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_animations__["sequence"])(input) : input;
+        var errors = validateAnimationSequence(ast);
+        if (errors.length) {
+            var errorMessage = "animation validation failed:\n" + errors.join("\n");
+            throw new Error(errorMessage);
+        }
+        this._animationAst = ast;
+    }
+    /**
+     * @param {?} startingStyles
+     * @param {?} destinationStyles
+     * @return {?}
+     */
+    Animation.prototype.buildTimelines = function (startingStyles, destinationStyles) {
+        var /** @type {?} */ start = Array.isArray(startingStyles) ? normalizeStyles(startingStyles) : (startingStyles);
+        var /** @type {?} */ dest = Array.isArray(destinationStyles) ? normalizeStyles(destinationStyles) : (destinationStyles);
+        return buildAnimationKeyframes(this._animationAst, start, dest);
+    };
+    /**
+     * @param {?} injector
+     * @param {?} element
+     * @param {?=} startingStyles
+     * @param {?=} destinationStyles
+     * @return {?}
+     */
+    Animation.prototype.create = function (injector, element, startingStyles, destinationStyles) {
+        if (startingStyles === void 0) { startingStyles = {}; }
+        if (destinationStyles === void 0) { destinationStyles = {}; }
+        var /** @type {?} */ instructions = this.buildTimelines(startingStyles, destinationStyles);
+        // note the code below is only here to make the tests happy (once the new renderer is
+        // within core then the code below will interact with Renderer.transition(...))
+        var /** @type {?} */ driver = injector.get(AnimationDriver);
+        var /** @type {?} */ normalizer = injector.get(AnimationStyleNormalizer);
+        var /** @type {?} */ engine = new DomAnimationEngine(driver, normalizer);
+        return engine.animateTimeline(element, instructions);
+    };
+    return Animation;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var WebAnimationsStyleNormalizer = (function (_super) {
+    __extends(WebAnimationsStyleNormalizer, _super);
+    function WebAnimationsStyleNormalizer() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    /**
+     * @param {?} propertyName
+     * @param {?} errors
+     * @return {?}
+     */
+    WebAnimationsStyleNormalizer.prototype.normalizePropertyName = function (propertyName, errors) {
+        return dashCaseToCamelCase(propertyName);
+    };
+    /**
+     * @param {?} userProvidedProperty
+     * @param {?} normalizedProperty
+     * @param {?} value
+     * @param {?} errors
+     * @return {?}
+     */
+    WebAnimationsStyleNormalizer.prototype.normalizeStyleValue = function (userProvidedProperty, normalizedProperty, value, errors) {
+        var /** @type {?} */ unit = '';
+        var /** @type {?} */ strVal = value.toString().trim();
+        if (DIMENSIONAL_PROP_MAP[normalizedProperty] && value !== 0 && value !== '0') {
+            if (typeof value === 'number') {
+                unit = 'px';
+            }
+            else {
+                var /** @type {?} */ valAndSuffixMatch = value.match(/^[+-]?[\d\.]+([a-z]*)$/);
+                if (valAndSuffixMatch && valAndSuffixMatch[1].length == 0) {
+                    errors.push("Please provide a CSS unit value for " + userProvidedProperty + ":" + value);
+                }
+            }
+        }
+        return strVal + unit;
+    };
+    return WebAnimationsStyleNormalizer;
+}(AnimationStyleNormalizer));
+var DIMENSIONAL_PROP_MAP = makeBooleanMap('width,height,minWidth,minHeight,maxWidth,maxHeight,left,top,bottom,right,fontSize,outlineWidth,outlineOffset,paddingTop,paddingLeft,paddingBottom,paddingRight,marginTop,marginLeft,marginBottom,marginRight,borderRadius,borderWidth,borderTopWidth,borderLeftWidth,borderRightWidth,borderBottomWidth,textIndent'
+    .split(','));
+/**
+ * @param {?} keys
+ * @return {?}
+ */
+function makeBooleanMap(keys) {
+    var /** @type {?} */ map = {};
+    keys.forEach(function (key) { return map[key] = true; });
+    return map;
+}
+var DASH_CASE_REGEXP = /-+([a-z0-9])/g;
+/**
+ * @param {?} input
+ * @return {?}
+ */
+function dashCaseToCamelCase(input) {
+    return input.replace(DASH_CASE_REGEXP, function () {
+        var m = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            m[_i] = arguments[_i];
+        }
+        return m[1].toUpperCase();
+    });
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var DEFAULT_STATE_VALUE = 'void';
+var DEFAULT_STATE_STYLES = '*';
+var NoopAnimationEngine = (function (_super) {
+    __extends(NoopAnimationEngine, _super);
+    function NoopAnimationEngine() {
+        var _this = _super.apply(this, arguments) || this;
+        _this._listeners = new Map();
+        _this._changes = [];
+        _this._flaggedRemovals = new Set();
+        _this._onDoneFns = [];
+        _this._triggerStyles = Object.create(null);
+        return _this;
+    }
+    /**
+     * @param {?} trigger
+     * @param {?=} name
+     * @return {?}
+     */
+    NoopAnimationEngine.prototype.registerTrigger = function (trigger, name) {
+        name = name || trigger.name;
+        if (this._triggerStyles[name]) {
+            return;
+        }
+        var /** @type {?} */ stateMap = {};
+        trigger.definitions.forEach(function (def) {
+            if (def.type === 0 /* State */) {
+                var /** @type {?} */ stateDef = (def);
+                stateMap[stateDef.name] = normalizeStyles(stateDef.styles.styles);
+            }
+        });
+        this._triggerStyles[name] = stateMap;
+    };
+    /**
+     * @param {?} element
+     * @param {?} domFn
+     * @return {?}
+     */
+    NoopAnimationEngine.prototype.onInsert = function (element, domFn) { domFn(); };
+    /**
+     * @param {?} element
+     * @param {?} domFn
+     * @return {?}
+     */
+    NoopAnimationEngine.prototype.onRemove = function (element, domFn) {
+        domFn();
+        if (element['nodeType'] == 1) {
+            this._flaggedRemovals.add(element);
+        }
+    };
+    /**
+     * @param {?} element
+     * @param {?} property
+     * @param {?} value
+     * @return {?}
+     */
+    NoopAnimationEngine.prototype.setProperty = function (element, property, value) {
+        var /** @type {?} */ storageProp = makeStorageProp(property);
+        var /** @type {?} */ oldValue = element[storageProp] || DEFAULT_STATE_VALUE;
+        this._changes.push(/** @type {?} */ ({ element: element, oldValue: oldValue, newValue: value, triggerName: property }));
+        var /** @type {?} */ triggerStateStyles = this._triggerStyles[property] || {};
+        var /** @type {?} */ fromStateStyles = triggerStateStyles[oldValue] || triggerStateStyles[DEFAULT_STATE_STYLES];
+        if (fromStateStyles) {
+            eraseStyles(element, fromStateStyles);
+        }
+        element[storageProp] = value;
+        this._onDoneFns.push(function () {
+            var /** @type {?} */ toStateStyles = triggerStateStyles[value] || triggerStateStyles[DEFAULT_STATE_STYLES];
+            if (toStateStyles) {
+                setStyles(element, toStateStyles);
+            }
+        });
+    };
+    /**
+     * @param {?} element
+     * @param {?} eventName
+     * @param {?} eventPhase
+     * @param {?} callback
+     * @return {?}
+     */
+    NoopAnimationEngine.prototype.listen = function (element, eventName, eventPhase, callback) {
+        var /** @type {?} */ listeners = this._listeners.get(element);
+        if (!listeners) {
+            this._listeners.set(element, listeners = []);
+        }
+        var /** @type {?} */ tuple = ({ triggerName: eventName, eventPhase: eventPhase, callback: callback });
+        listeners.push(tuple);
+        return function () { return tuple.doRemove = true; };
+    };
+    /**
+     * @return {?}
+     */
+    NoopAnimationEngine.prototype.flush = function () {
+        var _this = this;
+        var /** @type {?} */ onStartCallbacks = [];
+        var /** @type {?} */ onDoneCallbacks = [];
+        /**
+         * @param {?} listener
+         * @param {?} data
+         * @return {?}
+         */
+        function handleListener(listener, data) {
+            var /** @type {?} */ phase = listener.eventPhase;
+            var /** @type {?} */ event = makeAnimationEvent$1(data.element, data.triggerName, data.oldValue, data.newValue, phase, 0);
+            if (phase == 'start') {
+                onStartCallbacks.push(function () { return listener.callback(event); });
+            }
+            else if (phase == 'done') {
+                onDoneCallbacks.push(function () { return listener.callback(event); });
+            }
+        }
+        this._changes.forEach(function (change) {
+            var /** @type {?} */ element = change.element;
+            var /** @type {?} */ listeners = _this._listeners.get(element);
+            if (listeners) {
+                listeners.forEach(function (listener) {
+                    if (listener.triggerName == change.triggerName) {
+                        handleListener(listener, change);
+                    }
+                });
+            }
+        });
+        // upon removal ALL the animation triggers need to get fired
+        this._flaggedRemovals.forEach(function (element) {
+            var /** @type {?} */ listeners = _this._listeners.get(element);
+            if (listeners) {
+                listeners.forEach(function (listener) {
+                    var /** @type {?} */ triggerName = listener.triggerName;
+                    var /** @type {?} */ storageProp = makeStorageProp(triggerName);
+                    handleListener(listener, /** @type {?} */ ({
+                        element: element,
+                        triggerName: triggerName,
+                        oldValue: element[storageProp] || DEFAULT_STATE_VALUE,
+                        newValue: DEFAULT_STATE_VALUE
+                    }));
+                });
+            }
+        });
+        // remove all the listeners after everything is complete
+        Array.from(this._listeners.keys()).forEach(function (element) {
+            var /** @type {?} */ listenersToKeep = ((_this._listeners.get(element))).filter(function (l) { return !l.doRemove; });
+            if (listenersToKeep.length) {
+                _this._listeners.set(element, listenersToKeep);
+            }
+            else {
+                _this._listeners.delete(element);
+            }
+        });
+        onStartCallbacks.forEach(function (fn) { return fn(); });
+        onDoneCallbacks.forEach(function (fn) { return fn(); });
+        this._flaggedRemovals.clear();
+        this._changes = [];
+        this._onDoneFns.forEach(function (doneFn) { return doneFn(); });
+        this._onDoneFns = [];
+    };
+    Object.defineProperty(NoopAnimationEngine.prototype, "activePlayers", {
+        /**
+         * @return {?}
+         */
+        get: function () { return []; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(NoopAnimationEngine.prototype, "queuedPlayers", {
+        /**
+         * @return {?}
+         */
+        get: function () { return []; },
+        enumerable: true,
+        configurable: true
+    });
+    return NoopAnimationEngine;
+}(AnimationEngine));
+/**
+ * @param {?} element
+ * @param {?} triggerName
+ * @param {?} fromState
+ * @param {?} toState
+ * @param {?} phaseName
+ * @param {?} totalTime
+ * @return {?}
+ */
+function makeAnimationEvent$1(element, triggerName, fromState, toState, phaseName, totalTime) {
+    return ({ element: element, triggerName: triggerName, fromState: fromState, toState: toState, phaseName: phaseName, totalTime: totalTime });
+}
+/**
+ * @param {?} property
+ * @return {?}
+ */
+function makeStorageProp(property) {
+    return '_@_' + property;
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var WebAnimationsPlayer = (function () {
+    /**
+     * @param {?} element
+     * @param {?} keyframes
+     * @param {?} options
+     * @param {?=} previousPlayers
+     */
+    function WebAnimationsPlayer(element, keyframes, options, previousPlayers) {
+        if (previousPlayers === void 0) { previousPlayers = []; }
+        var _this = this;
+        this.element = element;
+        this.keyframes = keyframes;
+        this.options = options;
+        this._onDoneFns = [];
+        this._onStartFns = [];
+        this._onDestroyFns = [];
+        this._initialized = false;
+        this._finished = false;
+        this._started = false;
+        this._destroyed = false;
+        this.time = 0;
+        this.parentPlayer = null;
+        this._duration = options['duration'];
+        this._delay = options['delay'] || 0;
+        this.time = this._duration + this._delay;
+        this.previousStyles = {};
+        previousPlayers.forEach(function (player) {
+            var styles = player._captureStyles();
+            Object.keys(styles).forEach(function (prop) { return _this.previousStyles[prop] = styles[prop]; });
+        });
+    }
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype._onFinish = function () {
+        if (!this._finished) {
+            this._finished = true;
+            this._onDoneFns.forEach(function (fn) { return fn(); });
+            this._onDoneFns = [];
+        }
+    };
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.init = function () {
+        var _this = this;
+        if (this._initialized)
+            return;
+        this._initialized = true;
+        var /** @type {?} */ keyframes = this.keyframes.map(function (styles) {
+            var /** @type {?} */ formattedKeyframe = {};
+            Object.keys(styles).forEach(function (prop, index) {
+                var /** @type {?} */ value = styles[prop];
+                if (value == __WEBPACK_IMPORTED_MODULE_0__angular_animations__["AUTO_STYLE"]) {
+                    value = _computeStyle(_this.element, prop);
+                }
+                if (value != undefined) {
+                    formattedKeyframe[prop] = value;
+                }
+            });
+            return formattedKeyframe;
+        });
+        var /** @type {?} */ previousStyleProps = Object.keys(this.previousStyles);
+        if (previousStyleProps.length) {
+            var /** @type {?} */ startingKeyframe_1 = keyframes[0];
+            var /** @type {?} */ missingStyleProps_1 = [];
+            previousStyleProps.forEach(function (prop) {
+                if (!startingKeyframe_1.hasOwnProperty(prop)) {
+                    missingStyleProps_1.push(prop);
+                }
+                startingKeyframe_1[prop] = _this.previousStyles[prop];
+            });
+            if (missingStyleProps_1.length) {
+                var /** @type {?} */ self_1 = this;
+                var _loop_3 = function () {
+                    var /** @type {?} */ kf = keyframes[i];
+                    missingStyleProps_1.forEach(function (prop) {
+                        kf[prop] = _computeStyle(self_1.element, prop);
+                    });
+                };
+                // tslint:disable-next-line
+                for (var /** @type {?} */ i = 1; i < keyframes.length; i++) {
+                    _loop_3();
+                }
+            }
+        }
+        this._player = this._triggerWebAnimation(this.element, keyframes, this.options);
+        this._finalKeyframe =
+            keyframes.length ? _copyKeyframeStyles(keyframes[keyframes.length - 1]) : {};
+        // this is required so that the player doesn't start to animate right away
+        this._resetDomPlayerState();
+        this._player.addEventListener('finish', function () { return _this._onFinish(); });
+    };
+    /**
+     * \@internal
+     * @param {?} element
+     * @param {?} keyframes
+     * @param {?} options
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype._triggerWebAnimation = function (element, keyframes, options) {
+        // jscompiler doesn't seem to know animate is a native property because it's not fully
+        // supported yet across common browsers (we polyfill it for Edge/Safari) [CL #143630929]
+        return (element['animate'](keyframes, options));
+    };
+    Object.defineProperty(WebAnimationsPlayer.prototype, "domPlayer", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this._player; },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.onStart = function (fn) { this._onStartFns.push(fn); };
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.onDone = function (fn) { this._onDoneFns.push(fn); };
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.onDestroy = function (fn) { this._onDestroyFns.push(fn); };
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.play = function () {
+        this.init();
+        if (!this.hasStarted()) {
+            this._onStartFns.forEach(function (fn) { return fn(); });
+            this._onStartFns = [];
+            this._started = true;
+        }
+        this._player.play();
+    };
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.pause = function () {
+        this.init();
+        this._player.pause();
+    };
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.finish = function () {
+        this.init();
+        this._onFinish();
+        this._player.finish();
+    };
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.reset = function () {
+        this._resetDomPlayerState();
+        this._destroyed = false;
+        this._finished = false;
+        this._started = false;
+    };
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype._resetDomPlayerState = function () {
+        if (this._player) {
+            this._player.cancel();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.restart = function () {
+        this.reset();
+        this.play();
+    };
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.hasStarted = function () { return this._started; };
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.destroy = function () {
+        if (!this._destroyed) {
+            this._resetDomPlayerState();
+            this._onFinish();
+            this._destroyed = true;
+            this._onDestroyFns.forEach(function (fn) { return fn(); });
+            this._onDestroyFns = [];
+        }
+    };
+    /**
+     * @param {?} p
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.setPosition = function (p) { this._player.currentTime = p * this.time; };
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype.getPosition = function () { return this._player.currentTime / this.time; };
+    /**
+     * @return {?}
+     */
+    WebAnimationsPlayer.prototype._captureStyles = function () {
+        var _this = this;
+        var /** @type {?} */ styles = {};
+        if (this.hasStarted()) {
+            Object.keys(this._finalKeyframe).forEach(function (prop) {
+                if (prop != 'offset') {
+                    styles[prop] =
+                        _this._finished ? _this._finalKeyframe[prop] : _computeStyle(_this.element, prop);
+                }
+            });
+        }
+        return styles;
+    };
+    return WebAnimationsPlayer;
+}());
+/**
+ * @param {?} element
+ * @param {?} prop
+ * @return {?}
+ */
+function _computeStyle(element, prop) {
+    return ((window.getComputedStyle(element)))[prop];
+}
+/**
+ * @param {?} styles
+ * @return {?}
+ */
+function _copyKeyframeStyles(styles) {
+    var /** @type {?} */ newStyles = {};
+    Object.keys(styles).forEach(function (prop) {
+        if (prop != 'offset') {
+            newStyles[prop] = styles[prop];
+        }
+    });
+    return newStyles;
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var WebAnimationsDriver = (function () {
+    function WebAnimationsDriver() {
+    }
+    /**
+     * @param {?} element
+     * @param {?} keyframes
+     * @param {?} duration
+     * @param {?} delay
+     * @param {?} easing
+     * @param {?=} previousPlayers
+     * @return {?}
+     */
+    WebAnimationsDriver.prototype.animate = function (element, keyframes, duration, delay, easing, previousPlayers) {
+        if (previousPlayers === void 0) { previousPlayers = []; }
+        var /** @type {?} */ playerOptions = { 'duration': duration, 'delay': delay, 'fill': 'forwards' };
+        // we check for this to avoid having a null|undefined value be present
+        // for the easing (which results in an error for certain browsers #9752)
+        if (easing) {
+            playerOptions['easing'] = easing;
+        }
+        var /** @type {?} */ previousWebAnimationPlayers = (previousPlayers.filter(function (player) { return player instanceof WebAnimationsPlayer; }));
+        return new WebAnimationsPlayer(element, keyframes, playerOptions, previousWebAnimationPlayers);
+    };
+    return WebAnimationsDriver;
+}());
+/**
+ * @return {?}
+ */
+function supportsWebAnimations() {
+    return typeof Element !== 'undefined' && typeof ((Element)).prototype['animate'] === 'function';
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @module
+ * @description
+ * Entry point for all animation APIs of the animation browser package.
+ */
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @module
+ * @description
+ * Entry point for all public APIs of the animation package.
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+//# sourceMappingURL=browser.es5.js.map
+
+
+/***/ }),
+/* 87 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserAnimationsModule", function() { return BrowserAnimationsModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NoopAnimationsModule", function() { return NoopAnimationsModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵAnimationRenderer", function() { return AnimationRenderer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵAnimationRendererFactory", function() { return AnimationRendererFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵe", function() { return BROWSER_ANIMATIONS_PROVIDERS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵf", function() { return BROWSER_NOOP_ANIMATIONS_PROVIDERS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return InjectableAnimationEngine; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵc", function() { return instantiateDefaultStyleNormalizer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵd", function() { return instantiateRendererFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵb", function() { return instantiateSupportedAnimationDriver; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__ = __webpack_require__(86);
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+/**
+ * @license Angular v4.1.2
+ * (c) 2010-2017 Google, Inc. https://angular.io/
+ * License: MIT
+ */
+
+
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var AnimationRendererFactory = (function () {
+    /**
+     * @param {?} delegate
+     * @param {?} _engine
+     * @param {?} _zone
+     */
+    function AnimationRendererFactory(delegate, _engine, _zone) {
+        this.delegate = delegate;
+        this._engine = _engine;
+        this._zone = _zone;
+    }
+    /**
+     * @param {?} hostElement
+     * @param {?} type
+     * @return {?}
+     */
+    AnimationRendererFactory.prototype.createRenderer = function (hostElement, type) {
+        var _this = this;
+        var /** @type {?} */ delegate = this.delegate.createRenderer(hostElement, type);
+        if (!hostElement || !type || !type.data || !type.data['animation'])
+            return delegate;
+        var /** @type {?} */ namespaceId = type.id;
+        var /** @type {?} */ animationTriggers = (type.data['animation']);
+        animationTriggers.forEach(function (trigger) { return _this._engine.registerTrigger(trigger, namespaceify(namespaceId, trigger.name)); });
+        return new AnimationRenderer(delegate, this._engine, this._zone, namespaceId);
+    };
+    return AnimationRendererFactory;
+}());
+AnimationRendererFactory.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"] },
+];
+/**
+ * @nocollapse
+ */
+AnimationRendererFactory.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["RendererFactory2"], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["a" /* ɵAnimationEngine */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgZone"], },
+]; };
+var AnimationRenderer = (function () {
+    /**
+     * @param {?} delegate
+     * @param {?} _engine
+     * @param {?} _zone
+     * @param {?} _namespaceId
+     */
+    function AnimationRenderer(delegate, _engine, _zone, _namespaceId) {
+        this.delegate = delegate;
+        this._engine = _engine;
+        this._zone = _zone;
+        this._namespaceId = _namespaceId;
+        this.destroyNode = null;
+        this._flushPromise = null;
+        this.destroyNode = this.delegate.destroyNode ? function (n) { return delegate.destroyNode(n); } : null;
+    }
+    Object.defineProperty(AnimationRenderer.prototype, "data", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this.delegate.data; },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    AnimationRenderer.prototype.destroy = function () { this.delegate.destroy(); };
+    /**
+     * @param {?} name
+     * @param {?=} namespace
+     * @return {?}
+     */
+    AnimationRenderer.prototype.createElement = function (name, namespace) {
+        return this.delegate.createElement(name, namespace);
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AnimationRenderer.prototype.createComment = function (value) { return this.delegate.createComment(value); };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AnimationRenderer.prototype.createText = function (value) { return this.delegate.createText(value); };
+    /**
+     * @param {?} selectorOrNode
+     * @return {?}
+     */
+    AnimationRenderer.prototype.selectRootElement = function (selectorOrNode) {
+        return this.delegate.selectRootElement(selectorOrNode);
+    };
+    /**
+     * @param {?} node
+     * @return {?}
+     */
+    AnimationRenderer.prototype.parentNode = function (node) { return this.delegate.parentNode(node); };
+    /**
+     * @param {?} node
+     * @return {?}
+     */
+    AnimationRenderer.prototype.nextSibling = function (node) { return this.delegate.nextSibling(node); };
+    /**
+     * @param {?} el
+     * @param {?} name
+     * @param {?} value
+     * @param {?=} namespace
+     * @return {?}
+     */
+    AnimationRenderer.prototype.setAttribute = function (el, name, value, namespace) {
+        this.delegate.setAttribute(el, name, value, namespace);
+    };
+    /**
+     * @param {?} el
+     * @param {?} name
+     * @param {?=} namespace
+     * @return {?}
+     */
+    AnimationRenderer.prototype.removeAttribute = function (el, name, namespace) {
+        this.delegate.removeAttribute(el, name, namespace);
+    };
+    /**
+     * @param {?} el
+     * @param {?} name
+     * @return {?}
+     */
+    AnimationRenderer.prototype.addClass = function (el, name) { this.delegate.addClass(el, name); };
+    /**
+     * @param {?} el
+     * @param {?} name
+     * @return {?}
+     */
+    AnimationRenderer.prototype.removeClass = function (el, name) { this.delegate.removeClass(el, name); };
+    /**
+     * @param {?} el
+     * @param {?} style
+     * @param {?} value
+     * @param {?} flags
+     * @return {?}
+     */
+    AnimationRenderer.prototype.setStyle = function (el, style, value, flags) {
+        this.delegate.setStyle(el, style, value, flags);
+    };
+    /**
+     * @param {?} el
+     * @param {?} style
+     * @param {?} flags
+     * @return {?}
+     */
+    AnimationRenderer.prototype.removeStyle = function (el, style, flags) {
+        this.delegate.removeStyle(el, style, flags);
+    };
+    /**
+     * @param {?} node
+     * @param {?} value
+     * @return {?}
+     */
+    AnimationRenderer.prototype.setValue = function (node, value) { this.delegate.setValue(node, value); };
+    /**
+     * @param {?} parent
+     * @param {?} newChild
+     * @return {?}
+     */
+    AnimationRenderer.prototype.appendChild = function (parent, newChild) {
+        var _this = this;
+        this._engine.onInsert(newChild, function () { return _this.delegate.appendChild(parent, newChild); });
+        this._queueFlush();
+    };
+    /**
+     * @param {?} parent
+     * @param {?} newChild
+     * @param {?} refChild
+     * @return {?}
+     */
+    AnimationRenderer.prototype.insertBefore = function (parent, newChild, refChild) {
+        var _this = this;
+        this._engine.onInsert(newChild, function () { return _this.delegate.insertBefore(parent, newChild, refChild); });
+        this._queueFlush();
+    };
+    /**
+     * @param {?} parent
+     * @param {?} oldChild
+     * @return {?}
+     */
+    AnimationRenderer.prototype.removeChild = function (parent, oldChild) {
+        var _this = this;
+        this._engine.onRemove(oldChild, function () {
+            // Note: if an component element has a leave animation, and the component
+            // a host leave animation, the view engine will call `removeChild` for the parent
+            // component renderer as well as for the child component renderer.
+            // Therefore, we need to check if we already removed the element.
+            if (_this.delegate.parentNode(oldChild)) {
+                _this.delegate.removeChild(parent, oldChild);
+            }
+        });
+        this._queueFlush();
+    };
+    /**
+     * @param {?} el
+     * @param {?} name
+     * @param {?} value
+     * @return {?}
+     */
+    AnimationRenderer.prototype.setProperty = function (el, name, value) {
+        if (name.charAt(0) == '@') {
+            this._engine.setProperty(el, namespaceify(this._namespaceId, name.substr(1)), value);
+            this._queueFlush();
+        }
+        else {
+            this.delegate.setProperty(el, name, value);
+        }
+    };
+    /**
+     * @param {?} target
+     * @param {?} eventName
+     * @param {?} callback
+     * @return {?}
+     */
+    AnimationRenderer.prototype.listen = function (target, eventName, callback) {
+        var _this = this;
+        if (eventName.charAt(0) == '@') {
+            var /** @type {?} */ element = resolveElementFromTarget(target);
+            var _a = parseTriggerCallbackName(eventName.substr(1)), name = _a[0], phase = _a[1];
+            return this._engine.listen(element, namespaceify(this._namespaceId, name), phase, function (event) {
+                var /** @type {?} */ e = (event);
+                if (e.triggerName) {
+                    e.triggerName = deNamespaceify(_this._namespaceId, e.triggerName);
+                }
+                _this._zone.run(function () { return callback(event); });
+            });
+        }
+        return this.delegate.listen(target, eventName, callback);
+    };
+    /**
+     * @return {?}
+     */
+    AnimationRenderer.prototype._queueFlush = function () {
+        var _this = this;
+        if (!this._flushPromise) {
+            this._zone.runOutsideAngular(function () {
+                _this._flushPromise = Promise.resolve(null).then(function () {
+                    _this._flushPromise = ((null));
+                    _this._engine.flush();
+                });
+            });
+        }
+    };
+    return AnimationRenderer;
+}());
+/**
+ * @param {?} target
+ * @return {?}
+ */
+function resolveElementFromTarget(target) {
+    switch (target) {
+        case 'body':
+            return document.body;
+        case 'document':
+            return document;
+        case 'window':
+            return window;
+        default:
+            return target;
+    }
+}
+/**
+ * @param {?} triggerName
+ * @return {?}
+ */
+function parseTriggerCallbackName(triggerName) {
+    var /** @type {?} */ dotIndex = triggerName.indexOf('.');
+    var /** @type {?} */ trigger = triggerName.substring(0, dotIndex);
+    var /** @type {?} */ phase = triggerName.substr(dotIndex + 1);
+    return [trigger, phase];
+}
+/**
+ * @param {?} namespaceId
+ * @param {?} value
+ * @return {?}
+ */
+function namespaceify(namespaceId, value) {
+    return namespaceId + "#" + value;
+}
+/**
+ * @param {?} namespaceId
+ * @param {?} value
+ * @return {?}
+ */
+function deNamespaceify(namespaceId, value) {
+    return value.replace(namespaceId + '#', '');
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var InjectableAnimationEngine = (function (_super) {
+    __extends(InjectableAnimationEngine, _super);
+    /**
+     * @param {?} driver
+     * @param {?} normalizer
+     */
+    function InjectableAnimationEngine(driver, normalizer) {
+        return _super.call(this, driver, normalizer) || this;
+    }
+    return InjectableAnimationEngine;
+}(__WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["b" /* ɵDomAnimationEngine */]));
+InjectableAnimationEngine.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"] },
+];
+/**
+ * @nocollapse
+ */
+InjectableAnimationEngine.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["c" /* AnimationDriver */], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["d" /* ɵAnimationStyleNormalizer */], },
+]; };
+/**
+ * @return {?}
+ */
+function instantiateSupportedAnimationDriver() {
+    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["e" /* ɵsupportsWebAnimations */])()) {
+        return new __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["f" /* ɵWebAnimationsDriver */]();
+    }
+    return new __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["g" /* ɵNoopAnimationDriver */]();
+}
+/**
+ * @return {?}
+ */
+function instantiateDefaultStyleNormalizer() {
+    return new __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["h" /* ɵWebAnimationsStyleNormalizer */]();
+}
+/**
+ * @param {?} renderer
+ * @param {?} engine
+ * @param {?} zone
+ * @return {?}
+ */
+function instantiateRendererFactory(renderer, engine, zone) {
+    return new AnimationRendererFactory(renderer, engine, zone);
+}
+/**
+ * Separate providers from the actual module so that we can do a local modification in Google3 to
+ * include them in the BrowserModule.
+ */
+var BROWSER_ANIMATIONS_PROVIDERS = [
+    { provide: __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["c" /* AnimationDriver */], useFactory: instantiateSupportedAnimationDriver },
+    { provide: __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["d" /* ɵAnimationStyleNormalizer */], useFactory: instantiateDefaultStyleNormalizer },
+    { provide: __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["a" /* ɵAnimationEngine */], useClass: InjectableAnimationEngine }, {
+        provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["RendererFactory2"],
+        useFactory: instantiateRendererFactory,
+        deps: [__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["ɵDomRendererFactory2"], __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["a" /* ɵAnimationEngine */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgZone"]]
+    }
+];
+/**
+ * Separate providers from the actual module so that we can do a local modification in Google3 to
+ * include them in the BrowserTestingModule.
+ */
+var BROWSER_NOOP_ANIMATIONS_PROVIDERS = [
+    { provide: __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["a" /* ɵAnimationEngine */], useClass: __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["i" /* ɵNoopAnimationEngine */] }, {
+        provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["RendererFactory2"],
+        useFactory: instantiateRendererFactory,
+        deps: [__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["ɵDomRendererFactory2"], __WEBPACK_IMPORTED_MODULE_2__angular_animations_browser__["a" /* ɵAnimationEngine */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgZone"]]
+    }
+];
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * \@experimental Animation support is experimental.
+ */
+var BrowserAnimationsModule = (function () {
+    function BrowserAnimationsModule() {
+    }
+    return BrowserAnimationsModule;
+}());
+BrowserAnimationsModule.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"], args: [{
+                imports: [__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["BrowserModule"]],
+                providers: BROWSER_ANIMATIONS_PROVIDERS,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+BrowserAnimationsModule.ctorParameters = function () { return []; };
+/**
+ * \@experimental Animation support is experimental.
+ */
+var NoopAnimationsModule = (function () {
+    function NoopAnimationsModule() {
+    }
+    return NoopAnimationsModule;
+}());
+NoopAnimationsModule.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"], args: [{
+                imports: [__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["BrowserModule"]],
+                providers: BROWSER_NOOP_ANIMATIONS_PROVIDERS,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+NoopAnimationsModule.ctorParameters = function () { return []; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @module
+ * @description
+ * Entry point for all animation APIs of the animation browser package.
+ */
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @module
+ * @description
+ * Entry point for all public APIs of the animation package.
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+//# sourceMappingURL=animations.es5.js.map
+
+
+/***/ }),
+/* 88 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(1))(41);
 
 /***/ })
 /******/ ]);

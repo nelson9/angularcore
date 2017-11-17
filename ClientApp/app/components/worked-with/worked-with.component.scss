@@ -1,0 +1,35 @@
+﻿.leftRs {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    left: 0;
+    display: none !important;
+}
+
+.rightRs {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    right: 0;
+    display: none !important;
+}
+
+img {
+    max-width: 100%;
+    padding: 1.5em;
+
+}
+
+.tile {
+    height: 250px;
+    box-shadow: none !important;
+    border: 1px solid lightgray !important
+}

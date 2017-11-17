@@ -11,8 +11,12 @@ ul{
 }
 
 #banner {
-    background-image: none;
-    background-color: _palette(header, alt-bg);
+    background-image: url("/dist/assets/images/level.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-size: contain;
+    /*background-color: _palette(header, alt-bg);*/
 }
 
 .list-group-item {

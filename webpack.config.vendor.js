@@ -33,7 +33,8 @@ module.exports = (env) => {
                 'jquery',
                 'zone.js',
                 'angular2-modal',
-                'ng2-tabs'
+                'ng2-tabs',
+                'hammerjs'
             ]
         },
         output: {

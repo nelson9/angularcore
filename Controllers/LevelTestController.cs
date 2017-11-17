@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -89,16 +90,18 @@ namespace SpanishInLondon.Web.Controllers
             questonSetList.Add(questionsC1);
 
             string level = _hostingEnvironment.WebRootPath + "/resources/LevelTest.csv";
+       
             using (var reader = new StreamReader(level))
             {
                 while (!reader.EndOfStream)
                 {
                     
                     var line = reader.ReadLine();
-
+                  
                     if (line != null)
                     {
-                        var values = line.Split(',');
+                        Regex csvParser = new Regex(",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))");
+                        var values = csvParser.Split(line);
 
                         if (values[6] == "A1")
                             questionsA1.Questions.Add(new Queestion
@@ -143,7 +146,7 @@ namespace SpanishInLondon.Web.Controllers
                             }
                             });
                         }
-                        else if (values[6] == "B2")
+                        else if (values[6] == "B2.1")
                         {
                             questionsB2.Questions.Add(new Queestion
                             {
@@ -158,7 +161,7 @@ namespace SpanishInLondon.Web.Controllers
                             }
                             });
                         }
-                        else if (values[6] == "C1")
+                        else if (values[6] == "B2.2")
                         {
                             questionsC1.Questions.Add(new Queestion
                             {

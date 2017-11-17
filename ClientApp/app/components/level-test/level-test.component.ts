@@ -53,7 +53,7 @@ export class LevelTestComponent implements OnInit {
             if (answer.answer.trim() === this.currentQuestion.answer.trim()) {
                 this.score = this.score + 1;
 
-                if (this.score > 2) {
+                if (this.score >= 12) {
                     this.continueNextLevel = true;
                 }
             }
@@ -64,22 +64,29 @@ export class LevelTestComponent implements OnInit {
                 this.currentQuestion = this.currentQuestionsSet.questions[index];
             }
             else {
-
+               
                 if (this.continueNextLevel && this.questionSetList.indexOf(this.currentQuestionsSet) + 1 < this.questionSetList.length) {
-                    let successMessage = "You have passed " + this.getLevelName() + " with " + this.score + " correct answers out of " + this.questionSetList.length + ".";
+                    let successMessage = "You have passed " + this.getLevelName() + " with " + this.score + " correct answers out of " + this.currentQuestionsSet.questions.length + ".";
                     this.modelAlert("Well done!", successMessage);
                     this.increaseLevel();
                     let setIndex = this.questionSetList.indexOf(this.currentQuestionsSet);
                     this.currentQuestionsSet = this.questionSetList[setIndex + 1];
                     this.currentQuestion = this.currentQuestionsSet.questions[0];
                     this.score = 0;
+                    this.continueNextLevel = false;
 
                 }
                 else {
                     this.testOver = true;
-                    this.level = this.currentQuestionsSet.level;
-                    this.modelAlert("Thanks for taking the test!", `Sorry but you didn't get enough correct to move to the next level. <br/><br/>  You got ${this.score} correct answers out of ${this.questionSetList.length}, you need to get 12 to pass.<br/> <br/>Your Spanish level is <strong>${this.getLevelName()}</strong>`);
-                    this.subjectLine = "I've completed the test and my level is " + this.getLevelName();
+                    if (this.continueNextLevel && this.level === Level["B2.2"]) {
+                        let successMessage = "Well done! You have passed " + this.getLevelName() + " with " + this.score + " correct answers out of " + this.currentQuestionsSet.questions.length + ". <br/> <br/>Your Spanish course level is <strong>C1</strong>";
+                        this.increaseLevel();
+                        this.modelAlert("You've completed the test", successMessage);
+                    } else {
+                        this.level = this.currentQuestionsSet.level;
+                        this.modelAlert("Thanks for taking the test!", `Sorry but you didn't get enough correct to move to the next level. <br/><br/>  You got ${this.score} correct answers out of ${this.currentQuestionsSet.questions.length}, you need to get 12 to pass.<br/> <br/>Your Spanish course level should be <strong>${this.getLevelName()}</strong>`);                       
+                    }
+                    this.subjectLine = "I've completed the test and my Spanish course level should be " + this.getLevelName();
                 }
             }
         }
@@ -99,9 +106,12 @@ export class LevelTestComponent implements OnInit {
             this.level = Level.B1;
         }
         if (level === Level.B1) {
-            this.level = Level.B2;
+            this.level = Level["B2.1"];
         }
-        if (level === Level.B2) {
+        if (level === Level["B2.1"]) {
+            this.level = Level["B2.2"];
+        }
+        if (level === Level["B2.2"]) {
             this.level = Level.C1;
         }
     }

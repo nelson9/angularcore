@@ -1,5 +1,6 @@
-import { NgModule } from '@angular/core';
+﻿import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './components/app/app.component'
 import { HomeComponent } from './components/home/home.component';
@@ -10,10 +11,14 @@ import { AboutComponent } from './components/about/about.component';
 import { HeaderComponent } from './components/shared/header.component';
 import { FooterComponent } from './components/shared/footer.component';
 import { LevelTestComponent } from './components/level-test/level-test.component';
+import { WorkedWithcomponent } from "./components/worked-with/worked-with.component";
+
 import { ModalModule } from 'angular2-modal';
 import { BootstrapModalModule } from 'angular2-modal/plugins/bootstrap';
 import { FormsModule } from '@angular/forms';
 import { TabsModule } from "ng2-tabs";
+import { NgxCarouselModule } from 'ngx-carousel';
+import 'hammerjs';
 
 
 
@@ -28,7 +33,8 @@ export const sharedConfig: NgModule = {
         ServicesComponent,
         AboutComponent,
         LevelTestComponent,
-        ContactFormComponent
+        ContactFormComponent,
+        WorkedWithcomponent
     ],
     imports: [
         RouterModule.forRoot([
@@ -45,6 +51,8 @@ export const sharedConfig: NgModule = {
         ModalModule.forRoot(),
         BootstrapModalModule,
         FormsModule,
-        TabsModule
+        TabsModule,
+        NgxCarouselModule,
+        BrowserAnimationsModule
   ]
 };
